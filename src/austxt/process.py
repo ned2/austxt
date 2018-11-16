@@ -1,5 +1,6 @@
 from pathlib import Path
 from dataclasses import dataclass, asdict
+from datetime import datetime
 
 from lxml import etree
 from unidecode import unidecode
@@ -12,6 +13,7 @@ class Speech:
     duration: int
     date: str
     time: str
+    day: str
     text: str
 
     def index(self):
@@ -39,13 +41,11 @@ class Member:
         return asdict(self)
 
     
-def members_from_xml_paths(xml_paths):
-    for xml_path in xml_paths:
-        yield from members_from_xml(xml_path)
-
-    
 def members_from_xml(xml_path):
+    print(f"processing {xml_path}")
+
     tree = etree.parse(xml_path)
+    members = []
 
     for element in tree.iter(tag=etree.Element):
         if element.tag != 'member':
@@ -54,7 +54,7 @@ def members_from_xml(xml_path):
         first_name = element.get('firstname')
         last_name = element.get('lastname')
 
-        yield Member(
+        members.append(Member(
             id=int(element.get('id').split('/')[-1]),
             first_name=first_name,
             last_name=last_name,
@@ -66,19 +66,15 @@ def members_from_xml(xml_path):
             from_why=element.get('fromwhy'),
             to_date=element.get('todate'),
             to_why=element.get('towhy'),
-        )
-
-
-def speeches_from_xml_paths(xml_paths):
-    for xml_path in xml_paths:
-        print(f'processing {xml_path}')
-        yield from speeches_from_xml(xml_path)
+        ))
+    return members
 
 
 def speeches_from_xml(xml_path):
+    print(f'processing {xml_path}')
     tree = etree.parse(xml_path)
-    date = Path(xml_path).stem
-    
+
+    speeches = []
     for element in tree.iter(tag=etree.Element):
         if element.tag != 'speech':
             continue
@@ -93,19 +89,19 @@ def speeches_from_xml(xml_path):
             etree.strip_tags(p_tag, '*')
             paragraphs.append(p_tag.text)
 
+        date_str = Path(xml_path).stem
         all_text = unidecode('\n\n'.join(paragraphs))
-
         speakerid = element.get('speakerid')
-        if speakerid == 'unknown':
-            speaker_id = 0
-        else:
-            speaker_id = int(speakerid.split('/')[-1])
+        speaker_id = 0 if speakerid == 'unknown' else int(speakerid.split('/')[-1])
 
-        yield Speech(
+        speeches.append(Speech(
             speaker_id=speaker_id,
             speaker=element.get('speakername'),
             duration=element.get('approximate_duration'),
+            date=date_str,
             time=element.get('time'),
+            day=datetime.strptime(date_str, '%Y-%m-%d').strftime('%A'),
             text=all_text,
-            date=date,
-        )
+        ))
+
+    return speeches
