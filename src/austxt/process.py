@@ -1,48 +1,19 @@
+import logging
 from pathlib import Path
-from dataclasses import dataclass, asdict
 from datetime import datetime
 
 from lxml import etree
 from unidecode import unidecode
 
+from .models import Speech, Member
+from .text import clean_text
 
-@dataclass
-class Speech:
-    speaker: str
-    speaker_id: int
-    duration: int
-    date: str
-    time: str
-    day: str
-    text: str
 
-    def index(self):
-        pass
+logger = logging.getLogger(__package__)
 
-    def asdict(self):
-        return asdict(self)
 
-    
-@dataclass
-class Member:
-    id: int
-    first_name: str
-    last_name: str
-    full_name: str
-    division: str
-    house: str
-    party: str
-    from_date: str
-    from_why: str
-    to_date: str
-    to_why: str
-
-    def asdict(self):
-        return asdict(self)
-
-    
 def members_from_xml(xml_path):
-    print(f"processing {xml_path}")
+    logger.info(f"processing {xml_path}")
 
     tree = etree.parse(xml_path)
     members = []
@@ -71,7 +42,7 @@ def members_from_xml(xml_path):
 
 
 def speeches_from_xml(xml_path):
-    print(f'processing {xml_path}')
+    logger.info(f'processing {xml_path}')
     tree = etree.parse(xml_path)
 
     speeches = []
@@ -81,27 +52,32 @@ def speeches_from_xml(xml_path):
         if not element.get('speakername'):
             # ignore entries without speaker names
             continue
-
+        if element.get('speakerid') == 'unknown':
+            # skip over speeches from 'The Clerk' and 'Honorable Semators' etc 
+            continue
+        
         paragraphs = []
-        for p_tag in element.findall('p'): 
-            if p_tag.text is None or p_tag.text == '\n':
+        etree.strip_tags(element, 'i', 'b')
+        for i, tag in enumerate(element.iter()): 
+            if tag.text is None or tag.text == '\n':
                 continue
-            etree.strip_tags(p_tag, '*')
-            paragraphs.append(p_tag.text)
+            paragraphs.append(tag.text.strip())
 
-        date_str = Path(xml_path).stem
+        if not paragraphs:
+            continue
+        
         all_text = unidecode('\n\n'.join(paragraphs))
-        speakerid = element.get('speakerid')
-        speaker_id = 0 if speakerid == 'unknown' else int(speakerid.split('/')[-1])
-
-        speeches.append(Speech(
-            speaker_id=speaker_id,
+        date_str = Path(xml_path).stem
+        speech = Speech(
+            speaker_id=int(element.get('speakerid').split('/')[-1]),
             speaker=element.get('speakername'),
             duration=element.get('approximate_duration'),
             date=date_str,
             time=element.get('time'),
             day=datetime.strptime(date_str, '%Y-%m-%d').strftime('%A'),
             text=all_text,
-        ))
-
+            cleaned_text=clean_text(all_text)
+        )
+        speeches.append(speech)
+        
     return speeches
