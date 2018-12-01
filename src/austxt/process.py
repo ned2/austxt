@@ -6,7 +6,7 @@ from lxml import etree
 from unidecode import unidecode
 
 from .models import Speech, Member
-from .text import clean_text
+from .text import clean_speeches
 
 
 logger = logging.getLogger(__package__)
@@ -41,7 +41,7 @@ def members_from_xml(xml_path):
     return members
 
 
-def speeches_from_xml(xml_path):
+def speeches_from_xml(xml_path, clean=True):
     logger.info(f'processing {xml_path}')
     tree = etree.parse(xml_path)
 
@@ -76,8 +76,10 @@ def speeches_from_xml(xml_path):
             time=element.get('time'),
             day=datetime.strptime(date_str, '%Y-%m-%d').strftime('%A'),
             text=all_text,
-            cleaned_text=clean_text(all_text)
         )
         speeches.append(speech)
+
+    if clean:
+        clean_speeches(speeches)
         
     return speeches

@@ -26,11 +26,11 @@ class Speech(DataclassRecord):
     day: str
     duration: int
     text: str
-    cleaned_text: str
+    cleaned_text: str = None
 
 
 @dataclass
-class Member:
+class Member(DataclassRecord):
     id: int
     first_name: str
     last_name: str

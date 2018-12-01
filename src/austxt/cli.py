@@ -3,10 +3,10 @@ import click
 import logging
 from itertools import chain
 from pathlib import Path
-from dataclasses import asdict
 from multiprocessing import Pool
+from functools import partial
 
-from .process import speeches_from_xml
+from .process import speeches_from_xml, members_from_xml
 from .models import Speech, Member
 
 
@@ -37,12 +37,13 @@ def cli(log):
                                         readable=True))
 @click.option('--output', default='debates.csv',
               help="Output file to write CSV data to.")
+@click.option('--clean/--no-clean', default=True)
 @click.option('--limit', default=None, type=int,
               help="Limit the processing to some number of files.")
 @click.option('--files', default=None, type=str,
               help="Limit the processing to these comma separated file names.")
 @click.option('--workers', default=1)
-def process_debates(path, output, limit, files, workers):
+def process_debates(path, output, clean, limit, files, workers):
     xml_paths = sorted(path for path in Path(path).glob('*.xml'))
 
     if files is not None:
@@ -53,7 +54,7 @@ def process_debates(path, output, limit, files, workers):
         xml_paths = xml_paths[:limit]
 
     xml_path_strs = [str(path) for path in xml_paths]
-    func = speeches_from_xml
+    func = partial(speeches_from_xml, clean=clean)
 
     if workers == 1:
         speeches = chain.from_iterable(map(func, xml_path_strs))
@@ -69,6 +70,19 @@ def process_debates(path, output, limit, files, workers):
 @click.argument('path', nargs=-1, type=click.Path(exists=True))
 @click.option('--output', default='members.csv')
 def get_members(path, output):
+    """Process one or more members XML files"""
     members = chain.from_iterable(members_from_xml(p) for p in path)
-    members_df = pd.DataFrame.from_records(m.asdict() for m in members)
+    members_df = Member.to_dataframe(members)
     members_df.to_csv(output)
+
+
+@cli.command(name='index-speeches')
+@click.argument('index')
+@click.argument('path', type=click.Path(exists=True))
+def index_speeches(index, path):
+    """Index an extracted CSV file of speeches"""
+    df = pd.read_csv(path)
+    for index, row in df.iterrows():
+        pass
+
+    
