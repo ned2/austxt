@@ -26,7 +26,7 @@ def members_from_xml(xml_path):
         last_name = element.get('lastname')
 
         members.append(Member(
-            id=int(element.get('id').split('/')[-1]),
+            member_id=int(element.get('id').split('/')[-1]),
             first_name=first_name,
             last_name=last_name,
             full_name=f'{first_name} {last_name}',
@@ -69,6 +69,7 @@ def speeches_from_xml(xml_path, clean=True):
         all_text = unidecode('\n\n'.join(paragraphs))
         date_str = Path(xml_path).stem
         speech = Speech(
+            speech_id=element.get('id').split('/')[-1],
             speaker_id=int(element.get('speakerid').split('/')[-1]),
             speaker=element.get('speakername'),
             duration=element.get('approximate_duration'),

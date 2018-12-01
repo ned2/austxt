@@ -19,6 +19,7 @@ class DataclassRecord:
 
 @dataclass
 class Speech(DataclassRecord):
+    speech_id:str
     speaker: str
     speaker_id: int
     date: str
@@ -31,7 +32,7 @@ class Speech(DataclassRecord):
 
 @dataclass
 class Member(DataclassRecord):
-    id: int
+    member_id: int
     first_name: str
     last_name: str
     full_name: str
