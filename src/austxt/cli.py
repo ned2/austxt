@@ -8,6 +8,7 @@ from itertools import chain
 from pathlib import Path
 from multiprocessing import Pool
 from functools import partial
+from collections import deque
 
 import pandas as pd
 from elasticsearch import Elasticsearch
@@ -99,7 +100,6 @@ def get_speech_index_actions(speech_df, id_prefix):
         }
 
 def index_speech(index, doc_type, id_prefix, row):
-    print("foo")
     elastic.index(
         id=f"{id_prefix}_{row['speech_id']}", 
         body={'text':row['text']},
@@ -137,8 +137,8 @@ def index_speeches(doc_type, path, index_name, limit, workers):
     
     if workers == 1:
         speeches = map(func, rows)
-        list(speeches)
+        deque(speeches, maxlen=0)
     else:
         with Pool(workers) as pool:
             speeches = pool.imap(func, rows)
-            list(speeches)
+            deque(speeches, maxlen=0)
