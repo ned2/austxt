@@ -2,6 +2,8 @@ import os
 import sys
 import click
 import logging
+import traceback
+import urllib3
 from itertools import chain
 from pathlib import Path
 from multiprocessing import Pool
@@ -9,6 +11,7 @@ from functools import partial
 
 import pandas as pd
 from elasticsearch import Elasticsearch
+from elasticsearch.helpers import bulk, streaming_bulk
 
 from .process import speeches_from_xml, members_from_xml
 from .models import Speech, Member
@@ -24,7 +27,7 @@ class CatchCliExceptions(click.Group):
         try:
             return self.main(*args, **kwargs)
         except Exception as error:
-            print(error, file=sys.stderr)
+            print(traceback.format_exc(), file=sys.stderr)
             import ipdb; ipdb.post_mortem()
 
 
@@ -65,7 +68,7 @@ def process_debates(path, output, members_path, clean, limit, files, workers):
         speeches = chain.from_iterable(map(func, xml_path_strs))
     else:
         with Pool(workers) as pool:
-            speeches = chain.from_iterable(pool.map(func, xml_path_strs))
+            speeches = chain.from_iterable(pool.imap(func, xml_path_strs))
 
     speeches_df = Speech.to_dataframe(speeches)
 
@@ -88,26 +91,54 @@ def get_members(path, output):
     members_df.to_csv(output, index=False)
 
 
+def get_speech_index_actions(speech_df, id_prefix):
+    for index, row in speech_df.iterrows():
+        yield {
+            '_id': f"{id_prefix}_{row['speech_id']}", 
+            'text': row['text']
+        }
+
+def index_speech(index, doc_type, id_prefix, row):
+    print("foo")
+    elastic.index(
+        id=f"{id_prefix}_{row['speech_id']}", 
+        body={'text':row['text']},
+        index=index,
+        doc_type=doc_type,
+    )
+    
+    
 @cli.command(name='index-speeches')
-@click.argument('doctype', type=click.Choice(['senate', 'representatives']))
+@click.argument('doc-type', type=click.Choice(['senate', 'representatives']))
 @click.argument('path', type=click.Path(exists=True))
 @click.option('--index-name', default='austxt')
-def index_speeches(doctype, path, index_name):
+@click.option('--limit', default=None, type=int)
+@click.option('--workers', default=1, type=int)
+def index_speeches(doc_type, path, index_name, limit, workers):
     """Index an extracted CSV file of speeches"""
-    #elastic_address = os.get_env('AUSTXT_ELASTIC_ADDRESS')
-    #elastic = Elasticsearch(elastic_address, http_compress=True)
-    df = pd.read_csv(path)
-    id_prefix = 'sen' if doctype == "senate" else 'rep'
-        
-    for index, row in df.iterrows():
-        row.pop('cleaned_text', None)
-        # row is a series. pop method is not the same as series'
-        # does not have default second argument
-        import ipdb; ipdb.set_trace()
-        
-        elastic.index(
-            id=f"{id_prefix}_row['speech_id']",
-            index=index_name,
-            doc_type=doctype,
-            body=row['text']
-        )
+    global elastic
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    elastic_address = os.getenv('AUSTXT_ELASTIC_ADDRESS', 'localhost:9200')
+    elastic = Elasticsearch(elastic_address, timeout=300, verify_certs=False,
+                                   use_ssl=True)
+    speech_df = pd.read_csv(path, nrows=limit)
+    id_prefix = 'sen' if doc_type == "senate" else 'rep'
+    index_stream = streaming_bulk(elastic, get_speech_index_actions(speech_df, id_prefix),
+                                  index=index_name, doc_type=doc_type, chunk_size=500)
+    # for i, (ok, result) in enumerate(index_stream):
+    #     action, result = result.popitem()
+    #     doc = f"{result['_id']} ({doc_type})"
+    #     if not ok:
+    #         print(f"Failed to {action} document {doc}: {result}")
+    #     if i % 10 == 0:           
+    #         print(f"completed {i} docs")
+    func = partial(index_speech, index_name, doc_type, id_prefix)
+    rows = (row for _index, row in speech_df.iterrows())
+    
+    if workers == 1:
+        speeches = map(func, rows)
+        list(speeches)
+    else:
+        with Pool(workers) as pool:
+            speeches = pool.imap(func, rows)
+            list(speeches)
