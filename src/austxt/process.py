@@ -1,12 +1,16 @@
 import logging
 from pathlib import Path
 from datetime import datetime
+from functools import partial
+from multiprocessing import Pool
+from itertools import chain
 
 from lxml import etree
 from unidecode import unidecode
 
 from .models import Speech, Member
 from .text import clean_speeches
+from .utils import add_members_columns
 
 
 logger = logging.getLogger(__package__)
@@ -44,8 +48,8 @@ def members_from_xml(xml_path):
 def speeches_from_xml(xml_path, clean=True):
     logger.info(f'processing {xml_path}')
     tree = etree.parse(xml_path)
-
     speeches = []
+
     for element in tree.iter(tag=etree.Element):
         if element.tag != 'speech':
             continue
@@ -84,3 +88,40 @@ def speeches_from_xml(xml_path, clean=True):
         clean_speeches(speeches)
         
     return speeches
+
+
+def process_debates(path, output, members_path, clean, limit, files, workers):
+    xml_paths = sorted(path for path in Path(path).glob('*.xml'))
+
+    if files is not None:
+        filter_files = set(files.split(','))
+        xml_paths = [path for path in xml_paths if path.name in filter_files]
+    
+    if limit is not None:
+        xml_paths = xml_paths[:limit]
+
+    xml_path_strs = [str(path) for path in xml_paths]
+    func = partial(speeches_from_xml, clean=clean)
+
+    if workers == 1:
+        speeches = chain.from_iterable(map(func, xml_path_strs))
+        speeches_df = Speech.to_dataframe(speeches)
+    else:
+        with Pool(workers) as pool:
+            speeches = chain.from_iterable(pool.imap(func, xml_path_strs))
+            speeches_df = Speech.to_dataframe(speeches)
+
+    if not clean:
+        speeches_df = speeches_df.drop('cleaned_text', axis=1)
+
+    if members_path is not None:
+        speeches_df = add_members_columns(speeches_df, members_path, ['division'])
+
+    speeches_df.to_csv(output, index=False)
+
+    
+def get_members(path, output):
+    """Process one or more members XML files"""
+    members = chain.from_iterable(members_from_xml(p) for p in path)
+    members_df = Member.to_dataframe(members)
+    members_df.to_csv(output, index=False)

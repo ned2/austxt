@@ -1,22 +1,19 @@
-import os
 import sys
 import click
 import logging
 import traceback
-import urllib3
-from itertools import chain
+from json import dumps
 from pathlib import Path
-from multiprocessing import Pool
-from functools import partial
-from collections import deque
 
 import pandas as pd
-from elasticsearch import Elasticsearch
-from elasticsearch.helpers import bulk, streaming_bulk
 
-from .process import speeches_from_xml, members_from_xml
-from .models import Speech, Member
-from .utils import add_members_columns
+from .process import process_debates, get_members
+from .elastic import index_speeches, do_query, do_get
+from .utils import add_results_to_dataframe, process_query_result
+
+
+DEFAULT_INDEX = 'austxt'
+
 
 logging.basicConfig()
 logger = logging.getLogger(__package__)
@@ -52,93 +49,69 @@ def cli(log):
 @click.option('--files', default=None, type=str,
               help="Limit the processing to these comma separated file names.")
 @click.option('--workers', default=1)
-def process_debates(path, output, members_path, clean, limit, files, workers):
-    xml_paths = sorted(path for path in Path(path).glob('*.xml'))
-
-    if files is not None:
-        filter_files = set(files.split(','))
-        xml_paths = [path for path in xml_paths if path.name in filter_files]
-    
-    if limit is not None:
-        xml_paths = xml_paths[:limit]
-
-    xml_path_strs = [str(path) for path in xml_paths]
-    func = partial(speeches_from_xml, clean=clean)
-
-    if workers == 1:
-        speeches = chain.from_iterable(map(func, xml_path_strs))
-    else:
-        with Pool(workers) as pool:
-            speeches = chain.from_iterable(pool.imap(func, xml_path_strs))
-
-    speeches_df = Speech.to_dataframe(speeches)
-
-    if not clean:
-        speeches_df = speeches_df.drop('cleaned_text', axis=1)
-
-    if members_path is not None:
-        speeches_df = add_members_columns(speeches_df, members_path, ['division'])
-
-    speeches_df.to_csv(output, index=False)
+def run_process_debates(**kwargs):
+    process_debates(**kwargs)
 
             
 @cli.command(name='get-members')
 @click.argument('path', nargs=-1, type=click.Path(exists=True))
 @click.option('--output', default='members.csv')
-def get_members(path, output):
+def run_get_members(**kwargs):
     """Process one or more members XML files"""
-    members = chain.from_iterable(members_from_xml(p) for p in path)
-    members_df = Member.to_dataframe(members)
-    members_df.to_csv(output, index=False)
+    get_members(**kwargs)
 
 
-def get_speech_index_actions(speech_df, id_prefix):
-    for index, row in speech_df.iterrows():
-        yield {
-            '_id': f"{id_prefix}_{row['speech_id']}", 
-            'text': row['text']
-        }
-
-def index_speech(index, doc_type, id_prefix, row):
-    elastic.index(
-        id=f"{id_prefix}_{row['speech_id']}", 
-        body={'text':row['text']},
-        index=index,
-        doc_type=doc_type,
-    )
-    
-    
 @cli.command(name='index-speeches')
-@click.argument('doc-type', type=click.Choice(['senate', 'representatives']))
+@click.argument('speech-type', type=click.Choice(['senate', 'representatives']))
 @click.argument('path', type=click.Path(exists=True))
-@click.option('--index-name', default='austxt')
+@click.option('--index-name', default=DEFAULT_INDEX)
 @click.option('--limit', default=None, type=int)
 @click.option('--workers', default=1, type=int)
-def index_speeches(doc_type, path, index_name, limit, workers):
-    """Index an extracted CSV file of speeches"""
-    global elastic
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-    elastic_address = os.getenv('AUSTXT_ELASTIC_ADDRESS', 'localhost:9200')
-    elastic = Elasticsearch(elastic_address, timeout=300, verify_certs=False,
-                                   use_ssl=True)
-    speech_df = pd.read_csv(path, nrows=limit)
-    id_prefix = 'sen' if doc_type == "senate" else 'rep'
-    index_stream = streaming_bulk(elastic, get_speech_index_actions(speech_df, id_prefix),
-                                  index=index_name, doc_type=doc_type, chunk_size=500)
-    # for i, (ok, result) in enumerate(index_stream):
-    #     action, result = result.popitem()
-    #     doc = f"{result['_id']} ({doc_type})"
-    #     if not ok:
-    #         print(f"Failed to {action} document {doc}: {result}")
-    #     if i % 10 == 0:           
-    #         print(f"completed {i} docs")
-    func = partial(index_speech, index_name, doc_type, id_prefix)
-    rows = (row for _index, row in speech_df.iterrows())
+def run_index_speeches(**kwargs):
+    index_speeches(**kwargs)
+
+
+       
+@cli.command(name='get')
+@click.argument('identifier', )
+@click.option('--index-name', default=DEFAULT_INDEX)
+def run_get(**kwargs):
+    result = do_get(**kwargs)
+    print(dumps(result))
+
     
-    if workers == 1:
-        speeches = map(func, rows)
-        deque(speeches, maxlen=0)
+@cli.command(name='query')
+@click.argument('query', )
+@click.option('--index-name', default=DEFAULT_INDEX)
+@click.option('--exact/--no-exact', default=False)
+@click.option('--size', type=click.IntRange(1, 500000), default=10)
+@click.option('--return-fields', default='')
+@click.option('--json/--no-json', default=False)
+def run_query(query, index_name, exact, size, return_fields, json):
+    result = do_query(query, index_name, exact, size, return_fields.split(','))
+    if json :
+        print(dumps(result))
     else:
-        with Pool(workers) as pool:
-            speeches = pool.imap(func, rows)
-            deque(speeches, maxlen=0)
+        docs = process_query_result(result)
+        for doc, tf in docs:
+            print(f"{doc:21} {tf:2}")
+
+
+@cli.command(name='make-dataset')
+@click.argument('input-path', type=click.Path(exists=True, dir_okay=False))
+@click.argument('query')
+@click.option('--index-name', default=DEFAULT_INDEX)
+@click.option('--exact/--no-exact', default=False)
+@click.option('--size', type=click.IntRange(1, 500000), default=10)
+@click.option('--output-path', type=click.Path())
+def make_dataset(input_path, query, index_name, exact, size, output_path):
+    df = pd.read_csv(input_path)
+    result = do_query(query, index_name, exact, size)
+    parsed_results = process_query_result(result)
+    column_name = "_".join(query.split())
+    df = add_results_to_dataframe(parsed_results, df, column_name)
+
+    if output_path is None:
+        output_path =  f"{Path(input_path).stem}_{column_name}.csv"
+
+    df.to_csv(output_path)
