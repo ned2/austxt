@@ -8,17 +8,16 @@ from collections import deque
 import pandas as pd
 from elasticsearch import Elasticsearch
 
-from random import randint
+from . import config
+
 
 DOC_TYPE = 'doc'
 TEXT_FIELD = 'text'
 
 
 def create_elastic():
-    elastic_address = os.getenv('AUSTXT_ELASTIC_ADDRESS', 'localhost:9200')
-    elastic = Elasticsearch(elastic_address, timeout=300, verify_certs=False,
-                  use_ssl=True)
-    return elastic
+    return Elasticsearch(config.ELASTIC_ADDRESS, timeout=300,
+                         verify_certs=False, use_ssl=True)
 
 
 def global_elastic():
@@ -57,31 +56,37 @@ def index_speeches(path, index_name, limit, workers):
             deque(speeches, maxlen=0)
 
 
-def do_query(query, index_name, size, exact=False, operator="and", return_fields=None,
-             elastic=None):
-    if return_fields is None:
-        return_fields = []
-
+def do_query(query, index_name, size, query_type, elastic=None):
     if elastic is None:
         elastic = create_elastic()
 
-    query_type = "match_phrase" if exact else "match"
-    
-    result = elastic.search(
-        index=index_name,
-        doc_type=DOC_TYPE,
-        body={
+    if query_type == "exact":
+        body= {
             "explain": True,
             "query": {
-                query_type: {
+                "match_phrase": {
+                    TEXT_FIELD : query
+                }
+            }
+        }
+    else:
+        body = {
+            "explain": True,
+            "query": {
+                "match": {
                     TEXT_FIELD :{ 
                         "query" : query,
-                        "operator": operator,
+                        "operator": query_type,
                     }
                 },
             }
-        },
-        stored_fields=return_fields,
+        }
+        
+    result = elastic.search(
+        index=index_name,
+        doc_type=DOC_TYPE,
+        body=body,
+        stored_fields=[],
         size=size,
         # sort by doc rather than query score, faster because
         # elasticsearch will not have to do any scoring

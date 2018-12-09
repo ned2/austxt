@@ -1,6 +1,8 @@
 import re
 import pandas as pd
 
+from .elastic import do_query
+
 
 def process_query_result(result):
     results = []
@@ -26,4 +28,12 @@ def add_results_to_dataframe(parsed_results, dataframe, column_name):
         columns=[id_col, column_name]
     )
     new_df = dataframe.merge(extra_col_df, on=id_col)
+    return new_df
+
+
+def make_dataset(dataset_df, query, index_name, size, query_type, elastic=None):
+    result = do_query(query, index_name, size, query_type, elastic=elastic)
+    parsed_results = process_query_result(result)
+    column_name = "_".join(query.split())
+    new_df = add_results_to_dataframe(parsed_results, dataset_df, column_name)
     return new_df

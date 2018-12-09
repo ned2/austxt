@@ -91,8 +91,8 @@ def speeches_from_xml(speech_type, xml_path, clean=False):
     return speeches
 
 
-def process_speeches(path, speech_type, output, members_path, clean, limit,
-                     files, workers):
+def process_speeches(path, speech_type, members_path, clean, limit, files,
+                     workers):
     xml_paths = sorted(path for path in Path(path).glob('*.xml'))
 
     if files is not None:
@@ -118,12 +118,12 @@ def process_speeches(path, speech_type, output, members_path, clean, limit,
 
     if members_path is not None:
         speeches_df = add_members_columns(speeches_df, members_path, ['division'])
-
-    speeches_df.to_csv(output, index=False)
+        
+    return speeches_df    
 
     
-def get_members(path, output):
+def get_members(path):
     """Process one or more members XML files"""
     members = chain.from_iterable(members_from_xml(p) for p in path)
-    members_df = Member.to_dataframe(members)
-    members_df.to_csv(output, index=False)
+    return Member.to_dataframe(members)
+

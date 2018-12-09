@@ -9,10 +9,8 @@ import pandas as pd
 
 from .process import process_speeches, get_members
 from .elastic import index_speeches, do_query, do_get
-from .utils import add_results_to_dataframe, process_query_result
-
-
-DEFAULT_INDEX = 'austxt'
+from .utils import process_query_result, make_dataset
+from . import config
 
 
 logging.basicConfig()
@@ -42,29 +40,36 @@ def cli(log):
 @click.argument('path', type=click.Path(exists=True, file_okay=False,
                                         readable=True))
 @click.option('--members-path', type=click.Path(exists=True))
-@click.option('--output', default='debates.csv',
-              help="Output file to write CSV data to.")
 @click.option('--clean/--no-clean', default=False)
 @click.option('--limit', default=None, type=int,
               help="Limit the processing to some number of files.")
 @click.option('--files', default=None, type=str,
               help="Limit the processing to these comma separated file names.")
 @click.option('--workers', default=1)
-def run_process_speeches(**kwargs):
-    process_speeches(**kwargs)
+@click.option('--output-path', default='.', type=click.Path(file_okay=False),
+              help="Output file to write CSV data to.")
+def run_process_speeches(speech_type, path, members_path, clean, limit, files,
+                         workers, output_path):
+    output_name = f"{speech_type}_speeches"
+    speeches_df = process_speeches(path, speech_type, members_path, clean,
+                                   limit, files, workers)
+    speeches_df.to_csv(f"{output_name}_full.csv", index=False)
+    speeches_df.drop(['text', 'cleaned_text'], errors='ignore',
+                     axis=1).to_csv(f"{output_name}_notext.csv", index=False)
 
-            
+    
 @cli.command(name='get-members')
 @click.argument('path', nargs=-1, type=click.Path(exists=True))
 @click.option('--output', default='members.csv')
-def run_get_members(**kwargs):
+def run_get_members(path, output):
     """Process one or more members XML files"""
-    get_members(**kwargs)
+    members_df = get_members(path)
+    members_df.to_csv(output, index=False)
 
-
+    
 @cli.command(name='index-speeches')
 @click.argument('path', type=click.Path(exists=True))
-@click.option('--index-name', default=DEFAULT_INDEX)
+@click.option('--index-name', default=config.DEFAULT_INDEX)
 @click.option('--limit', default=None, type=int)
 @click.option('--workers', default=1, type=int)
 def run_index_speeches(**kwargs):
@@ -73,7 +78,7 @@ def run_index_speeches(**kwargs):
        
 @cli.command(name='get')
 @click.argument('identifier', )
-@click.option('--index-name', default=DEFAULT_INDEX)
+@click.option('--index-name', default=config.DEFAULT_INDEX)
 def run_get(**kwargs):
     result = do_get(**kwargs)
     print(dumps(result))
@@ -81,15 +86,13 @@ def run_get(**kwargs):
     
 @cli.command(name='query')
 @click.argument('query', )
-@click.option('--index-name', default=DEFAULT_INDEX)
-@click.option('--size', type=click.IntRange(1, 500000), default=10)
-@click.option('--exact/--no-exact', default=False)
-@click.option('--operator', default="and", type=click.Choice(["and", "or"]))
-@click.option('--return-fields', default='')
+@click.option('--index-name', default=config.DEFAULT_INDEX)
+@click.option('--size', type=click.IntRange(1, config.ELASTIC_MAX_RESULTS), default=10)
+@click.option('--query_type', default='and',
+              type=click.Choice(["and", "or", "exact"]))
 @click.option('--json/--no-json', default=False)
-def run_query(query, index_name, size, exact, operator, return_fields, json):
-    result = do_query(query, index_name, size, exact, operator,
-                      return_fields.split(','))
+def run_query(query, index_name, size, query_type, json):
+    result = do_query(query, index_name, size, query_type)
     if json :
         print(dumps(result))
     else:
@@ -101,18 +104,16 @@ def run_query(query, index_name, size, exact, operator, return_fields, json):
 @cli.command(name='make-dataset')
 @click.argument('input-path', type=click.Path(exists=True, dir_okay=False))
 @click.argument('query')
-@click.option('--index-name', default=DEFAULT_INDEX)
-@click.option('--size', type=click.IntRange(1, 500000), default=500000)
-@click.option('--exact/--no-exact', default=False)
-@click.option('--output-path', type=click.Path())
-def make_dataset(input_path, query, index_name, size, exact, output_path):
-    df = pd.read_csv(input_path)
-    result = do_query(query, index_name, size, exact)
-    parsed_results = process_query_result(result)
+@click.option('--index-name', default=config.DEFAULT_INDEX)
+@click.option('--size', type=click.IntRange(1, config.ELASTIC_MAX_RESULTS),
+              default=config.ELASTIC_MAX_RESULTS)
+@click.option('--query_type', default='and',
+              type=click.Choice(["and", "or", "exact"]))
+@click.option('--output-path', default='.', type=click.Path(file_okay=False))
+def run_make_dataset(input_path, query, index_name, size, query_type, output_path):
     column_name = "_".join(query.split())
-    df = add_results_to_dataframe(parsed_results, df, column_name)
-
-    if output_path is None:
-        output_path =  f"{Path(input_path).stem}_{column_name}.csv"
-
-    df.to_csv(output_path)
+    output_path =  Path(output_path) / f"{Path(input_path).stem}_{column_name}.csv"
+    base_dataset_df = pd.read_csv(input_path)
+    new_dataset_df = make_dataset(base_dataset_df, query, index_name, size,
+                                  query_type)
+    new_dataset_df.to_csv(output_path)
