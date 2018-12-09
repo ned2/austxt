@@ -63,7 +63,6 @@ def run_get_members(**kwargs):
 
 
 @cli.command(name='index-speeches')
-@click.argument('speech-type', type=click.Choice(['senate', 'representatives']))
 @click.argument('path', type=click.Path(exists=True))
 @click.option('--index-name', default=DEFAULT_INDEX)
 @click.option('--limit', default=None, type=int)
@@ -103,7 +102,7 @@ def run_query(query, index_name, size, exact, operator, return_fields, json):
 @click.argument('input-path', type=click.Path(exists=True, dir_okay=False))
 @click.argument('query')
 @click.option('--index-name', default=DEFAULT_INDEX)
-@click.option('--size', type=click.IntRange(1, 500000), default=10)
+@click.option('--size', type=click.IntRange(1, 500000), default=500000)
 @click.option('--exact/--no-exact', default=False)
 @click.option('--output-path', type=click.Path())
 def make_dataset(input_path, query, index_name, size, exact, output_path):

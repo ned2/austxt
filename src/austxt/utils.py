@@ -26,13 +26,4 @@ def add_results_to_dataframe(parsed_results, dataframe, column_name):
         columns=[id_col, column_name]
     )
     new_df = dataframe.merge(extra_col_df, on=id_col)
-    breakpoint()
-    # next steps:
-    #  -- make the id of the CSV files include the sen_ or rep_ prefix 
-    #  -- will need to add speech_type argument to process_debates
-
-    #  -- also add exact_text field with {"type": "keyword"} in order to support exact
-    #     matching
-    #  -- then re-index with new prefixes, for the join to work
-   
     return new_df
