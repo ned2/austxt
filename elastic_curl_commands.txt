@@ -1,0 +1,11 @@
+# Delete all indexes
+curl -k -XDELETE https://localhost:9200/_all
+
+# create a new index
+curl -k -XPUT https://localhost:9200/austxt
+
+# setup the "text" field
+curl -k -H 'Content-Type: application/json' -XPUT https://localhost:9200/austxt/_mapping/doc -d '{"properties": {"text": {"type": "text", "analyzer":"english"}}}'
+
+# change maximum number returned:
+curl -k -X PUT "https://localhost:9200/austxt/_settings" -H 'Content-Type: application/json' -d '{"index.max_result_window" : "500000"}'
