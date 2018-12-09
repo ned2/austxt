@@ -45,7 +45,7 @@ def members_from_xml(xml_path):
     return members
 
 
-def speeches_from_xml(xml_path, clean=True):
+def speeches_from_xml(speech_type, xml_path, clean=False):
     logger.info(f'processing {xml_path}')
     tree = etree.parse(xml_path)
     speeches = []
@@ -69,11 +69,12 @@ def speeches_from_xml(xml_path, clean=True):
 
         if not paragraphs:
             continue
-        
+
+        id_prefix = "sen" if speech_type.startswith("sen") else "rep"
         all_text = unidecode('\n\n'.join(paragraphs))
         date_str = Path(xml_path).stem
         speech = Speech(
-            speech_id=element.get('id').split('/')[-1],
+            speech_id=f"{id_prefix}_{element.get('id').split('/')[-1]}",
             speaker_id=int(element.get('speakerid').split('/')[-1]),
             speaker=element.get('speakername'),
             duration=element.get('approximate_duration'),
@@ -90,7 +91,8 @@ def speeches_from_xml(xml_path, clean=True):
     return speeches
 
 
-def process_debates(path, output, members_path, clean, limit, files, workers):
+def process_speeches(path, speech_type, output, members_path, clean, limit,
+                     files, workers):
     xml_paths = sorted(path for path in Path(path).glob('*.xml'))
 
     if files is not None:
@@ -101,7 +103,7 @@ def process_debates(path, output, members_path, clean, limit, files, workers):
         xml_paths = xml_paths[:limit]
 
     xml_path_strs = [str(path) for path in xml_paths]
-    func = partial(speeches_from_xml, clean=clean)
+    func = partial(speeches_from_xml, speech_type, clean=clean)
 
     if workers == 1:
         speeches = chain.from_iterable(map(func, xml_path_strs))

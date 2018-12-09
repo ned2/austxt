@@ -34,6 +34,5 @@ def add_results_to_dataframe(parsed_results, dataframe, column_name):
     #  -- also add exact_text field with {"type": "keyword"} in order to support exact
     #     matching
     #  -- then re-index with new prefixes, for the join to work
-
-    
+   
     return new_df

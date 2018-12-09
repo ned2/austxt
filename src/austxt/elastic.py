@@ -1,16 +1,16 @@
 import os
 import urllib3
-from multiprocessing import Pool
+from multiprocessing import Pool, current_process
 from functools import partial
 from collections import deque
 
 import pandas as pd
 from elasticsearch import Elasticsearch
 
+from random import randint
 
-DOC_TYPE = 'speech'
+DOC_TYPE = 'doc'
 TEXT_FIELD = 'text'
-EXACT_FIELD = 'exact_text'
 
 
 def create_elastic():
@@ -25,26 +25,28 @@ def global_elastic():
     elastic = create_elastic()
 
     
-def index_speech(index, speech_type, id_prefix, row_tuple):
+def index_speech(index, speech_type, row_tuple):
     i, row = row_tuple
     elastic.index(
-        id=f"{id_prefix}_{row['speech_id']}", 
-        body={'text':row['text'], 'speech_type':speech_type},
+        id=row["speech_id"], 
+        body={
+            'text':row['text'],
+            'exact_text':row['text'],
+            'speech_type':speech_type
+        },
         index=index,
         doc_type=DOC_TYPE,
     )
     if (i + 1) % 1000 == 0:
         print(i + 1)
 
-        
+
 def index_speeches(speech_type, path, index_name, limit, workers):
     """Index an extracted CSV file of speeches"""
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     speech_df = pd.read_csv(path, nrows=limit)
-    id_prefix = "sen" if speech_type == "senate" else "rep"
-    func = partial(index_speech, index_name, speech_type, id_prefix)
+    func = partial(index_speech, index_name, speech_type)
     rows = ((index, row) for index, row in speech_df.iterrows())
-    
     if workers == 1:
         global_elastic()
         speeches = map(func, rows)
@@ -55,30 +57,29 @@ def index_speeches(speech_type, path, index_name, limit, workers):
             deque(speeches, maxlen=0)
 
 
-def do_query(query, index_name, exact, size, return_fields=None, elastic=None):
+def do_query(query, index_name, size, exact=False, operator="and", return_fields=None,
+             elastic=None):
     if return_fields is None:
         return_fields = []
 
     if elastic is None:
         elastic = create_elastic()
 
-    if exact:
-        query_type = "term"
-        query_field = EXACT_FIELD
-    else:
-        query_type = "match"
-        query_field = TEXT_FIELD
-
+    query_type = "match_phrase" if exact else "match"
+    
     result = elastic.search(
         index=index_name,
         doc_type=DOC_TYPE,
         body={
             "explain": True,
-            "query": {query_type: {query_field: query}}
+            "query": {
+                query_type: {query_field: TEXT_FIELD}
+            },
+            "operator": operator,
         },
         stored_fields=return_fields,
         size=size,
-        sort=["_doc"],
+        sort=DOC_TYPE,
     )
     return result
 

@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from .process import process_debates, get_members
+from .process import process_speeches, get_members
 from .elastic import index_speeches, do_query, do_get
 from .utils import add_results_to_dataframe, process_query_result
 
@@ -37,7 +37,8 @@ def cli(log):
     logger.setLevel(level)
 
 
-@cli.command(name='process-debates')
+@cli.command(name='process-speeches')
+@click.argument('speech-type', type=click.Choice(['senate', 'representatives']))
 @click.argument('path', type=click.Path(exists=True, file_okay=False,
                                         readable=True))
 @click.option('--members-path', type=click.Path(exists=True))
@@ -49,8 +50,8 @@ def cli(log):
 @click.option('--files', default=None, type=str,
               help="Limit the processing to these comma separated file names.")
 @click.option('--workers', default=1)
-def run_process_debates(**kwargs):
-    process_debates(**kwargs)
+def run_process_speeches(**kwargs):
+    process_speeches(**kwargs)
 
             
 @cli.command(name='get-members')
@@ -70,7 +71,6 @@ def run_get_members(**kwargs):
 def run_index_speeches(**kwargs):
     index_speeches(**kwargs)
 
-
        
 @cli.command(name='get')
 @click.argument('identifier', )
@@ -83,12 +83,14 @@ def run_get(**kwargs):
 @cli.command(name='query')
 @click.argument('query', )
 @click.option('--index-name', default=DEFAULT_INDEX)
-@click.option('--exact/--no-exact', default=False)
 @click.option('--size', type=click.IntRange(1, 500000), default=10)
+@click.option('--exact/--no-exact', default=False)
+@click.option('--operator', default="and", type=click.Choice(["and", "or"]))
 @click.option('--return-fields', default='')
 @click.option('--json/--no-json', default=False)
-def run_query(query, index_name, exact, size, return_fields, json):
-    result = do_query(query, index_name, exact, size, return_fields.split(','))
+def run_query(query, index_name, size, exact, operator, return_fields, json):
+    result = do_query(query, index_name, size, exact, operator,
+                      return_fields.split(','))
     if json :
         print(dumps(result))
     else:
@@ -101,12 +103,12 @@ def run_query(query, index_name, exact, size, return_fields, json):
 @click.argument('input-path', type=click.Path(exists=True, dir_okay=False))
 @click.argument('query')
 @click.option('--index-name', default=DEFAULT_INDEX)
-@click.option('--exact/--no-exact', default=False)
 @click.option('--size', type=click.IntRange(1, 500000), default=10)
+@click.option('--exact/--no-exact', default=False)
 @click.option('--output-path', type=click.Path())
-def make_dataset(input_path, query, index_name, exact, size, output_path):
+def make_dataset(input_path, query, index_name, size, exact, output_path):
     df = pd.read_csv(input_path)
-    result = do_query(query, index_name, exact, size)
+    result = do_query(query, index_name, size, exact)
     parsed_results = process_query_result(result)
     column_name = "_".join(query.split())
     df = add_results_to_dataframe(parsed_results, df, column_name)
