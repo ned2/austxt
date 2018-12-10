@@ -1,6 +1,4 @@
 import os
-import tempfile
-from pathlib import Path
 
 import pandas as pd
 from flask import Flask, render_template, request, abort, send_from_directory
@@ -68,4 +66,5 @@ def download_file(filename, tmp_dir):
     path = safe_join(os.path.join(config.DOWNLOAD_PATH, tmp_dir))
     if path is None:
         abort(404)
+    breakpoint()
     return send_from_directory(path, filename, as_attachment=True)

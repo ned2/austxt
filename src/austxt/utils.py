@@ -40,8 +40,8 @@ def add_results_to_dataframe(parsed_results, dataframe, column_name):
     return new_df.fillna(0).astype({column_name:int})
 
 
-def make_dataset(dataset_df, query, index_name, size, query_type, elastic=None):
-    result = do_query(query, index_name, size, query_type, elastic=elastic)
+def make_dataset(dataset_df, query, index_name, size, query_type):
+    result = do_query(query, index_name, size, query_type)
     parsed_results = process_query_result(result)
     column_name = query_to_column_name(query, query_type)
     new_df = add_results_to_dataframe(parsed_results, dataset_df, column_name)

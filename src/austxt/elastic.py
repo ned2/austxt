@@ -82,7 +82,7 @@ def do_query(query, index_name, size, query_type):
             }
         }
         
-    result = elastic.search(
+    result = ELASTIC.search(
         index=index_name,
         doc_type=DOC_TYPE,
         body=body,
