@@ -13,6 +13,7 @@ from . import config
 
 DOC_TYPE = 'doc'
 TEXT_FIELD = 'text'
+ELASTIC = None
 
 
 def create_elastic():
@@ -21,14 +22,15 @@ def create_elastic():
 
 
 def global_elastic():
-    global elastic
-    elastic = create_elastic()
+    global ELASTIC
+    if ELASTIC is None:
+        ELASTIC = create_elastic()
 
     
 def index_speech(index, row_tuple):
     i, row = row_tuple
     try:
-        elastic.index(
+        ELASTIC.index(
             id=row["speech_id"],
             body={'text':row['text']},
             index=index,
@@ -56,10 +58,8 @@ def index_speeches(path, index_name, limit, workers):
             deque(speeches, maxlen=0)
 
 
-def do_query(query, index_name, size, query_type, elastic=None):
-    if elastic is None:
-        elastic = create_elastic()
-
+def do_query(query, index_name, size, query_type):
+    global_elastic()
     if query_type == "exact":
         body= {
             "explain": True,
@@ -95,8 +95,7 @@ def do_query(query, index_name, size, query_type, elastic=None):
     return result
 
 
-def do_get(identifier, index_name, elastic=None):
-    if elastic is None:
-        elastic = create_elastic()
-    return elastic.get(id=identifier, index=index_name, doc_type=DOC_TYPE)
+def do_get(identifier, index_name):
+    global_elastic()
+    return ELASTIC.get(id=identifier, index=index_name, doc_type=DOC_TYPE)
     
