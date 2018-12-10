@@ -9,7 +9,7 @@ import pandas as pd
 
 from .process import process_speeches, get_members
 from .elastic import index_speeches, do_query, do_get
-from .utils import process_query_result, make_dataset
+from .utils import process_query_result, make_dataset, query_to_column_name
 from . import config
 
 
@@ -50,6 +50,7 @@ def cli(log):
               help="Output file to write CSV data to.")
 def run_process_speeches(speech_type, path, members_path, clean, limit, files,
                          workers, output_path):
+    """Process a directory of speech XML files."""
     output_name = f"{speech_type}_speeches"
     speeches_df = process_speeches(path, speech_type, members_path, clean,
                                    limit, files, workers)
@@ -73,13 +74,15 @@ def run_get_members(path, output):
 @click.option('--limit', default=None, type=int)
 @click.option('--workers', default=1, type=int)
 def run_index_speeches(**kwargs):
+    """Index a CSV of exracted speeches"""
     index_speeches(**kwargs)
 
        
-@cli.command(name='get')
+@cli.command(name='get-speech')
 @click.argument('identifier', )
 @click.option('--index-name', default=config.DEFAULT_INDEX)
 def run_get(**kwargs):
+    """Get a speech from Elasticsearch using its ID"""
     result = do_get(**kwargs)
     print(dumps(result))
 
@@ -87,11 +90,13 @@ def run_get(**kwargs):
 @cli.command(name='query')
 @click.argument('query', )
 @click.option('--index-name', default=config.DEFAULT_INDEX)
-@click.option('--size', type=click.IntRange(1, config.ELASTIC_MAX_RESULTS), default=10)
+@click.option('--size', default=10,
+              type=click.IntRange(1, config.ELASTIC_MAX_RESULTS))
 @click.option('--query_type', default='and',
               type=click.Choice(["and", "or", "exact"]))
 @click.option('--json/--no-json', default=False)
 def run_query(query, index_name, size, query_type, json):
+    """Query Elasticsearch index of speeches"""
     result = do_query(query, index_name, size, query_type)
     if json :
         print(dumps(result))
@@ -111,7 +116,8 @@ def run_query(query, index_name, size, query_type, json):
               type=click.Choice(["and", "or", "exact"]))
 @click.option('--output-path', default='.', type=click.Path(file_okay=False))
 def run_make_dataset(input_path, query, index_name, size, query_type, output_path):
-    column_name = "_".join(query.split())
+    """Create a copy of Austxt dataset with results of a query."""
+    column_name = query_to_column_name(query, query_type)
     output_path =  Path(output_path) / f"{Path(input_path).stem}_{column_name}.csv"
     base_dataset_df = pd.read_csv(input_path)
     new_dataset_df = make_dataset(base_dataset_df, query, index_name, size,
