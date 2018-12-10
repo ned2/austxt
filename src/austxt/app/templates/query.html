@@ -1,23 +1,28 @@
-{% macro render_field(field) %}
-  <dt>{{ field.label }}
-  <dd>{{ field(**kwargs)|safe }}
-  {% if field.errors %}
+{% macro render_query_fields(index, query_field, query_type_field) %}
+  <dt>{{ index }}</dt>
+  <dd>{{ query_field(**kwargs)|safe }}
+  {% if query_field.errors %}
     <ul class=errors>
-    {% for error in field.errors %}
+    {% for error in query_field.errors %}
       <li>{{ error }}</li>
     {% endfor %}
     </ul>
   {% endif %}
   </dd>
+  <dd>{{ query_type_field(**kwargs)|safe }}
 {% endmacro %}
 
+  
 <form method=post>
   <dl>
-    {{ render_field(form.query_1) }}
-    {{ render_field(form.query_type_1) }}
+      {% for i in range(form.num_queries) %}
+          {% set query_field, query_type_field = form.get_query(loop.index) %}
+          {{ render_query_fields(loop.index, query_field, query_type_field) }}
+      {% endfor %}
   </dl>
   <p><input type=submit value=Submit>
 </form>
+
 
 {% if sen_path %}
 <p><a href="{{ sen_path }}">Download Augmented Senates Dataset</a></p>

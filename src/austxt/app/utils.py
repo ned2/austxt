@@ -13,9 +13,13 @@ def get_download_path(basepath=config.DOWNLOAD_PATH):
 
 def make_query_form(num_queries=10):
     class FormClass(Form):
-        pass
+        def get_query(self, i):
+            query_field = getattr(self, f"query_{i}") 
+            query_type_field = getattr(self, f"query_type_{i}") 
+            return query_field, query_type_field 
     
     FormClass.num_queries = num_queries
+    FormClass.queries = []
     query_type_choices = [("and", "and"), ("or", "or"), ("exact", "exact")]
     for i in range(1, num_queries +1):
         if i == 1:
@@ -25,11 +29,12 @@ def make_query_form(num_queries=10):
             
         query = f"query_{i}"
         query_type = f"query_type_{i}"
-        setattr(FormClass, query, StringField(query, validators=query_validators))
-        setattr(FormClass, query_type, SelectField(query_type,
-                                                   validators=query_validators,
-                                                   default=query_type_choices[0],
-                                                   choices=query_type_choices))
+        query_field = StringField(query, validators=query_validators)
+        query_type_field = SelectField(query_type, validators=query_validators,
+                                       default=query_type_choices[0],
+                                       choices=query_type_choices)
+        setattr(FormClass, query, query_field)
+        setattr(FormClass, query_type, query_type_field)
     return FormClass
 
 

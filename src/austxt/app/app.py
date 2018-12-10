@@ -44,8 +44,8 @@ def index():
                                config.ELASTIC_MAX_RESULTS, query_type)
             column_name = query_to_column_name(query, query_type)
             parsed_results = process_query_result(results)
-            sen_df = add_results_to_dataframe(results, sen_df, column_name)
-            reps_df = add_results_to_dataframe(results, reps_df, column_name)
+            sen_df = add_results_to_dataframe(parsed_results, sen_df, column_name)
+            reps_df = add_results_to_dataframe(parsed_results, reps_df, column_name)
     except Exception as error:
         # Clean up directory that was created
         savepath.rmdir()
