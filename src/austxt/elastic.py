@@ -15,6 +15,8 @@ DOC_TYPE = 'doc'
 TEXT_FIELD = 'text'
 ELASTIC = None
 
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 
 def create_elastic():
     return Elasticsearch(config.ELASTIC_ADDRESS, timeout=300,
@@ -44,7 +46,6 @@ def index_speech(index, row_tuple):
 
 def index_speeches(path, index_name, limit, workers):
     """Index an extracted CSV file of speeches"""
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     speech_df = pd.read_csv(path, nrows=limit)
     func = partial(index_speech, index_name)
     rows = ((index, row) for index, row in speech_df.iterrows())
