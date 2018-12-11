@@ -7,6 +7,8 @@ setup(
     install_requires=[
         'click',
         'lxml',
+        'flask',
+        'WTForms',
         'unidecode',
         'pandas',
         'spacy',
