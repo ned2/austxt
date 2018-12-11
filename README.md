@@ -2,8 +2,8 @@ Tools for manipulating Hansard data dumps produced by [Open Australia](https://w
 
 ## Installation
 
-    pip install --process-dependency-links setup.py
+    pip install --process-dependency-links austxt
 
 Or for development:
 
-    pip install --process-dependency-links -e setup.py
+    pip install --process-dependency-links -e austxt
