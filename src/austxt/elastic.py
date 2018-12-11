@@ -19,7 +19,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 def create_elastic():
-    return Elasticsearch(config.ELASTIC_ADDRESS, timeout=300,
+    return Elasticsearch(config.ELASTIC_ADDRESS, timeout=100,
                          verify_certs=False, use_ssl=True)
 
 

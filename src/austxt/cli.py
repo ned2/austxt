@@ -112,7 +112,7 @@ def run_query(query, index_name, size, query_type, json):
 @click.option('--index-name', default=config.DEFAULT_INDEX)
 @click.option('--size', type=click.IntRange(1, config.ELASTIC_MAX_RESULTS),
               default=config.ELASTIC_MAX_RESULTS)
-@click.option('--query_type', default='and',
+@click.option('--query-type', default='and',
               type=click.Choice(["and", "or", "exact"]))
 @click.option('--output-path', default='.', type=click.Path(file_okay=False))
 def run_make_dataset(input_path, query, index_name, size, query_type, output_path):

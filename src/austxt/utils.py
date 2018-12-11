@@ -8,12 +8,26 @@ def query_to_column_name(query, query_type):
     return "_".join(query.split()+[query_type])
 
 
+# other option for multi-term AND/OR queries
+# term_strings = [term['details'][0]['description']
+#                 for term in hit['_explanation']['details']]
+# tf = [int(re.search(r'termFreq=(\d+)\.', term)[1]) for term in term_strings] 
+
+
 def process_query_result(result):
     results = []
     for hit in result['hits']['hits']:
         doc_id = hit['_id']
         tf_string = hit['_explanation']['details'][0]['description']
-        tf = int(re.search(r'termFreq=(\d+)\.', tf_string)[1])
+        try:
+            tf = int(re.search(r'termFreq=(\d+)\.', tf_string)[1])
+        except TypeError:
+            # query was a phrase query
+            try:
+                tf = int(re.search(r'phraseFreq=(\d+)\.', tf_string)[1])
+            except TypeError:
+                # query was a multi term AND or OR query
+                tf = 1
         results.append((doc_id, tf))
     return results
 
