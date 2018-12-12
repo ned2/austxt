@@ -12,7 +12,20 @@
   <dd>{{ query_type_field(**kwargs)|safe }}
 {% endmacro %}
 
-      <h1>austxt</h1>
+{% macro render_result_table(results) %}
+<table>
+{% for col, count in results.items() %}
+    <tr>
+        <td>{{ col }}</td>
+        <td>{{ count }}</td>
+    </tr>
+{% endfor %}
+</table>
+{% endmacro %}
+
+
+
+<h1>austxt</h1>
       <p>Submit up to 10 queries to the austxt dataset. You will then get a link
       the austext dataset augmented with a column for each of your queries,
       containing their results. Each query can be of the following types:</p>
@@ -22,9 +35,10 @@
           <li>or: At least one query term must be present</li>
       </ol>
 
-      <p>Note that queries of type 'and' and 'or' will not return counts of
-      terms for each speech, but will simply return a 1 if a speech matched the
-      query (and a zero otherwise)</p>
+      <p>Each column will contain the number of matches for your query in each
+      speech, with the exception of queries of type 'and' and 'or' that have
+      multiple terms. These will return the count of term in each speech that
+      had the minimum frequency of all terms in the query.</p>
   
 <form method=post>
   <dl>
@@ -36,12 +50,17 @@
   <p><input type=submit value=Submit>
 </form>
 
+{% if results %}
+<h2>Results</h2>
 
-{% if sen_path %}
+<p>Senate</p>
+{{ render_result_table(sen_counts) }}
+
+<p>Representatives</p>
+{{ render_result_table(reps_counts) }}
+
+
 <p><a href="{{ sen_path }}">Download Augmented Senates Dataset</a></p>
-{% endif %}
-
-{% if reps_path %}
 <p><a href="{{ reps_path }}">Download Augmented Representatives Dataset</a></p>
 {% endif %}
 

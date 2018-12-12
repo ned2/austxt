@@ -27,9 +27,8 @@ def run_on_start():
 # -- static page as a backup
 # -- gender column for people
 # -- pages/slides to show off data on the night
-# -- quick graph of the results
 # -- cleaned text column
-# -- sentiment column?
+
     
 @app.route("/", methods=['GET', 'POST'])
 def index():
@@ -37,6 +36,7 @@ def index():
     if not (request.method == 'POST' and form.validate()):
         return render_template('query.html', form=form)
 
+    new_columns = []
     savepath = get_download_path()
     try:
         # initialise these to the original dataset, then for each query, add
@@ -51,6 +51,7 @@ def index():
             results = do_query(query, config.DEFAULT_INDEX,
                                config.ELASTIC_MAX_RESULTS, query_type)
             column_name = query_to_column_name(query, query_type)
+            new_columns.append(column_name)
             parsed_results = process_query_result(results)
             sen_df = add_results_to_dataframe(parsed_results, sen_df, column_name)
             reps_df = add_results_to_dataframe(parsed_results, reps_df, column_name)
@@ -63,11 +64,16 @@ def index():
     sen_df.to_csv(sen_path, compression="gzip")
     reps_df.to_csv(reps_path, compression="gzip")
 
+    # get the counts of our results
+    sen_counts = {col: sen_df[col].astype(bool).sum() for col in new_columns}
+    reps_counts = {col: reps_df[col].astype(bool).sum() for col in new_columns}
+    
     # convert to relative paths for the links
     sen_path = '/' + str(sen_path.relative_to(config.DATA_PATH))
     reps_path = '/' + str(reps_path.relative_to(config.DATA_PATH))
-    return render_template('query.html', form=form,
-                           sen_path=sen_path, reps_path=reps_path)
+    return render_template('query.html', results=True, form=form,
+                           sen_path=sen_path, reps_path=reps_path,
+                           sen_counts=sen_counts, reps_counts=reps_counts)
 
 
 @app.route(f"/download/<tmp_dir>/<path:filename>")
