@@ -1,0 +1,1102 @@
+member_id,first_name,last_name,full_name,division,house,party,from_date,from_why,to_date,to_why,gender
+100001,Eric,Abetz,Eric Abetz,Tasmania,senate,Liberal Party,1994-02-22,unknown,9999-12-31,still_in_office,male
+100002,Judith,Adams,Judith Adams,WA,senate,Liberal Party,2005-07-01,general_election,2012-03-31,died,female
+100003,Lyn,Allison,Lyn Allison,Victoria,senate,Australian Democrats,1996-07-01,general_election,2008-06-30,unknown,female
+100004,Richard,Alston,Richard Alston,Victoria,senate,Liberal Party,1986-05-07,unknown,2004-02-10,resigned,male
+100005,Brian,Archer,Brian Archer,Tasmania,senate,Liberal Party,1975-12-13,general_election,1994-01-31,resigned,male
+100006,Terrence,Aulich,Terrence Aulich,Tasmania,senate,Australian Labor Party,1984-12-01,general_election,1993-06-30,unknown,male
+100007,Guy,Barnett,Guy Barnett,Tasmania,senate,Liberal Party,2002-02-26,unknown,2011-06-30,unknown,male
+100008,Andrew,Bartlett,Andrew Bartlett,Queensland,senate,Australian Democrats,1997-10-30,unknown,2008-06-30,unknown,male
+100875,Andrew,Bartlett,Andrew Bartlett,Queensland,senate,Australian Greens,2017-11-10,unknown,2018-08-27,resigned,male
+100009,Michael,Baume,Michael Baume,NSW,senate,Liberal Party,1985-07-01,general_election,1996-09-09,resigned,male
+100010,Peter,Baume,Peter Baume,NSW,senate,Liberal Party,1974-05-18,general_election,1991-01-28,resigned,male
+100011,Michael,Beahan,Michael Beahan,WA,senate,Australian Labor Party,1987-07-11,general_election,1994-02-01,changed_party,male
+100272,Michael,Beahan,Michael Beahan,WA,senate,PRES,1994-02-01,changed_party,1996-06-30,unknown,male
+100012,Robert,Bell,Robert Bell,Tasmania,senate,Australian Democrats,1990-03-07,unknown,1996-06-30,unknown,male
+100013,Cory,Bernardi,Cory Bernardi,SA,senate,Liberal Party,2006-05-04,unknown,2017-02-07,changed_party,male
+100866,Cory,Bernardi,Cory Bernardi,SA,senate,Australian Conservatives,2017-02-07,changed_party,9999-12-31,still_in_office,male
+100014,Simon,Birmingham,Simon Birmingham,SA,senate,Liberal Party,2007-05-03,unknown,9999-12-31,still_in_office,male
+100015,Bronwyn,Bishop,Bronwyn Bishop,NSW,senate,Liberal Party,1987-07-11,general_election,1994-02-24,resigned,female
+100016,Mark,Bishop,Mark Bishop,WA,senate,Australian Labor Party,1996-07-01,general_election,2014-06-30,retired,male
+100017,Reginald,Bishop,Reginald Bishop,SA,senate,Australian Labor Party,1962-07-01,general_election,1981-06-30,retired,male
+100018,Florence,Bjelke-Petersen,Florence Bjelke-Petersen,Queensland,senate,National Party,1981-03-12,unknown,1993-06-30,retired,female
+100019,John,Black,John Black,Queensland,senate,Australian Labor Party,1984-12-01,general_election,1990-06-30,unknown,male
+100020,Nick,Bolkus,Nick Bolkus,SA,senate,Australian Labor Party,1981-07-01,general_election,2005-06-30,retired,male
+100021,Neville,Bonner,Neville Bonner,Queensland,senate,Independent,1971-06-11,unknown,1983-02-04,unknown,male
+100022,Ron,Boswell,Ron Boswell,Queensland,senate,National Party,1983-03-05,general_election,2014-06-30,unknown,male
+100023,Vicki,Bourne,Vicki Bourne,NSW,senate,Australian Democrats,1990-07-01,general_election,2002-06-30,unknown,female
+100024,Sue,Boyce,Sue Boyce,Queensland,senate,Liberal Party,2007-04-19,unknown,2014-06-30,retired,female
+100025,George,Brandis,George Brandis,Queensland,senate,Liberal Party,2000-05-16,unknown,2018-02-07,resigned,male
+100026,Carol,Brown,Carol Brown,Tasmania,senate,Australian Labor Party,2005-08-25,unknown,9999-12-31,still_in_office,female
+100027,Bob,Brown,Bob Brown,Tasmania,senate,Australian Greens,1996-07-01,general_election,2012-06-15,resigned,male
+100028,David,Brownhill,David Brownhill,NSW,senate,National Party,1984-12-01,general_election,2000-04-14,resigned,male
+100029,Geoffrey,Buckland,Geoffrey Buckland,SA,senate,Australian Labor Party,2000-09-14,unknown,2005-06-30,retired,male
+100030,Bryant,Burns,Bryant Burns,Queensland,senate,Australian Labor Party,1987-07-11,general_election,1996-06-30,retired,male
+100031,David,Bushby,David Bushby,Tasmania,senate,Liberal Party,2007-08-30,unknown,9999-12-31,still_in_office,male
+100032,John,Button,John Button,Victoria,senate,Australian Labor Party,1974-05-18,general_election,1993-03-31,resigned,male
+100033,Paul,Calvert,Paul Calvert,Tasmania,senate,Liberal Party,1987-07-11,general_election,2002-08-19,changed_party,male
+100275,Paul,Calvert,Paul Calvert,Tasmania,senate,PRES,2002-08-19,changed_party,2007-08-14,changed_party,male
+100276,Paul,Calvert,Paul Calvert,Tasmania,senate,Liberal Party,2007-08-15,changed_party,2007-08-29,resigned,male
+100034,George,Campbell,George Campbell,NSW,senate,Australian Labor Party,1997-09-17,unknown,2008-06-30,retired,male
+100035,Ian,Campbell,Ian Campbell,WA,senate,Liberal Party,1990-05-16,unknown,2007-05-31,resigned,male
+100036,Kim,Carr,Kim Carr,Victoria,senate,Australian Labor Party,1993-04-28,unknown,9999-12-31,still_in_office,male
+100037,John,Carrick,John Carrick,NSW,senate,Liberal Party,1971-07-01,general_election,1987-06-05,retired,male
+100038,James,Cavanagh,James Cavanagh,SA,senate,Australian Labor Party,1962-07-01,general_election,1981-06-30,retired,male
+100039,Christabel,Chamarette,Christabel Chamarette,WA,senate,Australian Greens,1992-03-12,unknown,1996-06-30,unknown,female
+100040,Frederick,Chaney,Frederick Chaney,WA,senate,Liberal Party,1974-05-18,general_election,1990-02-27,resigned,male
+100041,Grant,Chapman,Grant Chapman,SA,senate,Liberal Party,1987-07-11,general_election,2008-06-30,unknown,male
+100042,John,Cherry,John Cherry,Queensland,senate,Australian Democrats,2001-07-31,unknown,2005-06-30,unknown,male
+100043,Bruce,Childs,Bruce Childs,NSW,senate,Australian Labor Party,1981-07-01,general_election,1997-09-10,resigned,male
+100044,Donald,Chipp,Donald Chipp,Victoria,senate,Australian Democrats,1978-07-01,general_election,1986-08-18,resigned,male
+100045,John,Coates,John Coates,Tasmania,senate,Australian Labor Party,1981-07-01,general_election,1996-08-20,resigned,male
+100046,Samuel,Cohen,Samuel Cohen,Victoria,senate,Australian Labor Party,1962-07-01,general_election,1969-10-07,died,male
+100047,Richard,Colbeck,Richard Colbeck,Tasmania,senate,Liberal Party,2002-02-04,unknown,2016-05-09,unknown,male
+100880,Richard,Colbeck,Richard Colbeck,Tasmania,senate,Liberal Party,2018-02-09,unknown,9999-12-31,still_in_office,male
+100048,Ruth,Coleman,Ruth Coleman,WA,senate,Australian Labor Party,1974-05-18,general_election,1987-06-05,retired,female
+100049,Stanley,Collard,Stanley Collard,Queensland,senate,National Party,1975-12-13,general_election,1987-06-05,retired,male
+100050,Jacinta,Collins,Jacinta Collins,Victoria,senate,Australian Labor Party,1995-05-03,unknown,2005-06-30,unknown,female
+100265,Jacinta,Collins,Jacinta Collins,Victoria,senate,Australian Labor Party,2008-05-08,general_election,9999-12-31,still_in_office,female
+100051,Robert,Collins,Robert Collins,NT,senate,Australian Labor Party,1987-07-11,general_election,1998-03-30,resigned,male
+100052,Malcolm,Colston,Malcolm Colston,Queensland,senate,Independent,1975-12-13,general_election,1999-06-30,retired,male
+100053,Stephen,Conroy,Stephen Conroy,Victoria,senate,Australian Labor Party,1996-04-30,unknown,2016-09-30,resigned,male
+100054,Peter,Cook,Peter Cook,WA,senate,Australian Labor Party,1983-03-05,general_election,2005-06-30,retired,male
+100055,Helen,Coonan,Helen Coonan,NSW,senate,Liberal Party,1996-07-01,general_election,2011-08-22,resigned,female
+100056,Bernard,Cooney,Bernard Cooney,Victoria,senate,Australian Labor Party,1984-12-01,general_election,2002-06-30,retired,male
+100057,Mathias,Cormann,Mathias Cormann,WA,senate,Liberal Party,2007-06-19,unknown,9999-12-31,still_in_office,male
+100058,John,Coulter,John Coulter,SA,senate,Australian Democrats,1987-07-11,general_election,1995-11-20,resigned,male
+100059,Arthur,Crane,Arthur Crane,WA,senate,Liberal Party,1990-07-01,general_election,2002-06-30,unknown,male
+100060,Noel,Crichton-Browne,Noel Crichton-Browne,WA,senate,Independent Liberal,1981-07-01,general_election,1996-06-30,retired,male
+100061,Trish,Crossin,Trish Crossin,NT,senate,Australian Labor Party,1998-06-16,unknown,2013-09-06,retired,female
+100062,Rosemary,Crowley,Rosemary Crowley,SA,senate,Australian Labor Party,1983-03-05,general_election,2002-06-30,retired,female
+100063,Gordon,Davidson,Gordon Davidson,SA,senate,Liberal Party,1962-02-08,general_election,1962-06-30,unknown,male
+100064,Gordon,Davidson,Gordon Davidson,SA,senate,Liberal Party,1965-07-01,general_election,1981-06-30,retired,male
+100065,Gordon,Davidson,Gordon Davidson,SA,senate,Liberal Party,1961-09-28,unknown,1961-12-08,unknown,male
+100066,Kay,Denman,Kay Denman,Tasmania,senate,Australian Labor Party,1993-08-24,unknown,2005-06-30,retired,male
+100067,John,Devereux,John Devereux,Tasmania,senate,Independent,1987-07-11,general_election,1996-02-07,resigned,male
+100068,Arthur,Devlin,Arthur Devlin,Tasmania,senate,Australian Labor Party,1984-12-01,general_election,1990-06-30,retired,male
+100069,Patricia,Dunn,Patricia Dunn,NSW,senate,Independent,1988-07-21,general_election,1990-06-30,unknown,female
+100070,Peter,Durack,Peter Durack,WA,senate,Liberal Party,1971-07-01,general_election,1993-06-30,retired,male
+100071,Alan,Eggleston,Alan Eggleston,WA,senate,Liberal Party,1996-07-01,general_election,2014-06-30,retired,male
+100072,Chris,Ellison,Chris Ellison,WA,senate,Liberal Party,1993-07-01,general_election,2009-01-30,resigned,male
+100073,Ronald,Elstob,Ronald Elstob,SA,senate,Australian Labor Party,1978-07-01,general_election,1987-06-05,retired,male
+100074,Chris,Evans,Chris Evans,WA,senate,Australian Labor Party,1993-07-01,general_election,2013-04-12,resigned,male
+100075,Gareth,Evans,Gareth Evans,Victoria,senate,Australian Labor Party,1978-07-01,general_election,1996-02-06,resigned,male
+100076,John,Evans,John Evans,WA,senate,Australian Democrats,1983-03-05,general_election,1985-06-30,unknown,male
+100077,John,Faulkner,John Faulkner,NSW,senate,Australian Labor Party,1989-04-04,unknown,2015-02-06,resigned,male
+100287,David,Fawcett,David Fawcett,SA,senate,Liberal Party,2011-07-01,general_election,9999-12-31,still_in_office,male
+100078,Alan,Ferguson,Alan Ferguson,SA,senate,Liberal Party,1992-05-26,unknown,2007-08-14,changed_party,male
+100263,Alan,Ferguson,Alan Ferguson,SA,senate,PRES,2007-08-15,changed_party,2008-08-25,changed_party,male
+100278,Alan,Ferguson,Alan Ferguson,SA,senate,DPRES,2008-08-26,changed_party,2011-06-30,retired,male
+100079,Jeannie,Ferris,Jeannie Ferris,SA,senate,Liberal Party,1996-07-01,general_election,1996-07-12,unknown,female
+100080,Jeannie,Ferris,Jeannie Ferris,SA,senate,Liberal Party,1996-07-24,unknown,2007-04-02,died,female
+100081,Steve,Fielding,Steve Fielding,Victoria,senate,Family First Party,2005-07-01,general_election,2011-06-30,unknown,male
+100082,Concetta,Fierravanti-Wells,Concetta Fierravanti-Wells,NSW,senate,Liberal Party,2005-05-05,unknown,9999-12-31,still_in_office,female
+100083,Mitch,Fifield,Mitch Fifield,Victoria,senate,Liberal Party,2004-03-31,unknown,9999-12-31,still_in_office,male
+100084,Mary,Fisher,Mary Fisher,SA,senate,Liberal Party,2007-06-06,unknown,2012-08-14,resigned,female
+100085,Dominic,Foreman,Dominic Foreman,SA,senate,Australian Labor Party,1981-07-01,general_election,1997-09-15,resigned,male
+100086,Michael,Forshaw,Michael Forshaw,NSW,senate,Australian Labor Party,1994-05-10,unknown,2011-06-30,retired,male
+100087,George,Georges,George Georges,Queensland,senate,Independent,1968-07-01,general_election,1987-06-05,unknown,male
+100088,Brenda,Gibbs,Brenda Gibbs,Queensland,senate,Australian Labor Party,1996-07-01,general_election,2002-06-30,unknown,female
+100089,Brian,Gibson,Brian Gibson,Tasmania,senate,Liberal Party,1993-07-01,general_election,2002-02-22,resigned,male
+100090,Arthur,Gietzelt,Arthur Gietzelt,NSW,senate,Australian Labor Party,1971-07-01,general_election,1989-02-27,resigned,male
+100091,Patricia,Giles,Patricia Giles,WA,senate,Australian Labor Party,1981-07-01,general_election,1993-06-30,retired,female
+100092,Brian,Greig,Brian Greig,WA,senate,Australian Democrats,1999-07-01,general_election,2005-06-30,unknown,male
+100093,Donald,Grimes,Donald Grimes,Tasmania,senate,Australian Labor Party,1974-05-18,general_election,1987-04-02,resigned,male
+100094,Margaret,Guilfoyle,Margaret Guilfoyle,Victoria,senate,Liberal Party,1971-07-01,general_election,1987-06-05,retired,female
+100095,Janine,Haines,Janine Haines,SA,senate,Australian Democrats,1981-07-01,general_election,1990-03-01,resigned,female
+100096,Janine,Haines,Janine Haines,SA,senate,Australian Democrats,1977-12-14,unknown,1978-06-30,unknown,female
+100097,David,Hamer,David Hamer,Victoria,senate,Liberal Party,1978-07-01,general_election,1990-06-30,retired,male
+100857,Pauline,Hanson,Pauline Hanson,Queensland,senate,Pauline Hanson's One Nation Party,2016-07-01,general_election,9999-12-31,still_in_office,female
+100098,Brian,Harradine,Brian Harradine,Tasmania,senate,Independent,1975-12-13,general_election,2005-06-30,retired,male
+100099,Leonard,Harris,Leonard Harris,Queensland,senate,Pauline Hanson's One Nation Party,1999-07-02,general_election,2005-06-30,unknown,male
+100100,Jean,Hearn,Jean Hearn,Tasmania,senate,Australian Labor Party,1980-10-15,unknown,1985-06-30,retired,male
+100101,Bill,Heffernan,Bill Heffernan,NSW,senate,Liberal Party,1996-09-18,unknown,2016-05-09,retired,male
+100102,Albion,Hendrickson,Albion Hendrickson,Victoria,senate,Australian Labor Party,1947-07-01,general_election,1971-06-30,retired,male
+100103,John,Herron,John Herron,Queensland,senate,Liberal Party,1990-07-01,general_election,2002-09-05,resigned,male
+100104,Heather,Hill,Heather Hill,Queensland,senate,Pauline Hanson's One Nation Party,1998-11-18,general_election,1999-09-23,disqualified,female
+100105,Robert,Hill,Robert Hill,SA,senate,Liberal Party,1981-07-01,general_election,2006-03-15,resigned,male
+100106,John,Hogg,John Hogg,Queensland,senate,Australian Labor Party,1996-07-01,general_election,2002-08-19,changed_party,male
+100264,John,Hogg,John Hogg,Queensland,senate,DPRES,2002-08-19,changed_party,2008-08-25,changed_party,male
+100277,John,Hogg,John Hogg,Queensland,senate,PRES,2008-08-26,changed_party,2014-06-30,retired,male
+100107,Gary,Humphries,Gary Humphries,ACT,senate,Liberal Party,2003-02-18,unknown,2013-09-06,retired,male
+100108,Annette,Hurley,Annette Hurley,SA,senate,Australian Labor Party,2005-07-01,general_election,2011-06-30,retired,female
+100109,Steve,Hutchins,Steve Hutchins,NSW,senate,Australian Labor Party,1998-10-14,unknown,2011-06-30,unknown,male
+100110,Jean,Jenkins,Jean Jenkins,WA,senate,Australian Democrats,1987-07-11,general_election,1990-06-30,unknown,male
+100111,Donald,Jessop,Donald Jessop,SA,senate,Independent,1971-07-01,general_election,1987-06-05,unknown,male
+100112,David,Johnston,David Johnston,WA,senate,Liberal Party,2002-07-01,general_election,2016-05-09,unknown,male
+100113,Gerry,Jones,Gerry Jones,Queensland,senate,Australian Labor Party,1981-07-01,general_election,1996-06-30,retired,male
+100114,Barnaby,Joyce,Barnaby Joyce,Queensland,senate,National Party,2005-07-01,general_election,2013-08-08,resigned,male
+100115,James,Keeffe,James Keeffe,Queensland,senate,Australian Labor Party,1965-07-01,general_election,1983-02-04,retired,male
+100116,Rod,Kemp,Rod Kemp,Victoria,senate,Liberal Party,1990-07-01,general_election,2008-06-30,retired,male
+100117,Cheryl,Kernot,Cheryl Kernot,Queensland,senate,Australian Democrats,1990-07-01,general_election,1997-10-15,resigned,female
+100118,Bernard,Kilgariff,Bernard Kilgariff,NT,senate,Liberal Party,1975-12-13,general_election,1987-06-05,retired,male
+100119,Linda,Kirk,Linda Kirk,SA,senate,Australian Labor Party,2002-07-01,general_election,2008-06-30,retired,female
+100120,John,Knight,John Knight,ACT,senate,Liberal Party,1975-12-13,general_election,1981-03-04,died,male
+100121,Susan,Knowles,Susan Knowles,WA,senate,Liberal Party,1984-12-01,general_election,2005-06-30,retired,female
+100122,Milivoj,Lajovic,Milivoj Lajovic,NSW,senate,Liberal Party,1975-12-13,general_election,1985-06-30,retired,male
+100123,Condor,Laucke,Condor Laucke,SA,senate,Liberal Party,1967-11-02,unknown,1976-02-17,changed_party,male
+100266,Condor,Laucke,Condor Laucke,SA,senate,PRES,1976-02-17,changed_party,1981-06-30,retired,male
+100124,Meg,Lees,Meg Lees,SA,senate,Independent,1990-04-04,unknown,2005-06-30,unknown,female
+100125,Austin,Lewis,Austin Lewis,Victoria,senate,Liberal Party,1976-12-17,unknown,1993-06-30,retired,male
+100126,Ross,Lightfoot,Ross Lightfoot,WA,senate,Liberal Party,1997-05-19,unknown,2008-06-30,retired,male
+100127,Stephen,Loosley,Stephen Loosley,NSW,senate,Australian Labor Party,1990-07-01,general_election,1995-05-19,resigned,male
+100128,Joe,Ludwig,Joe Ludwig,Queensland,senate,Australian Labor Party,1999-07-01,general_election,2016-05-09,retired,male
+100129,Kate,Lundy,Kate Lundy,ACT,senate,Australian Labor Party,1996-03-02,general_election,2015-03-24,resigned,female
+100130,Ian,Macdonald,Ian Macdonald,Queensland,senate,Liberal Party,1990-07-01,general_election,9999-12-31,still_in_office,male
+100131,Sandy,Macdonald,Sandy Macdonald,NSW,senate,National Party,1993-07-01,general_election,1999-06-30,unknown,male
+100132,Sandy,Macdonald,Sandy Macdonald,NSW,senate,National Party,2000-05-04,unknown,2008-06-30,retired,male
+100133,David,Macgibbon,David Macgibbon,Queensland,senate,Liberal Party,1978-07-01,general_election,1999-06-30,unknown,male
+100134,Sue,Mackay,Sue Mackay,Tasmania,senate,Australian Labor Party,1996-03-08,unknown,2005-07-29,resigned,female
+100135,Michael,Macklin,Michael Macklin,Queensland,senate,Australian Democrats,1981-07-01,general_election,1990-06-30,retired,male
+100136,Graham,Maguire,Graham Maguire,SA,senate,Australian Labor Party,1983-03-05,general_election,1993-06-30,unknown,male
+100137,Diane,Margetts,Diane Margetts,WA,senate,Australian Greens,1993-07-01,general_election,1999-06-30,unknown,female
+100138,Gavin,Marshall,Gavin Marshall,Victoria,senate,Australian Labor Party,2002-07-01,general_election,2014-07-06,changed_party,male
+100839,Gavin,Marshall,Gavin Marshall,Victoria,senate,DPRES,2014-07-07,changed_party,2016-05-09,changed_party,male
+100871,Gavin,Marshall,Gavin Marshall,Victoria,senate,Australian Labor Party,2016-05-09,changed_party,9999-12-31,still_in_office,male
+100139,John,Martyr,John Martyr,WA,senate,Liberal Party,1981-03-11,unknown,1983-02-04,unknown,male
+100140,Brett,Mason,Brett Mason,Queensland,senate,Liberal Party,1999-07-01,general_election,2015-04-15,resigned,male
+100141,Colin,Mason,Colin Mason,NSW,senate,Australian Democrats,1978-07-01,general_election,1987-06-05,retired,male
+100142,Charles,Maunsell,Charles Maunsell,Queensland,senate,National Country Party,1968-07-01,general_election,1981-06-30,unknown,male
+100143,Ronald,McAuliffe,Ronald McAuliffe,Queensland,senate,Australian Labor Party,1971-07-01,general_election,1981-06-30,retired,male
+100144,Douglas,McClelland,Douglas McClelland,NSW,senate,Australian Labor Party,1962-07-01,general_election,1983-04-21,changed_party,male
+100268,Douglas,McClelland,Douglas McClelland,NSW,senate,PRES,1983-04-21,changed_party,1987-01-23,resigned,male
+100145,Anne,McEwen,Anne McEwen,SA,senate,Australian Labor Party,2005-07-01,general_election,2016-05-09,unknown,female
+100146,Julian,McGauran,Julian McGauran,Victoria,senate,National Party,1987-07-11,general_election,1990-06-30,unknown,male
+100147,Julian,McGauran,Julian McGauran,Victoria,senate,National Party,1993-07-01,general_election,2011-06-30,unknown,male
+100148,Gordon,McIntosh,Gordon McIntosh,WA,senate,Australian Labor Party,1974-05-18,general_election,1987-06-05,retired,male
+100149,Jim,McKiernan,Jim McKiernan,WA,senate,Australian Labor Party,1984-12-01,general_election,2002-06-30,retired,male
+100150,Geoffrey,McLaren,Geoffrey McLaren,SA,senate,Australian Labor Party,1971-07-01,general_election,1983-02-04,retired,male
+100151,Paul,McLean,Paul McLean,NSW,senate,Australian Democrats,1987-07-11,general_election,1991-08-23,resigned,male
+100152,Jan,McLucas,Jan McLucas,Queensland,senate,Australian Labor Party,1999-07-01,general_election,2016-05-09,retired,male
+100153,Bob,McMullan,Bob McMullan,ACT,senate,Australian Labor Party,1988-02-16,unknown,1996-02-06,resigned,male
+100154,Jean,Melzer,Jean Melzer,Victoria,senate,Australian Labor Party,1974-05-18,general_election,1981-06-30,unknown,male
+100155,Anthony,Messner,Anthony Messner,SA,senate,Liberal Party,1975-12-13,general_election,1990-04-17,resigned,male
+100156,Christine,Milne,Christine Milne,Tasmania,senate,Australian Greens,2005-07-01,general_election,2015-08-10,resigned,female
+100157,Nick,Minchin,Nick Minchin,SA,senate,Liberal Party,1993-07-01,general_election,2011-06-30,retired,male
+100158,Alan,Missen,Alan Missen,Victoria,senate,Liberal Party,1974-05-18,general_election,1986-03-30,died,male
+100159,Claire,Moore,Claire Moore,Queensland,senate,Australian Labor Party,2002-07-01,general_election,9999-12-31,still_in_office,female
+100160,John,Morris,John Morris,NSW,senate,Australian Labor Party,1985-07-01,general_election,1990-06-30,retired,male
+100161,James,Mulvihill,James Mulvihill,NSW,senate,Australian Labor Party,1965-07-01,general_election,1983-02-04,retired,male
+100162,Shayne,Murphy,Shayne Murphy,Tasmania,senate,Independent,1993-07-01,general_election,2005-06-30,unknown,male
+100163,Andrew,Murray,Andrew Murray,WA,senate,Australian Democrats,1996-07-01,general_election,2008-06-30,retired,male
+100164,Fiona,Nash,Fiona Nash,NSW,senate,National Party,2005-07-01,general_election,2017-10-27,disqualified,female
+100165,Belinda,Neal,Belinda Neal,NSW,senate,Australian Labor Party,1994-03-08,unknown,1998-09-03,resigned,female
+100166,Laurence,Neal,Laurence Neal,Victoria,senate,National Country Party,1980-03-11,unknown,1981-06-30,unknown,female
+100167,Kerry,Nettle,Kerry Nettle,NSW,senate,Australian Greens,2002-07-01,general_election,2008-06-30,unknown,female
+100168,Jocelyn,Newman,Jocelyn Newman,Tasmania,senate,Liberal Party,1986-03-13,unknown,2002-02-01,resigned,female
+100169,Kerry,O'Brien,Kerry O'Brien,Tasmania,senate,Australian Labor Party,1996-09-05,unknown,2011-06-30,retired,male
+100170,Justin,O'Byrne,Justin O'Byrne,Tasmania,senate,Australian Labor Party,1947-07-01,general_election,1981-06-30,retired,male
+100171,William,O'Chee,William O'Chee,Queensland,senate,National Party,1990-05-08,unknown,1999-06-30,unknown,male
+100172,John,Olsen,John Olsen,SA,senate,Liberal Party,1990-05-07,unknown,1992-05-04,resigned,male
+100173,John,Panizza,John Panizza,WA,senate,Liberal Party,1987-07-11,general_election,1997-01-31,died,male
+100174,Warwick,Parer,Warwick Parer,Queensland,senate,Liberal Party,1984-11-22,unknown,2000-02-11,resigned,male
+100175,Stephen,Parry,Stephen Parry,Tasmania,senate,Liberal Party,2005-07-01,general_election,2011-07-03,changed_party,male
+100838,Stephen,Parry,Stephen Parry,Tasmania,senate,PRES,2014-07-07,changed_party,2017-11-12,resigned,male
+100840,Stephen,Parry,Stephen Parry,Tasmania,senate,DPRES,2011-07-04,changed_party,2014-07-06,changed_party,male
+100176,Kay,Patterson,Kay Patterson,Victoria,senate,Liberal Party,1987-07-11,general_election,2008-06-30,retired,male
+100177,Marise,Payne,Marise Payne,NSW,senate,Liberal Party,1997-04-09,unknown,9999-12-31,still_in_office,female
+100178,Helen,Polley,Helen Polley,Tasmania,senate,Australian Labor Party,2005-07-01,general_election,9999-12-31,still_in_office,female
+100179,Janet,Powell,Janet Powell,Victoria,senate,Independent,1986-08-26,unknown,1993-06-30,unknown,female
+100180,Cyril,Primmer,Cyril Primmer,Victoria,senate,Australian Labor Party,1971-07-01,general_election,1985-06-30,retired,male
+100181,Christopher,Puplick,Christopher Puplick,NSW,senate,Liberal Party,1978-07-26,general_election,1981-06-30,unknown,male
+100182,Christopher,Puplick,Christopher Puplick,NSW,senate,Liberal Party,1984-12-01,general_election,1990-06-30,unknown,male
+100183,John,Quirke,John Quirke,SA,senate,Australian Labor Party,1997-09-18,unknown,2000-08-15,resigned,male
+100184,Peter,Rae,Peter Rae,Tasmania,senate,Liberal Party,1968-07-01,general_election,1986-01-16,resigned,male
+100185,Robert,Ray,Robert Ray,Victoria,senate,Australian Labor Party,1981-07-01,general_election,2008-05-05,retired,male
+100186,Margaret,Reid,Margaret Reid,ACT,senate,Liberal Party,1981-05-05,unknown,1996-08-20,changed_party,female
+100273,Margaret,Reid,Margaret Reid,ACT,senate,PRES,1996-08-20,changed_party,2002-08-18,changed_party,female
+100274,Margaret,Reid,Margaret Reid,ACT,senate,Liberal Party,2002-08-18,changed_party,2003-02-14,resigned,female
+100187,Margaret,Reynolds,Margaret Reynolds,Queensland,senate,Australian Labor Party,1983-03-05,general_election,1999-06-30,retired,female
+100188,Graham,Richardson,Graham Richardson,NSW,senate,Australian Labor Party,1983-03-05,general_election,1994-03-25,resigned,male
+100189,Aden,Ridgeway,Aden Ridgeway,NSW,senate,Australian Democrats,1999-07-01,general_election,2005-06-30,unknown,male
+100190,Edward,Robertson,Edward Robertson,NT,senate,Australian Labor Party,1975-12-13,general_election,1987-06-05,retired,male
+100191,Allan,Rocher,Allan Rocher,WA,senate,Liberal Party,1978-07-01,general_election,1981-02-10,resigned,male
+100192,Michael,Ronaldson,Michael Ronaldson,Victoria,senate,Liberal Party,2005-07-01,general_election,2016-02-28,resigned,male
+100193,Susan,Ryan,Susan Ryan,ACT,senate,Australian Labor Party,1975-12-13,general_election,1988-01-29,resigned,female
+100194,Norman,Sanders,Norman Sanders,Tasmania,senate,Australian Democrats,1985-07-01,general_election,1990-03-01,resigned,male
+100195,Santo,Santoro,Santo Santoro,Queensland,senate,Liberal Party,2002-10-29,unknown,2007-04-11,resigned,male
+100196,Chris,Schacht,Chris Schacht,SA,senate,Australian Labor Party,1987-07-11,general_election,2002-06-30,unknown,male
+100197,Douglas,Scott,Douglas Scott,NSW,senate,National Party,1970-08-06,unknown,1970-11-20,unknown,male
+100198,Douglas,Scott,Douglas Scott,NSW,senate,National Party,1974-05-18,general_election,1985-06-30,retired,male
+100199,Nigel,Scullion,Nigel Scullion,NT,senate,Country Liberal Party,2001-11-10,general_election,9999-12-31,still_in_office,male
+100200,Glenister,Sheil,Glenister Sheil,Queensland,senate,National Country Party,1984-12-01,general_election,1990-06-30,unknown,male
+100201,Glenister,Sheil,Glenister Sheil,Queensland,senate,National Country Party,1974-05-18,general_election,1981-02-06,unknown,male
+100202,Nick,Sherry,Nick Sherry,Tasmania,senate,Australian Labor Party,1990-07-01,general_election,2012-06-01,resigned,male
+100203,Jim,Short,Jim Short,Victoria,senate,Liberal Party,1984-12-01,general_election,1997-05-12,resigned,male
+100205,Kerry,Sibraa,Kerry Sibraa,NSW,senate,Australian Labor Party,1975-12-13,general_election,1978-06-30,unknown,male
+100204,Kerry,Sibraa,Kerry Sibraa,NSW,senate,Australian Labor Party,1978-08-09,unknown,1987-02-17,changed_party,male
+100269,Kerry,Sibraa,Kerry Sibraa,NSW,senate,PRES,1987-02-17,changed_party,1987-06-05,changed_party,male
+100270,Kerry,Sibraa,Kerry Sibraa,NSW,senate,Australian Labor Party,1987-06-05,changed_party,1987-09-14,changed_party,male
+100271,Kerry,Sibraa,Kerry Sibraa,NSW,senate,PRES,1987-09-14,changed_party,1994-02-01,resigned,male
+100206,John,Siddons,John Siddons,Victoria,senate,Unite Australia Party,1981-07-01,general_election,1983-02-04,unknown,male
+100207,John,Siddons,John Siddons,Victoria,senate,Unite Australia Party,1985-07-01,general_election,1987-06-05,unknown,male
+100208,Rachel,Siewert,Rachel Siewert,WA,senate,Australian Greens,2005-07-01,general_election,9999-12-31,still_in_office,female
+100209,John,Sim,John Sim,WA,senate,Liberal Party,1964-11-26,unknown,1981-06-30,retired,male
+100210,Karin,Sowada,Karin Sowada,NSW,senate,Australian Democrats,1991-08-29,unknown,1993-06-30,unknown,female
+100211,Sid,Spindler,Sid Spindler,Victoria,senate,Australian Democrats,1990-07-01,general_election,1996-06-30,retired,male
+100212,Ursula,Stephens,Ursula Stephens,NSW,senate,Australian Labor Party,2002-07-01,general_election,2014-06-30,retired,female
+100213,Glenn,Sterle,Glenn Sterle,WA,senate,Australian Labor Party,2005-07-01,general_election,9999-12-31,still_in_office,male
+100214,John,Stone,John Stone,Queensland,senate,National Party,1987-07-11,general_election,1990-03-01,resigned,male
+100215,Natasha,Stott Despoja,Natasha Stott Despoja,SA,senate,Australian Democrats,1995-11-29,unknown,2008-06-30,retired,female
+100216,Kathy,Sullivan,Kathy Sullivan,Queensland,senate,Liberal Party,1974-05-18,general_election,1984-11-05,resigned,female
+100217,Karen,Synon,Karen Synon,Victoria,senate,Liberal Party,1997-05-13,unknown,1999-06-30,unknown,female
+100218,Grant,Tambling,Grant Tambling,NT,senate,Country Liberal Party,1987-07-11,general_election,2001-11-09,retired,male
+100219,Michael,Tate,Michael Tate,Tasmania,senate,Australian Labor Party,1978-07-01,general_election,1993-07-05,resigned,male
+100220,Tsebin,Tchen,Tsebin Tchen,Victoria,senate,Liberal Party,1999-07-01,general_election,2005-06-30,retired,male
+100221,Baden,Teague,Baden Teague,SA,senate,Liberal Party,1978-07-01,general_election,1996-06-30,retired,male
+100222,Andrew,Thomas,Andrew Thomas,WA,senate,Liberal Party,1975-12-13,general_election,1983-02-04,unknown,male
+100223,John,Tierney,John Tierney,NSW,senate,Liberal Party,1991-02-11,unknown,2005-04-14,resigned,male
+100224,Michael,Townley,Michael Townley,Tasmania,senate,Independent,1971-07-01,general_election,1987-06-05,retired,male
+100225,Judith,Troeth,Judith Troeth,Victoria,senate,Liberal Party,1993-07-01,general_election,2011-06-30,retired,female
+100226,Russell,Trood,Russell Trood,Queensland,senate,Liberal Party,2005-07-01,general_election,2011-06-30,unknown,male
+100227,Josephine,Vallentine,Josephine Vallentine,WA,senate,Australian Greens,1985-07-01,general_election,1992-01-31,resigned,female
+100228,Amanda,Vanstone,Amanda Vanstone,SA,senate,Liberal Party,1984-12-01,general_election,2007-04-26,resigned,female
+100229,David,Vigor,David Vigor,SA,senate,Unite Australia Party,1984-12-01,general_election,1987-06-05,unknown,male
+100230,Peter,Walsh,Peter Walsh,WA,senate,Australian Labor Party,1974-05-18,general_election,1993-06-30,retired,male
+100231,Mary,Walters,Mary Walters,Tasmania,senate,Liberal Party,1975-12-13,general_election,1993-06-30,retired,female
+100232,John,Watson,John Watson,Tasmania,senate,Liberal Party,1978-07-01,general_election,2008-06-30,retired,male
+100233,Ruth,Webber,Ruth Webber,WA,senate,Australian Labor Party,2002-07-01,general_election,2008-06-30,unknown,female
+100234,James,Webster,James Webster,Victoria,senate,National Country Party,1964-12-09,unknown,1980-01-28,resigned,male
+100235,Suzanne,West,Suzanne West,NSW,senate,Australian Labor Party,1990-07-01,general_election,2002-06-30,retired,female
+100236,Suzanne,West,Suzanne West,NSW,senate,Australian Labor Party,1987-02-11,unknown,1987-06-05,unknown,female
+100237,John,Wheeldon,John Wheeldon,WA,senate,Australian Labor Party,1965-07-01,general_election,1981-06-30,retired,male
+100238,Thomas,Wheelwright,Thomas Wheelwright,NSW,senate,Australian Labor Party,1995-05-24,unknown,1996-06-30,unknown,male
+100239,Reginald,Withers,Reginald Withers,WA,senate,Liberal Party,1966-02-17,unknown,1966-11-25,unknown,male
+100240,Reginald,Withers,Reginald Withers,WA,senate,Liberal Party,1968-07-01,general_election,1987-06-05,retired,male
+100241,Penny,Wong,Penny Wong,SA,senate,Australian Labor Party,2002-07-01,general_election,9999-12-31,still_in_office,female
+100242,William,Wood,William Wood,NSW,senate,Nuclear Disarmament Party,1987-07-11,general_election,1988-05-12,disqualified,male
+100243,John,Woodley,John Woodley,Queensland,senate,Australian Democrats,1993-07-01,general_election,2001-07-27,resigned,male
+100244,Bob,Woods,Bob Woods,NSW,senate,Liberal Party,1994-03-08,unknown,1997-03-07,resigned,male
+100245,Dana,Wortley,Dana Wortley,SA,senate,Australian Labor Party,2005-07-01,general_election,2011-06-30,unknown,female
+100246,Kenneth,Wriedt,Kenneth Wriedt,Tasmania,senate,Australian Labor Party,1968-07-01,general_election,1980-09-25,resigned,male
+100247,Harold,Young,Harold Young,SA,senate,Liberal Party,1968-07-01,general_election,1981-08-18,changed_party,male
+100267,Harold,Young,Harold Young,SA,senate,PRES,1981-08-18,changed_party,1983-02-04,unknown,male
+100248,Alice,Zakharov,Alice Zakharov,Victoria,senate,Australian Labor Party,1983-03-05,general_election,1995-03-06,died,female
+100249,Mark,Arbib,Mark Arbib,NSW,senate,Australian Labor Party,2008-07-01,general_election,2012-03-05,resigned,male
+100250,Catryna,Bilyk,Catryna Bilyk,Tasmania,senate,Australian Labor Party,2008-07-01,general_election,9999-12-31,still_in_office,female
+100251,Doug,Cameron,Doug Cameron,NSW,senate,Australian Labor Party,2008-07-01,general_election,9999-12-31,still_in_office,male
+100252,Michaelia,Cash,Michaelia Cash,WA,senate,Liberal Party,2008-07-01,general_election,9999-12-31,still_in_office,female
+100253,Don,Farrell,Don Farrell,SA,senate,Australian Labor Party,2008-07-01,general_election,2014-06-30,retired,male
+100855,Don,Farrell,Don Farrell,SA,senate,Australian Labor Party,2016-07-01,general_election,9999-12-31,still_in_office,male
+100254,David,Feeney,David Feeney,Victoria,senate,Australian Labor Party,2008-07-01,general_election,2013-08-12,resigned,male
+100255,Mark,Furner,Mark Furner,Queensland,senate,Australian Labor Party,2008-07-01,general_election,2014-06-30,retired,male
+100256,Sarah,Hanson-Young,Sarah Hanson-Young,SA,senate,Australian Greens,2008-07-01,general_election,9999-12-31,still_in_office,female
+100257,Helen,Kroger,Helen Kroger,Victoria,senate,Liberal Party,2008-07-01,general_election,2014-06-30,retired,female
+100258,Scott,Ludlam,Scott Ludlam,WA,senate,Australian Greens,2008-07-01,general_election,2017-07-14,resigned,male
+100259,Louise,Pratt,Louise Pratt,WA,senate,Australian Labor Party,2008-07-01,general_election,2014-06-30,retired,female
+100862,Louise,Pratt,Louise Pratt,WA,senate,Australian Labor Party,2016-07-01,general_election,9999-12-31,still_in_office,female
+100260,Scott,Ryan,Scott Ryan,Victoria,senate,Liberal Party,2008-07-01,general_election,2017-11-12,changed_party,male
+100877,Scott,Ryan,Scott Ryan,Victoria,senate,PRES,2017-11-13,general_election,9999-12-31,still_in_office,male
+100261,John,Williams,John Williams,NSW,senate,National Party,2008-07-01,general_election,9999-12-31,still_in_office,male
+100262,Nick,Xenophon,Nick Xenophon,SA,senate,Independent,2008-07-01,general_election,2016-07-01,changed_party,male
+100867,Nick,Xenophon,Nick Xenophon,SA,senate,Nick Xenophon Team,2016-07-01,changed_party,2017-10-06,resigned,male
+100279,Christopher,Back,Christopher Back,WA,senate,Liberal Party,2009-03-11,general_election,2017-07-31,resigned,male
+100312,Deborah,O'Neill,Deborah O'Neill,NSW,senate,Australian Labor Party,2013-11-13,unknown,9999-12-31,still_in_office,female
+100285,Richard,Di Natale,Richard Di Natale,Victoria,senate,Australian Greens,2011-07-01,general_election,9999-12-31,still_in_office,male
+100286,Sean,Edwards,Sean Edwards,SA,senate,Liberal Party,2011-07-01,general_election,2016-05-09,unknown,male
+100288,Alex,Gallacher,Alex Gallacher,SA,senate,Australian Labor Party,2011-07-01,general_election,9999-12-31,still_in_office,male
+100291,Bridget,McKenzie,Bridget McKenzie,Victoria,senate,National Party,2011-07-01,general_election,9999-12-31,still_in_office,female
+100292,John,Madigan,John Madigan,Victoria,senate,Democratic Labor Party,2011-07-01,general_election,2014-09-04,changed_party,male
+100841,John,Madigan,John Madigan,Victoria,senate,Independent,2014-09-04,general_election,2016-05-09,unknown,male
+100293,Lee,Rhiannon,Lee Rhiannon,NSW,senate,Australian Greens,2011-07-01,general_election,2018-08-18,resigned,female
+100295,Lisa,Singh,Lisa Singh,Tasmania,senate,Australian Labor Party,2011-07-01,general_election,9999-12-31,still_in_office,female
+100296,Matt,Thistlethwaite,Matt Thistlethwaite,NSW,senate,Australian Labor Party,2011-07-01,general_election,2013-08-09,resigned,male
+100297,Anne,Urquhart,Anne Urquhart,Tasmania,senate,Australian Labor Party,2011-07-01,general_election,9999-12-31,still_in_office,female
+100298,Larissa,Waters,Larissa Waters,Queensland,senate,Australian Greens,2011-07-01,general_election,2017-07-18,resigned,female
+100884,Larissa,Waters,Larissa Waters,Queensland,senate,Australian Greens,2018-09-06,unknown,9999-12-31,still_in_office,female
+100300,Penny,Wright,Penny Wright,SA,senate,Australian Greens,2011-07-01,general_election,2015-09-10,resigned,female
+100301,Arthur,Sinodinos,Arthur Sinodinos,NSW,senate,Liberal Party,2011-10-31,unknown,9999-12-31,still_in_office,male
+100302,Bob,Carr,Bob Carr,NSW,senate,Australian Labor Party,2012-03-06,general_election,2013-10-24,resigned,male
+100303,Dean,Smith,Dean Smith,WA,senate,Liberal Party,2012-05-02,general_election,9999-12-31,still_in_office,male
+100304,Lin,Thorp,Lin Thorp,Tasmania,senate,Australian Labor Party,2012-06-20,general_election,2014-06-30,retired,female
+100305,Peter,Whish-Wilson,Peter Whish-Wilson,Tasmania,senate,Australian Greens,2012-06-20,general_election,9999-12-31,still_in_office,male
+100306,Anne,Ruston,Anne Ruston,SA,senate,Liberal Party,2012-09-05,unknown,9999-12-31,still_in_office,female
+100307,Sue,Lines,Sue Lines,WA,senate,Australian Labor Party,2013-05-15,unknown,2016-09-30,changed_party,female
+100872,Sue,Lines,Sue Lines,WA,senate,DPRES,2016-09-30,changed_party,9999-12-31,still_in_office,female
+100308,Sam,Dastyari,Sam Dastyari,NSW,senate,Australian Labor Party,2013-08-21,unknown,2018-01-25,resigned,male
+100309,Nova,Peris,Nova Peris,NT,senate,Australian Labor Party,2013-09-07,general_election,2016-05-09,retired,female
+100310,Mehmet,Tillem,Mehmet Tillem,Victoria,senate,Australian Labor Party,2013-08-21,unknown,2014-06-30,retired,male
+100311,Zed,Seselja,Zed Seselja,ACT,senate,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+100313,Barry,O'Sullivan,Barry O'Sullivan,Queensland,senate,National Party,2014-02-11,unknown,9999-12-31,still_in_office,male
+100826,Joe,Bullock,Joe Bullock,WA,senate,Australian Labor Party,2014-07-01,general_election,2016-04-13,resigned,male
+100827,Matthew,Canavan,Matthew Canavan,Queensland,senate,Liberal National Party,2014-07-01,general_election,9999-12-31,still_in_office,male
+100828,Bob,Day,Bob Day,SA,senate,Family First Party,2014-07-01,general_election,2016-11-01,resigned,male
+100829,Chris,Ketter,Chris Ketter,Queensland,senate,Australian Labor Party,2014-07-01,general_election,9999-12-31,still_in_office,male
+100830,Jacqui,Lambie,Jacqui Lambie,Tasmania,senate,Palmer United Party,2014-07-01,general_election,2014-11-23,changed_party,female
+100842,Jacqui,Lambie,Jacqui Lambie,Tasmania,senate,Independent,2014-11-24,general_election,2017-11-14,resigned,female
+100831,Glenn,Lazarus,Glenn Lazarus,Queensland,senate,Palmer United Party,2014-07-01,general_election,2015-03-12,changed_party,male
+100843,Glenn,Lazarus,Glenn Lazarus,Queensland,senate,Independent,2015-03-13,general_election,2016-05-09,unknown,male
+100832,David,Leyonhjelm,David Leyonhjelm,NSW,senate,Liberal Democratic Party,2014-07-01,general_election,9999-12-31,still_in_office,male
+100833,James,McGrath,James McGrath,Queensland,senate,Liberal National Party,2014-07-01,general_election,9999-12-31,still_in_office,male
+100834,Ricky,Muir,Ricky Muir,Victoria,senate,Australian Motoring Enthusiast Party,2014-07-01,general_election,2016-05-09,unknown,male
+100835,Linda,Reynolds,Linda Reynolds,WA,senate,Liberal Party,2014-07-01,general_election,9999-12-31,still_in_office,female
+100836,Janet,Rice,Janet Rice,Victoria,senate,Australian Greens,2014-07-01,general_election,9999-12-31,still_in_office,female
+100837,Dio,Wang,Dio Wang,WA,senate,Palmer United Party,2014-07-01,general_election,2016-05-09,unknown,male
+100844,Katy,Gallagher,Katy Gallagher,ACT,senate,Australian Labor Party,2015-03-26,general_election,2018-05-10,disqualified,female
+100845,Jenny,McAllister,Jenny McAllister,NSW,senate,Australian Labor Party,2015-05-06,general_election,9999-12-31,still_in_office,female
+100846,Jo,Lindgren,Jo Lindgren,Queensland,senate,Liberal Party,2015-05-21,unknown,2016-05-09,unknown,female
+100847,Nick,McKim,Nick McKim,Tasmania,senate,Australian Greens,2015-08-19,unknown,9999-12-31,still_in_office,male
+100848,Robert,Simms,Robert Simms,SA,senate,Australian Greens,2015-09-22,unknown,2016-05-09,unknown,male
+100849,James,Paterson,James Paterson,Victoria,senate,Liberal Party,2016-03-09,unknown,9999-12-31,still_in_office,male
+100850,Patrick,Dodson,Patrick Dodson,WA,senate,Australian Labor Party,2016-04-28,unknown,9999-12-31,still_in_office,male
+100851,Jonathon,Duniam,Jonathon Duniam,Tasmania,senate,Liberal Party,2016-07-01,general_election,9999-12-31,still_in_office,male
+100852,Brian,Burston,Brian Burston,NSW,senate,Pauline Hanson's One Nation Party,2016-07-01,general_election,9999-12-31,still_in_office,male
+100853,Anthony,Chisholm,Anthony Chisholm,Queensland,senate,Australian Labor Party,2016-07-01,general_election,9999-12-31,still_in_office,male
+100854,Rod,Culleton,Rod Culleton,WA,senate,Pauline Hanson's One Nation Party,2016-07-01,general_election,2017-01-11,disqualified,male
+100856,Stirling,Griff,Stirling Griff,SA,senate,Nick Xenophon Team,2016-07-01,general_election,2018-04-10,changed_party,male
+100894,Stirling,Griff,Stirling Griff,SA,senate,Centre Alliance,2018-04-10,changed_party,9999-12-31,still_in_office,male
+100858,Derryn,Hinch,Derryn Hinch,Victoria,senate,Derryn Hinch's Justice Party,2016-07-01,general_election,9999-12-31,still_in_office,male
+100859,Jane,Hume,Jane Hume,Victoria,senate,Liberal Party,2016-07-01,general_election,9999-12-31,still_in_office,female
+100860,Skye,Kakoschke-Moore,Skye Kakoschke-Moore,SA,senate,Nick Xenophon Team,2016-07-01,general_election,2017-11-22,resigned,female
+100861,Malarndirri,McCarthy,Malarndirri McCarthy,NT,senate,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+100863,Malcolm,Roberts,Malcolm Roberts,Queensland,senate,Pauline Hanson's One Nation Party,2016-07-01,general_election,2017-10-27,disqualified,male
+100864,Murray,Watt,Murray Watt,Queensland,senate,Australian Labor Party,2016-07-01,general_election,9999-12-31,still_in_office,male
+100865,Kimberley,Kitching,Kimberley Kitching,Victoria,senate,Australian Labor Party,2016-10-25,unknown,9999-12-31,still_in_office,female
+100868,Peter,Georgiou,Peter Georgiou,WA,senate,Pauline Hanson's One Nation Party,2017-03-20,general_election,9999-12-31,still_in_office,male
+100869,Lucy,Gichuhi,Lucy Gichuhi,SA,senate,Family First Party,2017-04-19,unknown,2017-05-03,changed_party,female
+100870,Lucy,Gichuhi,Lucy Gichuhi,SA,senate,Independent,2017-05-03,general_election,9999-12-31,still_in_office,female
+100873,Slade,Brockman,Slade Brockman,WA,senate,Liberal Party,2017-08-16,unknown,9999-12-31,still_in_office,male
+100874,Jordon,Steele-John,Jordon Steele-John,WA,senate,Australian Greens,2017-11-10,unknown,9999-12-31,still_in_office,male
+100876,Fraser,Anning,Fraser Anning,Queensland,senate,Pauline Hanson's One Nation Party,2017-11-10,unknown,2018-01-15,changed_party,male
+100879,Fraser,Anning,Fraser Anning,Queensland,senate,Independent,2018-01-15,changed_party,2018-06-04,changed_party,male
+100882,Fraser,Anning,Fraser Anning,Queensland,senate,Katter's Australian Party,2018-06-04,changed_party,9999-12-31,still_in_office,male
+100888,Rex,Patrick,Rex Patrick,SA,senate,Nick Xenophon Team,2017-11-14,unknown,2018-04-10,changed_party,male
+100895,Rex,Patrick,Rex Patrick,SA,senate,Centre Alliance,2018-04-10,changed_party,9999-12-31,still_in_office,male
+100889,Jim,Molan,Jim Molan,NSW,senate,Liberal Party,2017-12-22,general_election,9999-12-31,still_in_office,male
+100878,Steve,Martin,Steve Martin,Tasmania,senate,Independent,2018-02-09,unknown,9999-12-31,still_in_office,male
+100881,Kristina,Keneally,Kristina Keneally,NSW,senate,Australian Labor Party,2018-02-14,unknown,9999-12-31,still_in_office,female
+100890,Amanda,Stoker,Amanda Stoker,Queensland,senate,Liberal Party,2018-03-21,unknown,9999-12-31,still_in_office,female
+100891,Tim,Storer,Tim Storer,SA,senate,Nick Xenophon Team,2018-02-16,general_election,2018-02-26,changed_party,male
+100892,Tim,Storer,Tim Storer,SA,senate,Independent,2018-02-26,changed_party,9999-12-31,still_in_office,male
+100893,David,Smith,David Smith,ACT,senate,Australian Labor Party,2018-05-23,general_election,9999-12-31,still_in_office,male
+100883,Mehreen,Faruqi,Mehreen Faruqi,NSW,senate,Australian Greens,2018-08-18,unknown,9999-12-31,still_in_office,female
+1,Tony,Abbott,Tony Abbott,Warringah,representatives,Liberal Party,1994-03-26,by_election,9999-12-31,still_in_office,male
+3,Dick,Adams,Dick Adams,Lyons,representatives,Australian Labor Party,1993-03-13,general_election,2013-09-07,unknown,male
+4,Albert,Adermann,Albert Adermann,Fairfax,representatives,National Party,1984-12-01,general_election,1990-02-19,retired,male
+5,Albert,Adermann,Albert Adermann,Fisher,representatives,National Party,1972-12-02,general_election,1984-12-01,unknown,male
+6,Anthony,Albanese,Anthony Albanese,Grayndler,representatives,Australian Labor Party,1996-03-02,general_election,9999-12-31,still_in_office,male
+7,Kenneth,Aldred,Kenneth Aldred,Bruce,representatives,Liberal Party,1983-05-28,by_election,1990-03-24,unknown,male
+8,Kenneth,Aldred,Kenneth Aldred,Deakin,representatives,Liberal Party,1990-03-24,general_election,1996-01-29,retired,male
+9,Kenneth,Aldred,Kenneth Aldred,Henty,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+10,John,Anderson,John Anderson,Gwydir,representatives,National Party,1989-04-15,by_election,2007-10-17,retired,male
+11,Peter,Andren,Peter Andren,Calare,representatives,Independent,1996-03-02,general_election,2007-10-17,retired,male
+12,John,Andrew,John Andrew,Wakefield,representatives,Liberal Party,1983-03-05,general_election,1998-11-10,changed_party,male
+584,John,Andrew,John Andrew,Wakefield,representatives,SPK,1998-11-10,changed_party,2004-08-31,retired,male
+13,Kevin,Andrews,Kevin Andrews,Menzies,representatives,Liberal Party,1991-05-11,by_election,9999-12-31,still_in_office,male
+14,John,Anthony,John Anthony,Richmond,representatives,National Party,1957-09-14,by_election,1984-01-18,resigned,male
+15,Larry,Anthony,Larry Anthony,Richmond,representatives,National Party,1996-03-02,general_election,2004-10-09,unknown,male
+16,John,Armitage,John Armitage,Chifley,representatives,Australian Labor Party,1969-10-25,general_election,1983-02-04,retired,male
+17,John,Armitage,John Armitage,Mitchell,representatives,Australian Labor Party,1961-12-09,general_election,1963-11-30,unknown,male
+18,Rodney,Atkinson,Rodney Atkinson,Isaacs,representatives,Liberal Party,1990-03-24,general_election,1996-03-02,unknown,male
+19,Fran,Bailey,Fran Bailey,McEwen,representatives,Liberal Party,1990-03-24,general_election,1993-03-13,unknown,female
+20,Fran,Bailey,Fran Bailey,McEwen,representatives,Liberal Party,1996-03-02,general_election,2010-08-21,retired,female
+21,Marshall,Baillieu,Marshall Baillieu,La Trobe,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+22,Bruce,Baird,Bruce Baird,Cook,representatives,Liberal Party,1998-10-03,general_election,2007-10-17,retired,male
+23,Mark,Baker,Mark Baker,Braddon,representatives,Liberal Party,2004-10-09,general_election,2007-11-24,unknown,male
+24,Peter,Baldwin,Peter Baldwin,Sydney,representatives,Australian Labor Party,1983-03-05,general_election,1998-08-31,retired,male
+25,Bob,Baldwin,Bob Baldwin,Paterson,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,male
+26,Bob,Baldwin,Bob Baldwin,Paterson,representatives,Liberal Party,2001-11-10,general_election,2016-05-09,retired,male
+27,Phillip,Barresi,Phillip Barresi,Deakin,representatives,Liberal Party,1996-03-02,general_election,2007-11-24,unknown,male
+28,Kerry,Bartlett,Kerry Bartlett,Macquarie,representatives,Liberal Party,1996-03-02,general_election,2007-11-24,unknown,male
+29,Michael,Baume,Michael Baume,Macarthur,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+30,Julian,Beale,Julian Beale,Bruce,representatives,Liberal Party,1990-03-24,general_election,1996-03-02,unknown,male
+31,Julian,Beale,Julian Beale,Deakin,representatives,Liberal Party,1984-12-01,general_election,1990-03-24,unknown,male
+32,Kim,Beazley,Kim Beazley,Brand,representatives,Australian Labor Party,1996-03-02,general_election,2007-10-17,retired,male
+33,Kim,Beazley,Kim Beazley,Swan,representatives,Australian Labor Party,1980-10-18,general_election,1996-03-02,unknown,male
+34,David,Beddall,David Beddall,Fadden,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+35,David,Beddall,David Beddall,Rankin,representatives,Australian Labor Party,1984-12-01,general_election,1998-08-31,retired,male
+36,Arch,Bevis,Arch Bevis,Brisbane,representatives,Australian Labor Party,1990-03-24,general_election,2010-08-21,unknown,male
+37,James,Bidgood,James Bidgood,Dawson,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,retired,male
+38,Bruce,Billson,Bruce Billson,Dunkley,representatives,Liberal Party,1996-03-02,general_election,2016-05-09,retired,male
+39,Gordon,Bilney,Gordon Bilney,Kingston,representatives,Australian Labor Party,1983-03-05,general_election,1996-03-02,unknown,male
+40,Sharon,Bird,Sharon Bird,Cunningham,representatives,Australian Labor Party,2004-10-09,general_election,9999-12-31,still_in_office,female
+41,Reginald,Birney,Reginald Birney,Phillip,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+42,Bronwyn,Bishop,Bronwyn Bishop,Mackellar,representatives,Liberal Party,1994-03-26,by_election,2013-11-12,changed_party,female
+676,Bronwyn,Bishop,Bronwyn Bishop,Mackellar,representatives,SPK,2013-11-12,changed_party,2015-08-02,changed_party,female
+679,Bronwyn,Bishop,Bronwyn Bishop,Mackellar,representatives,Liberal Party,2015-08-02,changed_party,2016-05-09,retired,female
+43,Julie,Bishop,Julie Bishop,Curtin,representatives,Liberal Party,1998-10-03,general_election,9999-12-31,still_in_office,female
+44,Cecil,Blanchard,Cecil Blanchard,Moore,representatives,Australian Labor Party,1983-03-05,general_election,1990-03-24,unknown,male
+45,Neal,Blewett,Neal Blewett,Bonython,representatives,Australian Labor Party,1977-12-10,general_election,1994-02-11,resigned,male
+46,Charles,Blunt,Charles Blunt,Richmond,representatives,National Party,1984-02-18,by_election,1990-03-24,unknown,male
+47,John,Bourchier,John Bourchier,Bendigo,representatives,Liberal Party,1972-12-02,general_election,1983-03-05,unknown,male
+48,Chris,Bowen,Chris Bowen,Prospect,representatives,Australian Labor Party,2004-10-09,general_election,2010-08-21,unknown,male
+623,Chris,Bowen,Chris Bowen,McMahon,representatives,Australian Labor Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+49,Lionel,Bowen,Lionel Bowen,Kingsford Smith,representatives,Australian Labor Party,1969-10-25,general_election,1990-02-19,retired,male
+50,David,Bradbury,David Bradbury,Lindsay,representatives,Australian Labor Party,2007-11-24,general_election,2013-09-07,unknown,male
+51,James,Bradfield,James Bradfield,Barton,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+52,John,Bradford,John Bradford,McPherson,representatives,Christian Democratic Party,1990-03-24,general_election,1998-10-03,unknown,male
+53,Raymond,Braithwaite,Raymond Braithwaite,Dawson,representatives,National Party,1975-12-13,general_election,1996-01-29,retired,male
+54,Laurence,Brereton,Laurence Brereton,Kingsford Smith,representatives,Australian Labor Party,1990-03-24,general_election,2004-08-31,retired,female
+55,Russell,Broadbent,Russell Broadbent,Corinella,representatives,Liberal Party,1990-03-24,general_election,1993-03-13,unknown,male
+56,Russell,Broadbent,Russell Broadbent,McMillan,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,male
+57,Russell,Broadbent,Russell Broadbent,McMillan,representatives,Liberal Party,2004-10-09,general_election,9999-12-31,still_in_office,male
+58,Mal,Brough,Mal Brough,Longman,representatives,Liberal Party,1996-03-02,general_election,2007-11-24,unknown,male
+648,Mal,Brough,Mal Brough,Fisher,representatives,Liberal Party,2013-09-07,general_election,2016-05-09,retired,male
+59,John,Brown,John Brown,Parramatta,representatives,Australian Labor Party,1977-12-10,general_election,1990-02-19,retired,male
+60,Joseph,Brown,Joseph Brown,Indi,representatives,ANTI-SOC,1906-12-12,general_election,1910-04-13,unknown,male
+62,Robert,Brown,Robert Brown,Charlton,representatives,Australian Labor Party,1984-12-01,general_election,1998-08-31,retired,male
+63,Robert,Brown,Robert Brown,Hunter,representatives,Australian Labor Party,1980-10-18,general_election,1984-12-01,unknown,male
+568,Neil,Brown,Neil Brown,Menzies,representatives,Liberal Party,1969-10-25,general_election,1972-12-02,unknown,male
+569,Neil,Brown,Neil Brown,Diamond Valley,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+570,Neil,Brown,Neil Brown,Menzies,representatives,Liberal Party,1984-12-01,general_election,1991-02-25,resigned,male
+64,John,Brumby,John Brumby,Bendigo,representatives,Australian Labor Party,1983-03-05,general_election,1990-03-24,unknown,male
+65,Gordon,Bryant,Gordon Bryant,Wills,representatives,Australian Labor Party,1955-12-10,general_election,1980-09-19,retired,male
+66,Melville,Bungey,Melville Bungey,Canning,representatives,Liberal Party,1974-05-18,general_election,1983-03-05,unknown,male
+67,Anna,Burke,Anna Burke,Chisholm,representatives,Australian Labor Party,1998-10-03,general_election,2008-02-11,changed_party,female
+68,Anna,Burke,Anna Burke,Chisholm,representatives,CWM,2008-02-12,changed_party,2012-10-09,changed_party,female
+631,Anna,Burke,Anna Burke,Chisholm,representatives,SPK,2012-10-09,changed_party,2013-08-05,changed_party,female
+675,Anna,Burke,Anna Burke,Chisholm,representatives,Australian Labor Party,2013-08-05,changed_party,2016-05-09,retired,female
+69,Tony,Burke,Tony Burke,Watson,representatives,Australian Labor Party,2004-10-09,general_election,9999-12-31,still_in_office,male
+70,William,Burns,William Burns,Isaacs,representatives,Liberal Party,1977-12-10,general_election,1980-10-18,unknown,male
+71,Maxwell,Burr,Maxwell Burr,Lyons,representatives,Liberal Party,1984-12-01,general_election,1993-02-08,retired,male
+72,Maxwell,Burr,Maxwell Burr,Wilmot,representatives,Liberal Party,1975-12-13,general_election,1984-12-01,unknown,male
+73,Mark,Butler,Mark Butler,Port Adelaide,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+74,Anthony,Byrne,Anthony Byrne,Holt,representatives,Australian Labor Party,1999-11-06,by_election,9999-12-31,still_in_office,male
+76,Alan,Cadman,Alan Cadman,Mitchell,representatives,Liberal Party,1974-05-18,general_election,2007-10-17,retired,male
+77,Stephen,Calder,Stephen Calder,Northern Territory,representatives,National Country Party,1966-11-26,general_election,1980-09-19,retired,male
+78,Clyde,Cameron,Clyde Cameron,Hindmarsh,representatives,Australian Labor Party,1949-12-10,general_election,1980-09-19,retired,male
+79,Donald,Cameron,Donald Cameron,Fadden,representatives,Liberal Party,1977-12-10,general_election,1983-03-05,unknown,male
+80,Donald,Cameron,Donald Cameron,Griffith,representatives,Liberal Party,1966-11-26,general_election,1977-12-10,unknown,male
+81,Donald,Cameron,Donald Cameron,Moreton,representatives,Liberal Party,1983-11-05,by_election,1990-03-24,unknown,male
+82,Eoin,Cameron,Eoin Cameron,Stirling,representatives,Liberal Party,1993-03-13,general_election,1998-10-03,unknown,male
+83,Ewen,Cameron,Ewen Cameron,Indi,representatives,Liberal Party,1977-12-10,general_election,1993-02-08,retired,male
+84,Ian,Cameron,Ian Cameron,Maranoa,representatives,National Party,1980-10-18,general_election,1990-02-19,retired,male
+85,Ross,Cameron,Ross Cameron,Parramatta,representatives,Liberal Party,1996-03-02,general_election,2004-10-09,unknown,male
+86,Graeme,Campbell,Graeme Campbell,Kalgoorlie,representatives,Independent,1980-10-18,general_election,1998-10-03,unknown,male
+87,Jodie,Campbell,Jodie Campbell,Bass,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,retired,female
+88,James,Carlton,James Carlton,Mackellar,representatives,Liberal Party,1977-12-10,general_election,1994-01-14,resigned,male
+89,Moses,Cass,Moses Cass,Maribyrnong,representatives,Australian Labor Party,1969-10-25,general_election,1983-02-04,retired,male
+90,Robert,Catley,Robert Catley,Adelaide,representatives,Australian Labor Party,1990-03-24,general_election,1993-03-13,unknown,male
+91,James,Catts,James Catts,Cook,representatives,Australian Labor Party,1906-12-12,general_election,1922-12-16,unknown,male
+92,Ian,Causley,Ian Causley,Page,representatives,National Party,1996-03-02,general_election,2002-02-11,changed_party,male
+93,Ian,Causley,Ian Causley,Page,representatives,CWM,2002-02-11,changed_party,2007-10-17,retired,male
+94,Nick,Champion,Nick Champion,Wakefield,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+95,Frederick,Chaney,Frederick Chaney,Pearce,representatives,Liberal Party,1990-03-24,general_election,1993-02-08,retired,male
+96,Grant,Chapman,Grant Chapman,Kingston,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+97,David,Charles,David Charles,Isaacs,representatives,Australian Labor Party,1980-10-18,general_election,1990-02-19,retired,male
+98,Robert,Charles,Robert Charles,La Trobe,representatives,Liberal Party,1990-03-24,general_election,2004-08-31,retired,male
+100,Richard,Charlesworth,Richard Charlesworth,Perth,representatives,Australian Labor Party,1983-03-05,general_election,1993-02-08,retired,male
+101,Darren,Cheeseman,Darren Cheeseman,Corangamite,representatives,Australian Labor Party,2007-11-24,general_election,2013-09-07,unknown,male
+99,Joan,Child,Joan Child,Henty,representatives,Australian Labor Party,1980-10-18,general_election,1986-02-11,changed_party,female
+575,Joan,Child,Joan Child,Henty,representatives,SPK,1986-02-11,changed_party,1989-08-29,changed_party,female
+576,Joan,Child,Joan Child,Henty,representatives,Australian Labor Party,1989-08-29,changed_party,1990-02-19,retired,female
+102,Robert,Chynoweth,Robert Chynoweth,Dunkley,representatives,Australian Labor Party,1984-12-01,general_election,1990-03-24,unknown,male
+103,Robert,Chynoweth,Robert Chynoweth,Dunkley,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,male
+104,Robert,Chynoweth,Robert Chynoweth,Flinders,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+105,Steven,Ciobo,Steven Ciobo,Moncrieff,representatives,Liberal Party,2001-11-10,general_election,9999-12-31,still_in_office,male
+106,Jason,Clare,Jason Clare,Blaxland,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+107,Philip,Cleary,Philip Cleary,Wills,representatives,Independent,1992-04-11,by_election,1992-11-25,declared_void,male
+108,Philip,Cleary,Philip Cleary,Wills,representatives,Independent,1993-03-13,general_election,1996-03-02,unknown,male
+109,Peter,Cleeland,Peter Cleeland,McEwen,representatives,Australian Labor Party,1984-12-01,general_election,1990-03-24,unknown,male
+110,Peter,Cleeland,Peter Cleeland,McEwen,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,male
+111,John,Cobb,John Cobb,Calare,representatives,National Party,2007-11-24,general_election,2016-05-09,retired,male
+566,John,Cobb,John Cobb,Parkes,representatives,National Party,2001-11-10,general_election,2007-11-24,unknown,male
+112,Michael,Cobb,Michael Cobb,Parkes,representatives,National Party,1984-12-01,general_election,1998-08-31,retired,male
+113,Barry,Cohen,Barry Cohen,Robertson,representatives,Australian Labor Party,1969-10-25,general_election,1990-02-19,retired,male
+114,William,Coleman,William Coleman,Wentworth,representatives,Liberal Party,1981-04-11,by_election,1987-06-05,retired,male
+115,Julie,Collins,Julie Collins,Franklin,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,female
+116,Greg,Combet,Greg Combet,Charlton,representatives,Australian Labor Party,2007-11-24,general_election,2013-08-05,resigned,male
+117,David,Connolly,David Connolly,Bradfield,representatives,Liberal Party,1974-05-18,general_election,1996-01-29,retired,male
+118,Bryan,Conquest,Bryan Conquest,Hinkler,representatives,National Party,1984-12-01,general_election,1987-07-11,unknown,male
+119,James,Corbett,James Corbett,Maranoa,representatives,National Country Party,1966-11-26,general_election,1980-09-19,retired,male
+120,Ann,Corcoran,Ann Corcoran,Isaacs,representatives,Australian Labor Party,2000-08-12,by_election,2007-10-17,retired,female
+121,Peter,Costello,Peter Costello,Higgins,representatives,Liberal Party,1990-03-24,general_election,2009-10-19,resigned,male
+122,John,Cotter,John Cotter,Kalgoorlie,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+123,Mark,Coulton,Mark Coulton,Parkes,representatives,National Party,2007-11-24,general_election,2016-08-30,changed_party,male
+725,Mark,Coulton,Mark Coulton,Parkes,representatives,CWM,2016-08-30,changed_party,9999-12-31,still_in_office,male
+124,Brian,Courtice,Brian Courtice,Hinkler,representatives,Australian Labor Party,1987-07-11,general_election,1993-03-13,unknown,male
+125,David,Cowan,David Cowan,Lyne,representatives,National Party,1980-10-18,general_election,1993-02-08,retired,male
+126,David,Cox,David Cox,Kingston,representatives,Australian Labor Party,1998-10-03,general_election,2004-10-09,unknown,male
+127,Mary,Crawford,Mary Crawford,Forde,representatives,Australian Labor Party,1987-07-11,general_election,1996-03-02,unknown,female
+128,Simon,Crean,Simon Crean,Hotham,representatives,Australian Labor Party,1990-03-24,general_election,2013-08-05,retired,male
+130,Janice,Crosio,Janice Crosio,Prospect,representatives,Australian Labor Party,1990-03-24,general_election,2004-08-31,retired,female
+571,Manfred,Cross,Manfred Cross,Brisbane,representatives,Australian Labor Party,1961-12-09,general_election,1975-12-13,unknown,male
+572,Manfred,Cross,Manfred Cross,Brisbane,representatives,Australian Labor Party,1980-10-18,general_election,1990-02-19,retired,male
+131,Barry,Cunningham,Barry Cunningham,McMillan,representatives,Australian Labor Party,1980-10-18,general_election,1990-03-24,unknown,male
+132,Barry,Cunningham,Barry Cunningham,McMillan,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,male
+133,Yvette,D'Ath,Yvette D'Ath,Petrie,representatives,Australian Labor Party,2007-11-24,general_election,2013-09-07,unknown,female
+134,Michael,Danby,Michael Danby,Melbourne Ports,representatives,Australian Labor Party,1998-10-03,general_election,9999-12-31,still_in_office,male
+135,Steven,Dargavel,Steven Dargavel,Fraser,representatives,Australian Labor Party,1997-02-01,by_election,1998-08-31,retired,male
+137,Elaine,Darling,Elaine Darling,Lilley,representatives,Australian Labor Party,1980-10-18,general_election,1993-02-08,retired,female
+136,John,Dawkins,John Dawkins,Fremantle,representatives,Australian Labor Party,1977-12-10,general_election,1994-02-04,resigned,male
+138,Margaret,Deahm,Margaret Deahm,Macquarie,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,female
+139,Arthur,Dean,Arthur Dean,Herbert,representatives,Liberal Party,1977-12-10,general_election,1983-03-05,unknown,male
+140,Bob,Debus,Bob Debus,Macquarie,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,retired,male
+142,James,Dobie,James Dobie,Cook,representatives,Liberal Party,1975-12-13,general_election,1996-01-29,retired,male
+143,James,Dobie,James Dobie,Cook,representatives,Liberal Party,1969-10-25,general_election,1972-12-02,unknown,male
+144,James,Dobie,James Dobie,Hughes,representatives,Liberal Party,1966-11-26,general_election,1969-10-25,unknown,male
+145,Peter,Dodd,Peter Dodd,Leichhardt,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,male
+146,Nicholas,Dondas,Nicholas Dondas,Northern Territory,representatives,Country Liberal Party,1996-03-02,general_election,1998-10-03,unknown,male
+147,Alexander,Downer,Alexander Downer,Mayo,representatives,Liberal Party,1984-12-01,general_election,2008-07-14,resigned,male
+148,Trish,Draper,Trish Draper,Makin,representatives,Liberal Party,1996-03-02,general_election,2007-10-17,retired,female
+149,Mark,Dreyfus,Mark Dreyfus,Isaacs,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+150,Peter,Drummond,Peter Drummond,Forrest,representatives,Liberal Party,1972-12-02,general_election,1987-06-05,retired,male
+151,Stephen,Dubois,Stephen Dubois,St George,representatives,Australian Labor Party,1984-12-01,general_election,1993-02-08,retired,male
+152,Michael,Duffy,Michael Duffy,Holt,representatives,Australian Labor Party,1980-10-18,general_election,1996-01-29,retired,male
+153,Peter,Duncan,Peter Duncan,Makin,representatives,Australian Labor Party,1984-12-01,general_election,1996-03-02,unknown,male
+154,Peter,Dutton,Peter Dutton,Dickson,representatives,Liberal Party,2001-11-10,general_election,9999-12-31,still_in_office,male
+155,Mary,Easson,Mary Easson,Lowe,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,female
+156,Graham,Edwards,Graham Edwards,Cowan,representatives,Australian Labor Party,1998-10-03,general_election,2007-10-17,retired,male
+157,Harold,Edwards,Harold Edwards,Berowra,representatives,Liberal Party,1972-12-02,general_election,1993-02-08,retired,male
+158,Ronald,Edwards,Ronald Edwards,Stirling,representatives,Australian Labor Party,1983-03-05,general_election,1993-03-13,unknown,male
+159,Robert,Ellicott,Robert Ellicott,Wentworth,representatives,Liberal Party,1974-05-18,general_election,1981-02-17,resigned,male
+160,Justine,Elliot,Justine Elliot,Richmond,representatives,Australian Labor Party,2004-10-09,general_election,9999-12-31,still_in_office,female
+161,Robert,Elliott,Robert Elliott,Parramatta,representatives,Australian Labor Party,1990-03-24,general_election,1996-03-02,unknown,male
+162,Annette,Ellis,Annette Ellis,Canberra,representatives,Australian Labor Party,1998-10-03,general_election,2010-08-21,retired,female
+565,Annette,Ellis,Annette Ellis,Namadgi,representatives,Australian Labor Party,1996-03-02,general_election,1998-10-03,unknown,female
+163,Kate,Ellis,Kate Ellis,Adelaide,representatives,Australian Labor Party,2004-10-09,general_election,9999-12-31,still_in_office,female
+164,Kay,Elson,Kay Elson,Forde,representatives,Liberal Party,1996-03-02,general_election,2007-10-17,retired,male
+165,Craig,Emerson,Craig Emerson,Rankin,representatives,Australian Labor Party,1998-10-03,general_election,2013-08-05,retired,male
+166,Warren,Entsch,Warren Entsch,Leichhardt,representatives,Liberal Party,1996-03-02,general_election,2007-10-17,retired,male
+596,Warren,Entsch,Warren Entsch,Leichhardt,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+167,Gareth,Evans,Gareth Evans,Holt,representatives,Australian Labor Party,1996-03-02,general_election,1999-09-30,resigned,male
+168,Martyn,Evans,Martyn Evans,Bonython,representatives,Australian Labor Party,1994-03-19,by_election,2004-10-09,unknown,male
+169,Richard,Evans,Richard Evans,Capricornia,representatives,Australian Labor Party,1977-12-10,general_election,1984-10-26,retired,male
+170,Richard,Evans,Richard Evans,Cowan,representatives,Liberal Party,1993-03-13,general_election,1998-10-03,unknown,male
+171,Paul,Everingham,Paul Everingham,Northern Territory,representatives,Liberal Party,1984-12-01,general_election,1987-06-05,retired,male
+172,John,Fahey,John Fahey,Macarthur,representatives,Liberal Party,1996-03-02,general_election,2001-10-08,retired,male
+173,Peter,Falconer,Peter Falconer,Casey,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+174,Pat,Farmer,Pat Farmer,Macarthur,representatives,Liberal Party,2001-11-10,general_election,2010-08-21,retired,male
+175,Wendy,Fatin,Wendy Fatin,Brand,representatives,Australian Labor Party,1984-12-01,general_election,1996-01-29,retired,female
+176,Wendy,Fatin,Wendy Fatin,Canning,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,female
+177,David,Fawcett,David Fawcett,Wakefield,representatives,Liberal Party,2004-10-09,general_election,2007-11-24,unknown,male
+178,Laurie,Ferguson,Laurie Ferguson,Reid,representatives,Australian Labor Party,1990-03-24,general_election,2010-08-21,unknown,female
+619,Laurie,Ferguson,Laurie Ferguson,Werriwa,representatives,Australian Labor Party,2010-08-21,general_election,2016-05-09,resigned,female
+179,Martin,Ferguson,Martin Ferguson,Batman,representatives,Australian Labor Party,1996-03-02,general_election,2013-08-05,retired,male
+180,Michael,Ferguson,Michael Ferguson,Bass,representatives,Liberal Party,2004-10-09,general_election,2007-11-24,unknown,male
+181,Wallace,Fife,Wallace Fife,Farrer,representatives,Liberal Party,1975-12-13,general_election,1984-12-01,unknown,male
+182,Wallace,Fife,Wallace Fife,Hume,representatives,Liberal Party,1984-12-01,general_election,1993-02-08,retired,male
+183,Paul,Filing,Paul Filing,Moore,representatives,Independent,1990-03-24,general_election,1998-10-03,unknown,male
+184,Tim,Fischer,Tim Fischer,Farrer,representatives,National Party,1984-12-01,general_election,2001-10-08,retired,male
+185,Peter,Fisher,Peter Fisher,Mallee,representatives,National Party,1972-12-02,general_election,1993-02-08,retired,male
+186,Eric,Fitzgibbon,Eric Fitzgibbon,Hunter,representatives,Australian Labor Party,1984-12-01,general_election,1996-01-29,retired,male
+187,Joel,Fitzgibbon,Joel Fitzgibbon,Hunter,representatives,Australian Labor Party,1996-03-02,general_election,9999-12-31,still_in_office,male
+188,John,Fitzpatrick,John Fitzpatrick,Darling,representatives,Australian Labor Party,1969-10-25,general_election,1977-12-10,unknown,male
+189,John,Fitzpatrick,John Fitzpatrick,Riverina,representatives,Australian Labor Party,1977-12-10,general_election,1980-09-19,retired,male
+190,Frank,Ford,Frank Ford,Dunkley,representatives,Liberal Party,1990-03-24,general_election,1993-03-13,unknown,male
+191,John,Forrest,John Forrest,Mallee,representatives,National Party,1993-03-13,general_election,2013-08-05,retired,male
+192,Ross,Free,Ross Free,Lindsay,representatives,Australian Labor Party,1984-12-01,general_election,1996-03-02,unknown,male
+193,Ross,Free,Ross Free,Macquarie,representatives,Australian Labor Party,1980-10-18,general_election,1984-12-01,unknown,male
+194,Kenneth,Fry,Kenneth Fry,Fraser,representatives,Australian Labor Party,1974-05-18,general_election,1984-10-26,retired,male
+195,Chris,Gallus,Chris Gallus,Hawker,representatives,Liberal Party,1990-03-24,general_election,1993-03-13,unknown,female
+196,Chris,Gallus,Chris Gallus,Hindmarsh,representatives,Liberal Party,1993-03-13,general_election,2004-08-31,retired,female
+197,Teresa,Gambaro,Teresa Gambaro,Petrie,representatives,Liberal Party,1996-03-02,general_election,2007-11-24,unknown,female
+627,Teresa,Gambaro,Teresa Gambaro,Brisbane,representatives,Liberal Party,2010-08-21,general_election,2016-05-09,retired,female
+198,Ransley,Garland,Ransley Garland,Curtin,representatives,Liberal Party,1969-04-19,by_election,1981-01-22,resigned,male
+199,Peter,Garrett,Peter Garrett,Kingsford Smith,representatives,Australian Labor Party,2004-10-09,general_election,2013-08-05,retired,male
+200,Joanna,Gash,Joanna Gash,Gilmore,representatives,Liberal Party,1996-03-02,general_election,2013-08-05,retired,female
+201,John,Gayler,John Gayler,Leichhardt,representatives,Australian Labor Party,1983-03-05,general_election,1993-02-08,retired,male
+202,George,Gear,George Gear,Canning,representatives,Australian Labor Party,1984-12-01,general_election,1996-03-02,unknown,male
+203,George,Gear,George Gear,Tangney,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+204,Steve,Georganas,Steve Georganas,Hindmarsh,representatives,Australian Labor Party,2004-10-09,general_election,2013-09-07,unknown,male
+693,Steve,Georganas,Steve Georganas,Hindmarsh,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+205,Jennie,George,Jennie George,Throsby,representatives,Australian Labor Party,2001-11-10,general_election,2010-08-21,retired,female
+206,Petro,Georgiou,Petro Georgiou,Kooyong,representatives,Liberal Party,1994-11-19,by_election,2010-08-21,retired,male
+207,Jane,Gerick,Jane Gerick,Canning,representatives,Australian Labor Party,1998-10-03,general_election,2001-11-10,unknown,female
+208,Steve,Gibbons,Steve Gibbons,Bendigo,representatives,Australian Labor Party,1998-10-03,general_election,2013-08-05,retired,male
+209,Garrie,Gibson,Garrie Gibson,Moreton,representatives,Australian Labor Party,1990-03-24,general_election,1996-03-02,unknown,male
+210,Geoffrey,Giles,Geoffrey Giles,Angas,representatives,Liberal Party,1964-06-20,by_election,1977-12-10,unknown,male
+211,Geoffrey,Giles,Geoffrey Giles,Wakefield,representatives,Liberal Party,1977-12-10,general_election,1983-02-04,retired,male
+212,Julia,Gillard,Julia Gillard,Lalor,representatives,Australian Labor Party,1998-10-03,general_election,2013-08-05,retired,female
+213,Reginald,Gillard,Reginald Gillard,Macquarie,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+214,Bruce,Goodluck,Bruce Goodluck,Franklin,representatives,Liberal Party,1975-12-13,general_election,1993-02-08,retired,male
+215,Russell,Gorman,Russell Gorman,Chifley,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+216,Russell,Gorman,Russell Gorman,Greenway,representatives,Australian Labor Party,1984-12-01,general_election,1996-01-29,retired,male
+217,Ted,Grace,Ted Grace,Fowler,representatives,Australian Labor Party,1984-12-01,general_election,1998-08-31,retired,male
+218,Elizabeth,Grace,Elizabeth Grace,Lilley,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,female
+219,Bruce,Graham,Bruce Graham,North Sydney,representatives,Liberal Party,1966-11-26,general_election,1980-09-19,retired,male
+220,Bruce,Graham,Bruce Graham,St George,representatives,Liberal Party,1949-12-10,general_election,1954-05-29,unknown,male
+221,Bruce,Graham,Bruce Graham,St George,representatives,Liberal Party,1955-12-10,general_election,1958-11-22,unknown,male
+222,Gary,Gray,Gary Gray,Brand,representatives,Australian Labor Party,2007-11-24,general_election,2016-05-09,retired,male
+223,Sharon,Grierson,Sharon Grierson,Newcastle,representatives,Australian Labor Party,2001-11-10,general_election,2013-08-05,retired,female
+224,Alan,Griffin,Alan Griffin,Bruce,representatives,Australian Labor Party,1996-03-02,general_election,2016-05-09,retired,male
+225,Alan,Griffin,Alan Griffin,Corinella,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,male
+226,Alan,Griffiths,Alan Griffiths,Maribyrnong,representatives,Australian Labor Party,1983-03-05,general_election,1996-01-29,retired,male
+227,Raymond,Groom,Raymond Groom,Braddon,representatives,Liberal Party,1975-12-13,general_election,1984-10-26,retired,male
+228,Barry,Haase,Barry Haase,Kalgoorlie,representatives,Liberal Party,1998-10-03,general_election,2010-08-21,unknown,male
+622,Barry,Haase,Barry Haase,Durack,representatives,Liberal Party,2010-08-21,general_election,2013-08-05,retired,male
+229,Damian,Hale,Damian Hale,Solomon,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,unknown,male
+230,Jill,Hall,Jill Hall,Shortland,representatives,Australian Labor Party,1998-10-03,general_election,2016-05-09,retired,female
+231,Raymond,Hall,Raymond Hall,Boothby,representatives,Liberal Party,1981-02-21,by_election,1996-01-29,retired,male
+232,Robert,Halverson,Robert Halverson,Casey,representatives,Liberal Party,1984-12-01,general_election,1996-04-30,changed_party,male
+581,Robert,Halverson,Robert Halverson,Casey,representatives,SPK,1996-04-30,changed_party,1998-03-04,changed_party,male
+582,Robert,Halverson,Robert Halverson,Casey,representatives,Liberal Party,1998-03-04,changed_party,1998-08-31,retired,male
+233,Gerard,Hand,Gerard Hand,Melbourne,representatives,Australian Labor Party,1983-03-05,general_election,1993-02-08,retired,male
+234,Pauline,Hanson,Pauline Hanson,Oxley,representatives,Pauline Hanson's One Nation Party,1996-03-02,general_election,1998-10-03,unknown,female
+235,Gary,Hardgrave,Gary Hardgrave,Moreton,representatives,Liberal Party,1996-03-02,general_election,2007-11-24,unknown,male
+236,Graham,Harris,Graham Harris,Chisholm,representatives,Liberal Party,1980-10-18,general_election,1983-03-05,unknown,male
+237,Luke,Hartsuyker,Luke Hartsuyker,Cowper,representatives,National Party,2001-11-10,general_election,9999-12-31,still_in_office,male
+238,Elizabeth,Harvey,Elizabeth Harvey,Hawker,representatives,Australian Labor Party,1987-07-11,general_election,1990-03-24,unknown,female
+239,John,Haslem,John Haslem,Canberra,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+240,Michael,Hatton,Michael Hatton,Blaxland,representatives,Australian Labor Party,1996-06-15,by_election,2007-10-17,retired,male
+241,Christopher,Haviland,Christopher Haviland,Macarthur,representatives,Australian Labor Party,1993-03-13,general_election,1996-01-29,retired,male
+242,Alex,Hawke,Alex Hawke,Mitchell,representatives,Liberal Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+243,Robert,Hawke,Robert Hawke,Wills,representatives,Australian Labor Party,1980-10-18,general_election,1992-02-20,resigned,male
+244,David,Hawker,David Hawker,Wannon,representatives,Liberal Party,1983-05-07,by_election,2004-11-15,changed_party,male
+245,David,Hawker,David Hawker,Wannon,representatives,SPK,2004-11-16,changed_party,2007-10-17,changed_party,male
+246,David,Hawker,David Hawker,Wannon,representatives,Liberal Party,2007-10-17,changed_party,2010-08-21,retired,male
+247,William,Hayden,William Hayden,Oxley,representatives,Australian Labor Party,1961-12-09,general_election,1988-08-17,resigned,male
+248,Chris,Hayes,Chris Hayes,Werriwa,representatives,Australian Labor Party,2005-03-19,by_election,2010-08-21,unknown,male
+610,Chris,Hayes,Chris Hayes,Fowler,representatives,Australian Labor Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+249,Stuart,Henry,Stuart Henry,Hasluck,representatives,Liberal Party,2004-10-09,general_election,2007-11-24,unknown,male
+250,Marjorie,Henzell,Marjorie Henzell,Capricornia,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,female
+251,John,Hewson,John Hewson,Wentworth,representatives,Liberal Party,1987-07-11,general_election,1995-02-28,resigned,male
+252,Noel,Hicks,Noel Hicks,Riverina,representatives,National Party,1993-03-13,general_election,1998-08-31,retired,male
+253,Noel,Hicks,Noel Hicks,Riverina,representatives,National Party,1980-10-18,general_election,1984-12-01,unknown,male
+254,Noel,Hicks,Noel Hicks,Riverina-Darling,representatives,National Party,1984-12-01,general_election,1993-03-13,unknown,male
+255,Kelly,Hoare,Kelly Hoare,Charlton,representatives,Australian Labor Party,1998-10-03,general_election,2007-10-17,retired,female
+256,Joe,Hockey,Joe Hockey,North Sydney,representatives,Liberal Party,1996-03-02,general_election,2015-10-23,retired,male
+257,John,Hodges,John Hodges,Petrie,representatives,Liberal Party,1974-05-18,general_election,1983-03-05,unknown,male
+258,John,Hodges,John Hodges,Petrie,representatives,Liberal Party,1984-12-01,general_election,1987-07-11,unknown,male
+259,Michael,Hodgman,Michael Hodgman,Denison,representatives,Liberal Party,1975-12-13,general_election,1987-07-11,unknown,male
+260,Allan,Holding,Allan Holding,Melbourne Ports,representatives,Australian Labor Party,1977-12-10,general_election,1998-08-31,retired,male
+261,Colin,Hollis,Colin Hollis,Macarthur,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+262,Colin,Hollis,Colin Hollis,Throsby,representatives,Australian Labor Party,1984-12-01,general_election,2001-10-08,retired,male
+263,Bob,Horne,Bob Horne,Paterson,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,male
+264,Bob,Horne,Bob Horne,Paterson,representatives,Australian Labor Party,1998-10-03,general_election,2001-11-10,unknown,male
+265,John,Howard,John Howard,Bennelong,representatives,Liberal Party,1974-05-18,general_election,2007-11-24,unknown,male
+266,Brian,Howe,Brian Howe,Batman,representatives,Australian Labor Party,1977-12-10,general_election,1996-01-29,retired,male
+267,Kay,Hull,Kay Hull,Riverina,representatives,National Party,1998-10-03,general_election,2010-08-21,retired,male
+268,Rob,Hulls,Rob Hulls,Kennedy,representatives,Australian Labor Party,1990-03-24,general_election,1993-03-13,unknown,male
+269,Benjamin,Humphreys,Benjamin Humphreys,Griffith,representatives,Australian Labor Party,1977-12-10,general_election,1996-01-29,retired,male
+270,Greg,Hunt,Greg Hunt,Flinders,representatives,Liberal Party,2001-11-10,general_election,9999-12-31,still_in_office,male
+271,Ralph,Hunt,Ralph Hunt,Gwydir,representatives,National Party,1969-06-07,by_election,1989-02-24,resigned,male
+272,Christopher,Hurford,Christopher Hurford,Adelaide,representatives,Australian Labor Party,1969-10-25,general_election,1987-12-31,resigned,male
+273,John,Hyde,John Hyde,Moore,representatives,Liberal Party,1974-05-18,general_election,1983-03-05,unknown,male
+274,Urquhart,Innes,Urquhart Innes,Melbourne,representatives,Australian Labor Party,1972-12-02,general_election,1983-02-04,retired,male
+275,Steve,Irons,Steve Irons,Swan,representatives,Liberal Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+276,Julia,Irwin,Julia Irwin,Fowler,representatives,Australian Labor Party,1998-10-03,general_election,2010-08-21,retired,female
+277,Sharryn,Jackson,Sharryn Jackson,Hasluck,representatives,Australian Labor Party,2001-11-10,general_election,2004-10-09,unknown,female
+278,Sharryn,Jackson,Sharryn Jackson,Hasluck,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,unknown,female
+279,Ralph,Jacobi,Ralph Jacobi,Hawker,representatives,Australian Labor Party,1969-10-25,general_election,1987-06-05,retired,male
+280,Carolyn,Jakobsen,Carolyn Jakobsen,Cowan,representatives,Australian Labor Party,1984-12-01,general_election,1993-03-13,unknown,female
+281,Albert,James,Albert James,Hunter,representatives,Australian Labor Party,1960-04-09,by_election,1980-09-19,retired,male
+282,Alan,Jarman,Alan Jarman,Deakin,representatives,Liberal Party,1966-11-26,general_election,1983-03-05,unknown,male
+283,Susan,Jeanes,Susan Jeanes,Kingston,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,female
+284,Henry,Jenkins,Henry Jenkins,Scullin,representatives,Australian Labor Party,1969-10-25,general_election,1983-04-21,changed_party,male
+574,Henry,Jenkins,Henry Jenkins,Scullin,representatives,SPK,1983-04-21,changed_party,1985-12-20,resigned,male
+285,Harry,Jenkins,Harry Jenkins,Scullin,representatives,Australian Labor Party,1986-02-08,by_election,1993-05-04,changed_party,male
+286,Harry,Jenkins,Harry Jenkins,Scullin,representatives,CWM,1993-05-04,changed_party,1996-01-29,changed_party,male
+287,Harry,Jenkins,Harry Jenkins,Scullin,representatives,Australian Labor Party,1996-01-29,changed_party,2008-02-11,changed_party,male
+288,Harry,Jenkins,Harry Jenkins,Scullin,representatives,SPK,2008-02-12,changed_party,2011-11-24,changed_party,male
+628,Harry,Jenkins,Harry Jenkins,Scullin,representatives,Australian Labor Party,2011-11-24,changed_party,2013-08-05,retired,male
+289,Dennis,Jensen,Dennis Jensen,Tangney,representatives,Liberal Party,2004-10-09,general_election,2016-05-09,unknown,male
+290,Gary,Johns,Gary Johns,Petrie,representatives,Australian Labor Party,1987-07-11,general_election,1996-03-02,unknown,male
+291,Leonard,Johnson,Leonard Johnson,Burke,representatives,Australian Labor Party,1969-10-25,general_election,1980-09-19,retired,male
+292,Leslie,Johnson,Leslie Johnson,Hughes,representatives,Australian Labor Party,1955-12-10,general_election,1966-11-26,unknown,male
+293,Leslie,Johnson,Leslie Johnson,Hughes,representatives,Australian Labor Party,1969-10-25,general_election,1983-12-19,resigned,male
+294,Michael,Johnson,Michael Johnson,Ryan,representatives,Liberal Party,2001-11-10,general_election,2010-08-21,changed_party,male
+295,Peter,Johnson,Peter Johnson,Brisbane,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+296,James,Johnston,James Johnston,Hotham,representatives,Liberal Party,1977-12-10,general_election,1980-10-18,unknown,male
+297,Ricky,Johnston,Ricky Johnston,Canning,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,male
+298,Barry,Jones,Barry Jones,Lalor,representatives,Australian Labor Party,1977-12-10,general_election,1998-08-31,retired,male
+299,Charles,Jones,Charles Jones,Newcastle,representatives,Australian Labor Party,1958-11-22,general_election,1983-02-04,retired,male
+664,Barnaby,Joyce,Barnaby Joyce,New England,representatives,National Party,2013-09-07,general_election,2017-10-27,disqualified,male
+727,Barnaby,Joyce,Barnaby Joyce,New England,representatives,National Party,2017-12-02,general_election,9999-12-31,still_in_office,male
+300,David,Jull,David Jull,Bowman,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+301,David,Jull,David Jull,Fadden,representatives,Liberal Party,1984-12-01,general_election,2007-10-17,retired,male
+302,Bob,Katter,Bob Katter,Kennedy,representatives,Independent,1993-03-13,general_election,2011-09-27,changed_party,male
+726,Bob,Katter,Bob Katter,Kennedy,representatives,Katter's Australian Party,2011-09-27,changed_party,9999-12-31,still_in_office,male
+303,Robert,Katter,Robert Katter,Kennedy,representatives,National Party,1966-11-26,general_election,1990-02-19,retired,male
+304,Paul,Keating,Paul Keating,Blaxland,representatives,Australian Labor Party,1969-10-25,general_election,1996-04-23,resigned,male
+305,Michael,Keenan,Michael Keenan,Stirling,representatives,Liberal Party,2004-10-09,general_election,9999-12-31,still_in_office,male
+306,De-Anne,Kelly,De-Anne Kelly,Dawson,representatives,National Party,1996-03-02,general_election,2007-11-24,unknown,female
+307,Jackie,Kelly,Jackie Kelly,Lindsay,representatives,Liberal Party,1996-10-19,by_election,2007-10-17,retired,female
+308,Jackie,Kelly,Jackie Kelly,Lindsay,representatives,Liberal Party,1996-03-02,general_election,1996-09-11,declared_void,female
+309,Mike,Kelly,Mike Kelly,Eden-Monaro,representatives,Australian Labor Party,2007-11-24,general_election,2013-09-07,unknown,male
+690,Mike,Kelly,Mike Kelly,Eden-Monaro,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+310,Roslyn,Kelly,Roslyn Kelly,Canberra,representatives,Australian Labor Party,1980-10-18,general_election,1995-01-30,resigned,female
+311,David,Kemp,David Kemp,Goldstein,representatives,Liberal Party,1990-03-24,general_election,2004-08-31,retired,male
+313,Lewis,Kent,Lewis Kent,Hotham,representatives,Australian Labor Party,1980-10-18,general_election,1990-03-24,unknown,male
+315,Cheryl,Kernot,Cheryl Kernot,Dickson,representatives,Australian Labor Party,1998-10-03,general_election,2001-11-10,unknown,female
+316,Duncan,Kerr,Duncan Kerr,Denison,representatives,Australian Labor Party,1987-07-11,general_election,2010-08-21,retired,male
+317,Denis,Killen,Denis Killen,Moreton,representatives,Liberal Party,1955-12-10,general_election,1983-08-15,resigned,male
+318,Catherine,King,Catherine King,Ballarat,representatives,Australian Labor Party,2001-11-10,general_election,9999-12-31,still_in_office,female
+319,Peter,King,Peter King,Wentworth,representatives,Independent,2001-11-10,general_election,2004-10-09,unknown,male
+320,Richard,Klugman,Richard Klugman,Prospect,representatives,Australian Labor Party,1969-10-25,general_election,1990-02-19,retired,male
+321,Peter,Knott,Peter Knott,Gilmore,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,male
+322,Antony,Lamb,Antony Lamb,La Trobe,representatives,Australian Labor Party,1972-12-02,general_election,1975-12-13,unknown,male
+323,Antony,Lamb,Antony Lamb,Streeton,representatives,Australian Labor Party,1984-12-01,general_election,1990-03-24,unknown,male
+324,Andrew,Laming,Andrew Laming,Bowman,representatives,Liberal Party,2004-10-09,general_election,9999-12-31,still_in_office,male
+325,John,Langmore,John Langmore,Fraser,representatives,Australian Labor Party,1984-12-01,general_election,1996-12-06,resigned,male
+326,Mark,Latham,Mark Latham,Werriwa,representatives,Australian Labor Party,1994-01-29,by_election,2005-01-21,resigned,male
+327,Michael,Lavarch,Michael Lavarch,Dickson,representatives,Australian Labor Party,1993-04-17,general_election,1996-03-02,unknown,male
+328,Michael,Lavarch,Michael Lavarch,Fisher,representatives,Australian Labor Party,1987-07-11,general_election,1993-03-13,unknown,male
+329,Anthony,Lawler,Anthony Lawler,Parkes,representatives,National Party,1998-10-03,general_election,2001-10-08,retired,male
+330,Carmen,Lawrence,Carmen Lawrence,Fremantle,representatives,Australian Labor Party,1994-03-12,by_election,2007-10-17,retired,female
+331,Michael,Lee,Michael Lee,Dobell,representatives,Australian Labor Party,1984-12-01,general_election,2001-11-10,unknown,male
+332,Sussan,Ley,Sussan Ley,Farrer,representatives,Liberal Party,2001-11-10,general_election,9999-12-31,still_in_office,female
+333,Louis,Lieberman,Louis Lieberman,Indi,representatives,Liberal Party,1993-03-13,general_election,2001-10-08,retired,male
+334,Eamon,Lindsay,Eamon Lindsay,Herbert,representatives,Australian Labor Party,1983-03-05,general_election,1996-03-02,unknown,male
+335,Peter,Lindsay,Peter Lindsay,Herbert,representatives,Liberal Party,1996-03-02,general_election,2010-08-21,retired,male
+336,Kirsten,Livermore,Kirsten Livermore,Capricornia,representatives,Australian Labor Party,1998-10-03,general_election,2013-08-05,resigned,female
+337,Bruce,Lloyd,Bruce Lloyd,Murray,representatives,National Party,1971-03-20,by_election,1996-01-29,retired,male
+338,Jim,Lloyd,Jim Lloyd,Robertson,representatives,Liberal Party,1996-03-02,general_election,2007-11-24,unknown,male
+339,Philip,Lucock,Philip Lucock,Lyne,representatives,National Country Party,1952-03-22,by_election,1980-09-19,retired,male
+340,Stephen,Lusher,Stephen Lusher,Hume,representatives,National Party,1974-05-18,general_election,1984-12-01,unknown,male
+341,Phillip,Lynch,Phillip Lynch,Flinders,representatives,Liberal Party,1966-11-26,general_election,1982-10-22,resigned,male
+342,Ian,Macfarlane,Ian Macfarlane,Groom,representatives,Liberal Party,1998-10-03,general_election,2016-05-09,retired,male
+343,Edward,Mack,Edward Mack,North Sydney,representatives,Independent,1990-03-24,general_election,1996-01-29,retired,male
+344,Michael,Mackellar,Michael Mackellar,Warringah,representatives,Liberal Party,1969-10-25,general_election,1994-02-18,resigned,male
+345,Alexander,Mackenzie,Alexander Mackenzie,Calare,representatives,National Party,1975-12-13,general_election,1983-03-05,unknown,male
+346,Jenny,Macklin,Jenny Macklin,Jagajaga,representatives,Australian Labor Party,1996-03-02,general_election,9999-12-31,still_in_office,female
+347,Ian,Macphee,Ian Macphee,Balaclava,representatives,Liberal Party,1974-05-18,general_election,1984-12-01,unknown,male
+348,Ian,Macphee,Ian Macphee,Goldstein,representatives,Liberal Party,1984-12-01,general_election,1990-02-19,retired,male
+349,Michael,Maher,Michael Maher,Lowe,representatives,Australian Labor Party,1982-03-13,by_election,1987-07-11,unknown,male
+350,Paul,Marek,Paul Marek,Capricornia,representatives,National Party,1996-03-02,general_election,1998-10-03,unknown,male
+351,Nola,Marino,Nola Marino,Forrest,representatives,Liberal Party,2007-11-24,general_election,9999-12-31,still_in_office,female
+352,Louise,Markus,Louise Markus,Greenway,representatives,Liberal Party,2004-10-09,general_election,2010-08-21,unknown,female
+598,Louise,Markus,Louise Markus,Macquarie,representatives,Liberal Party,2010-08-21,general_election,2016-07-02,unknown,female
+353,Richard,Marles,Richard Marles,Corio,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+354,Stephen,Martin,Stephen Martin,Cunningham,representatives,Australian Labor Party,1993-03-13,general_election,1993-05-04,changed_party,male
+355,Stephen,Martin,Stephen Martin,Macarthur,representatives,Australian Labor Party,1984-12-01,general_election,1993-03-13,unknown,male
+579,Stephen,Martin,Stephen Martin,Cunningham,representatives,SPK,1993-05-04,changed_party,1996-04-30,changed_party,male
+580,Stephen,Martin,Stephen Martin,Cunningham,representatives,Australian Labor Party,1996-04-30,changed_party,2002-08-16,resigned,male
+356,Vincent,Martin,Vincent Martin,Banks,representatives,Australian Labor Party,1969-10-25,general_election,1980-09-19,retired,male
+357,John,Martyr,John Martyr,Swan,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+358,Margaret,May,Margaret May,McPherson,representatives,Liberal Party,1998-10-03,general_election,2010-08-21,retired,female
+359,Helen,Mayer,Helen Mayer,Chisholm,representatives,Australian Labor Party,1983-03-05,general_election,1987-07-11,unknown,female
+360,Stewart,McArthur,Stewart McArthur,Corangamite,representatives,Liberal Party,1984-02-18,by_election,2007-11-24,unknown,male
+361,Robert,McClelland,Robert McClelland,Barton,representatives,Australian Labor Party,1996-03-02,general_election,2013-08-05,resigned,male
+362,Graeme,McDougall,Graeme McDougall,Griffith,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,male
+363,Jann,McFarlane,Jann McFarlane,Stirling,representatives,Australian Labor Party,1998-10-03,general_election,2004-10-09,unknown,male
+364,Peter,McGauran,Peter McGauran,Gippsland,representatives,National Party,1983-03-05,general_election,2008-04-09,retired,male
+365,Jeannette,McHugh,Jeannette McHugh,Grayndler,representatives,Australian Labor Party,1993-03-13,general_election,1996-01-29,retired,female
+366,Jeannette,McHugh,Jeannette McHugh,Phillip,representatives,Australian Labor Party,1983-03-05,general_election,1993-03-13,unknown,female
+367,Maxine,McKew,Maxine McKew,Bennelong,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,unknown,female
+368,Ian,McLachlan,Ian McLachlan,Barker,representatives,Liberal Party,1990-03-24,general_election,1998-08-31,retired,male
+369,Ross,McLean,Ross McLean,Perth,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+370,John,McLeay,John McLeay,Boothby,representatives,Liberal Party,1966-11-26,general_election,1981-01-22,resigned,male
+371,Leo,McLeay,Leo McLeay,Grayndler,representatives,Australian Labor Party,1979-06-23,by_election,1989-08-29,changed_party,male
+372,Leo,McLeay,Leo McLeay,Watson,representatives,SPK,1993-03-13,general_election,1993-05-04,changed_party,male
+577,Leo,McLeay,Leo McLeay,Grayndler,representatives,SPK,1989-08-29,changed_party,1993-03-13,unknown,male
+578,Leo,McLeay,Leo McLeay,Watson,representatives,Australian Labor Party,1993-05-04,changed_party,2004-08-31,retired,male
+373,James,McMahon,James McMahon,Sydney,representatives,Australian Labor Party,1975-12-13,general_election,1983-02-04,retired,male
+374,William,McMahon,William McMahon,Lowe,representatives,Liberal Party,1949-12-10,general_election,1982-01-04,resigned,male
+375,Bob,McMullan,Bob McMullan,Fraser,representatives,Australian Labor Party,1998-10-03,general_election,2010-08-21,retired,male
+564,Bob,McMullan,Bob McMullan,Canberra,representatives,Australian Labor Party,1996-03-02,general_election,1998-10-03,unknown,male
+376,Daniel,McVeigh,Daniel McVeigh,Darling Downs,representatives,National Party,1972-12-02,general_election,1984-12-01,unknown,male
+377,Daniel,McVeigh,Daniel McVeigh,Groom,representatives,National Party,1984-12-01,general_election,1988-02-29,resigned,male
+378,Daryl,Melham,Daryl Melham,Banks,representatives,Australian Labor Party,1990-03-24,general_election,2013-09-07,unknown,male
+379,John,Mildren,John Mildren,Ballarat,representatives,Australian Labor Party,1980-10-18,general_election,1990-03-24,unknown,male
+380,Chris,Miles,Chris Miles,Braddon,representatives,Liberal Party,1984-12-01,general_election,1998-10-03,unknown,male
+381,Percival,Millar,Percival Millar,Wide Bay,representatives,National Party,1974-05-18,general_election,1990-02-19,retired,male
+382,Peter,Milton,Peter Milton,La Trobe,representatives,Australian Labor Party,1980-10-18,general_election,1990-03-24,unknown,male
+383,Sophie,Mirabella,Sophie Mirabella,Indi,representatives,Liberal Party,2001-11-10,general_election,2013-09-07,unknown,female
+384,John,Moore,John Moore,Ryan,representatives,Liberal Party,1975-12-13,general_election,2001-02-05,resigned,male
+385,Allan,Morris,Allan Morris,Newcastle,representatives,Australian Labor Party,1983-03-05,general_election,2001-10-08,retired,male
+386,Peter,Morris,Peter Morris,Shortland,representatives,Australian Labor Party,1972-12-02,general_election,1998-08-31,retired,male
+388,Scott,Morrison,Scott Morrison,Cook,representatives,Liberal Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+389,Frank,Mossfield,Frank Mossfield,Greenway,representatives,Australian Labor Party,1996-03-02,general_election,2004-08-31,retired,male
+390,John,Mountford,John Mountford,Banks,representatives,Australian Labor Party,1980-10-18,general_election,1990-02-19,retired,male
+391,Judi,Moylan,Judi Moylan,Pearce,representatives,Liberal Party,1993-03-13,general_election,2013-08-05,retired,female
+392,John,Murphy,John Murphy,Lowe,representatives,Australian Labor Party,1998-10-03,general_election,2010-08-21,unknown,male
+620,John,Murphy,John Murphy,Reid,representatives,Australian Labor Party,2010-08-21,general_election,2013-09-07,unknown,male
+393,Stephen,Mutch,Stephen Mutch,Cook,representatives,Liberal Party,1996-03-02,general_election,1998-08-31,retired,male
+394,Gary,Nairn,Gary Nairn,Eden-Monaro,representatives,Liberal Party,1996-03-02,general_election,2007-11-24,unknown,male
+395,Belinda,Neal,Belinda Neal,Robertson,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,retired,female
+396,Garry,Nehl,Garry Nehl,Cowper,representatives,National Party,1984-12-01,general_election,1996-04-30,changed_party,male
+397,Garry,Nehl,Garry Nehl,Cowper,representatives,CWM,1996-04-30,changed_party,2001-10-08,retired,male
+398,Maurice,Neil,Maurice Neil,St George,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+399,Brendan,Nelson,Brendan Nelson,Bradfield,representatives,Liberal Party,1996-03-02,general_election,2009-10-19,resigned,male
+400,Shayne,Neumann,Shayne Neumann,Blair,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+401,Paul,Neville,Paul Neville,Hinkler,representatives,National Party,1993-03-13,general_election,2013-08-05,retired,male
+402,Neville,Newell,Neville Newell,Richmond,representatives,Australian Labor Party,1990-03-24,general_election,1996-03-02,unknown,male
+403,Kevin,Newman,Kevin Newman,Bass,representatives,Liberal Party,1975-06-28,by_election,1984-10-26,retired,male
+404,Peter,Nixon,Peter Nixon,Gippsland,representatives,National Party,1961-12-09,general_election,1983-02-04,retired,male
+405,Peter,Nugent,Peter Nugent,Aston,representatives,Liberal Party,1990-03-24,general_election,2001-04-24,died,male
+406,Michelle,O'Byrne,Michelle O'Byrne,Bass,representatives,Australian Labor Party,1998-10-03,general_election,2004-10-09,unknown,female
+407,Brendan,O'Connor,Brendan O'Connor,Burke,representatives,Australian Labor Party,2001-11-10,general_election,2004-10-09,unknown,male
+408,Brendan,O'Connor,Brendan O'Connor,Gorton,representatives,Australian Labor Party,2004-10-09,general_election,9999-12-31,still_in_office,male
+409,Gavan,O'Connor,Gavan O'Connor,Corio,representatives,Australian Labor Party,1993-03-13,general_election,2007-11-24,unknown,male
+410,Frank,O'Keefe,Frank O'Keefe,Paterson,representatives,National Party,1969-10-25,general_election,1984-10-26,retired,male
+411,Neil,O'Keefe,Neil O'Keefe,Burke,representatives,Australian Labor Party,1984-12-01,general_election,2001-10-08,retired,male
+412,Lloyd,O'Neil,Lloyd O'Neil,Grey,representatives,Australian Labor Party,1983-03-05,general_election,1993-02-08,retired,male
+413,Michael,Organ,Michael Organ,Cunningham,representatives,Australian Greens,2002-10-19,by_election,2004-10-09,unknown,male
+414,Julie,Owens,Julie Owens,Parramatta,representatives,Australian Labor Party,2004-10-09,general_election,9999-12-31,still_in_office,female
+415,Melissa,Parke,Melissa Parke,Fremantle,representatives,Australian Labor Party,2007-11-24,general_election,2016-05-09,retired,female
+416,Andrew,Peacock,Andrew Peacock,Kooyong,representatives,Liberal Party,1966-04-02,by_election,1994-09-17,resigned,male
+417,Chris,Pearce,Chris Pearce,Aston,representatives,Liberal Party,2001-07-14,by_election,2010-08-21,retired,male
+418,Graham,Perrett,Graham Perrett,Moreton,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+419,Tanya,Plibersek,Tanya Plibersek,Sydney,representatives,Australian Labor Party,1998-10-03,general_election,9999-12-31,still_in_office,female
+420,Reginald,Pollard,Reginald Pollard,Ballarat,representatives,Australian Labor Party,1937-10-23,general_election,1949-12-10,unknown,male
+421,Reginald,Pollard,Reginald Pollard,Lalor,representatives,Australian Labor Party,1949-12-10,general_election,1966-11-26,unknown,male
+422,James,Porter,James Porter,Barker,representatives,Liberal Party,1975-12-13,general_election,1990-02-19,retired,male
+423,Michael,Pratt,Michael Pratt,Adelaide,representatives,Liberal Party,1988-02-06,by_election,1990-03-24,unknown,male
+424,Roger,Price,Roger Price,Chifley,representatives,Australian Labor Party,1984-12-01,general_election,2010-08-21,retired,male
+425,Geoff,Prosser,Geoff Prosser,Forrest,representatives,Liberal Party,1987-07-11,general_election,2007-10-17,retired,male
+426,Gary,Punch,Gary Punch,Barton,representatives,Australian Labor Party,1983-03-05,general_election,1996-01-29,retired,male
+427,Christopher,Pyne,Christopher Pyne,Sturt,representatives,Liberal Party,1993-03-13,general_election,9999-12-31,still_in_office,male
+428,Harry,Quick,Harry Quick,Franklin,representatives,Independent,1993-03-13,general_election,2007-10-17,retired,male
+429,Brett,Raguse,Brett Raguse,Forde,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,unknown,male
+430,Rowan,Ramsey,Rowan Ramsey,Grey,representatives,Liberal Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+431,Don,Randall,Don Randall,Canning,representatives,Liberal Party,2001-11-10,general_election,2015-07-21,died,male
+432,Don,Randall,Don Randall,Swan,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,male
+433,Kerry,Rea,Kerry Rea,Bonner,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,unknown,female
+434,John,Reeves,John Reeves,Northern Territory,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+435,Nicholas,Reid,Nicholas Reid,Bendigo,representatives,Liberal Party,1990-03-24,general_election,1998-08-31,retired,male
+436,Peter,Reith,Peter Reith,Flinders,representatives,Liberal Party,1984-12-01,general_election,2001-10-08,retired,male
+437,Peter,Reith,Peter Reith,Flinders,representatives,Liberal Party,1982-12-04,by_election,1983-03-05,unknown,male
+438,Kym,Richardson,Kym Richardson,Kingston,representatives,Liberal Party,2004-10-09,general_election,2007-11-24,unknown,female
+439,John,Riggall,John Riggall,McMillan,representatives,Liberal Party,1990-03-24,general_election,1993-03-13,unknown,male
+440,Bernie,Ripoll,Bernie Ripoll,Oxley,representatives,Australian Labor Party,1998-10-03,general_election,2016-05-09,retired,male
+441,Amanda,Rishworth,Amanda Rishworth,Kingston,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,female
+442,Andrew,Robb,Andrew Robb,Goldstein,representatives,Liberal Party,2004-10-09,general_election,2016-05-09,retired,male
+443,Stuart,Robert,Stuart Robert,Fadden,representatives,Liberal Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+444,Eric,Robinson,Eric Robinson,McPherson,representatives,Liberal Party,1972-12-02,general_election,1981-01-07,died,male
+445,Ian,Robinson,Ian Robinson,Cowper,representatives,National Party,1963-11-30,general_election,1984-12-01,unknown,male
+446,Ian,Robinson,Ian Robinson,Page,representatives,National Party,1984-12-01,general_election,1990-03-24,unknown,male
+447,Allan,Rocher,Allan Rocher,Curtin,representatives,Independent,1981-02-21,by_election,1998-10-03,unknown,male
+448,Michael,Ronaldson,Michael Ronaldson,Ballarat,representatives,Liberal Party,1990-03-24,general_election,2001-10-08,retired,male
+449,Nicola,Roxon,Nicola Roxon,Gellibrand,representatives,Australian Labor Party,1998-10-03,general_election,2013-08-05,retired,female
+450,Kevin,Rudd,Kevin Rudd,Griffith,representatives,Australian Labor Party,1998-10-03,general_election,2013-11-22,resigned,male
+451,Philip,Ruddock,Philip Ruddock,Berowra,representatives,Liberal Party,1993-03-13,general_election,2016-05-09,retired,male
+452,Philip,Ruddock,Philip Ruddock,Dundas,representatives,Liberal Party,1975-12-13,general_election,1993-03-13,unknown,male
+453,Philip,Ruddock,Philip Ruddock,Parramatta,representatives,Liberal Party,1973-09-22,by_election,1975-12-13,unknown,male
+454,Janelle,Saffin,Janelle Saffin,Page,representatives,Australian Labor Party,2007-11-24,general_election,2013-09-07,unknown,female
+455,Murray,Sainsbury,Murray Sainsbury,Eden-Monaro,representatives,Liberal Party,1975-12-13,general_election,1983-03-05,unknown,male
+456,John,Saunderson,John Saunderson,Aston,representatives,Australian Labor Party,1984-12-01,general_election,1990-03-24,unknown,male
+457,John,Saunderson,John Saunderson,Deakin,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+458,Rod,Sawford,Rod Sawford,Port Adelaide,representatives,Australian Labor Party,1988-03-26,by_election,2007-10-17,retired,male
+459,Gordon,Scholes,Gordon Scholes,Corio,representatives,Australian Labor Party,1967-07-22,by_election,1993-02-08,retired,male
+460,Alby,Schultz,Alby Schultz,Hume,representatives,Liberal Party,1998-10-03,general_election,2013-08-05,retired,male
+461,Con,Sciacca,Con Sciacca,Bowman,representatives,Australian Labor Party,1998-10-03,general_election,2004-10-09,unknown,male
+462,Con,Sciacca,Con Sciacca,Bowman,representatives,Australian Labor Party,1987-07-11,general_election,1996-03-02,unknown,male
+463,Bruce,Scott,Bruce Scott,Maranoa,representatives,National Party,1990-03-24,general_election,2012-10-09,changed_party,male
+632,Bruce,Scott,Bruce Scott,Maranoa,representatives,CWM,2012-10-09,changed_party,2016-05-09,retired,male
+464,John,Scott,John Scott,Hindmarsh,representatives,Australian Labor Party,1980-10-18,general_election,1993-02-08,retired,male
+465,Leslie,Scott,Leslie Scott,Oxley,representatives,Australian Labor Party,1988-10-08,by_election,1996-03-02,unknown,male
+466,Patrick,Secker,Patrick Secker,Barker,representatives,Liberal Party,1998-10-03,general_election,2013-08-05,unknown,male
+467,Bob,Sercombe,Bob Sercombe,Maribyrnong,representatives,Australian Labor Party,1996-03-02,general_election,2007-10-17,retired,male
+468,Peter,Shack,Peter Shack,Tangney,representatives,Liberal Party,1984-12-01,general_election,1993-02-08,retired,male
+469,Peter,Shack,Peter Shack,Tangney,representatives,Liberal Party,1977-12-10,general_election,1983-03-05,unknown,male
+470,John,Sharp,John Sharp,Gilmore,representatives,National Party,1984-12-01,general_election,1993-03-13,unknown,male
+471,John,Sharp,John Sharp,Hume,representatives,National Party,1993-03-13,general_election,1998-08-31,retired,male
+472,George,Shaw,George Shaw,Dawson,representatives,National Country Party,1963-11-30,general_election,1966-01-09,died,male
+473,Roger,Shipton,Roger Shipton,Higgins,representatives,Liberal Party,1975-12-13,general_election,1990-02-19,retired,male
+474,Jim,Short,Jim Short,Ballarat,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+475,Leonie,Short,Leonie Short,Ryan,representatives,Australian Labor Party,2001-03-17,by_election,2001-11-10,unknown,female
+476,Bill,Shorten,Bill Shorten,Maribyrnong,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+477,Sid,Sidebottom,Sid Sidebottom,Braddon,representatives,Australian Labor Party,1998-10-03,general_election,2004-10-09,unknown,male
+478,Sid,Sidebottom,Sid Sidebottom,Braddon,representatives,Australian Labor Party,2007-11-24,general_election,2013-09-07,unknown,male
+479,David,Simmons,David Simmons,Calare,representatives,Australian Labor Party,1983-03-05,general_election,1996-01-29,retired,male
+480,Barry,Simon,Barry Simon,McMillan,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+481,Luke,Simpkins,Luke Simpkins,Cowan,representatives,Liberal Party,2007-11-24,general_election,2016-07-02,unknown,male
+482,Ian,Sinclair,Ian Sinclair,New England,representatives,National Party,1963-11-30,general_election,1998-03-04,changed_party,male
+583,Ian,Sinclair,Ian Sinclair,New England,representatives,SPK,1998-03-04,changed_party,1998-08-31,retired,male
+483,Peter,Slipper,Peter Slipper,Fisher,representatives,National Party,1984-12-01,general_election,1987-07-11,unknown,male
+484,Peter,Slipper,Peter Slipper,Fisher,representatives,Liberal Party,1993-03-13,general_election,2011-11-24,changed_party,male
+629,Peter,Slipper,Peter Slipper,Fisher,representatives,SPK,2011-11-24,changed_party,2012-10-09,changed_party,male
+630,Peter,Slipper,Peter Slipper,Fisher,representatives,Independent,2012-10-09,changed_party,2013-09-07,unknown,male
+485,Anthony,Smith,Anthony Smith,Dickson,representatives,Independent,1996-03-02,general_election,1998-10-03,unknown,male
+486,Tony,Smith,Tony Smith,Casey,representatives,Liberal Party,2001-11-10,general_election,2015-08-10,changed_party,male
+680,Tony,Smith,Tony Smith,Casey,representatives,SPK,2015-08-10,changed_party,9999-12-31,still_in_office,male
+487,Silvia,Smith,Silvia Smith,Bass,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,female
+488,Stephen,Smith,Stephen Smith,Perth,representatives,Australian Labor Party,1993-03-13,general_election,2013-08-05,retired,male
+489,Warwick,Smith,Warwick Smith,Bass,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,male
+490,Warwick,Smith,Warwick Smith,Bass,representatives,Liberal Party,1984-12-01,general_election,1993-03-13,unknown,male
+491,Brendan,Smyth,Brendan Smyth,Canberra,representatives,Liberal Party,1995-03-25,by_election,1996-03-02,unknown,male
+492,Billy,Snedden,Billy Snedden,Bruce,representatives,Liberal Party,1955-12-10,general_election,1976-02-17,changed_party,male
+573,Billy,Snedden,Billy Snedden,Bruce,representatives,SPK,1976-02-17,changed_party,1983-04-21,resigned,male
+493,James,Snow,James Snow,Eden-Monaro,representatives,Australian Labor Party,1983-03-05,general_election,1996-03-02,unknown,male
+494,Warren,Snowdon,Warren Snowdon,Lingiari,representatives,Australian Labor Party,2001-11-10,general_election,9999-12-31,still_in_office,male
+495,Warren,Snowdon,Warren Snowdon,Northern Territory,representatives,Australian Labor Party,1987-07-11,general_election,1996-03-02,unknown,male
+496,Warren,Snowdon,Warren Snowdon,Northern Territory,representatives,Australian Labor Party,1998-10-03,general_election,2001-11-10,unknown,male
+497,Alex,Somlyay,Alex Somlyay,Fairfax,representatives,Liberal Party,1990-03-24,general_election,2013-08-05,retired,male
+498,Andrew,Southcott,Andrew Southcott,Boothby,representatives,Liberal Party,1996-03-02,general_election,2016-05-09,retired,male
+499,John,Spender,John Spender,North Sydney,representatives,Liberal Party,1980-10-18,general_election,1990-03-24,unknown,male
+500,Clair,St,Clair St,New England,representatives,National Party,1998-10-03,general_election,2001-11-10,unknown,female
+501,Anthony,Staley,Anthony Staley,Chisholm,representatives,Liberal Party,1970-09-19,by_election,1980-09-19,retired,male
+502,Peter,Staples,Peter Staples,Diamond Valley,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+503,Peter,Staples,Peter Staples,Jagajaga,representatives,Australian Labor Party,1984-12-01,general_election,1996-01-29,retired,male
+504,Alan,Steedman,Alan Steedman,Casey,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+505,Sharman,Stone,Sharman Stone,Murray,representatives,Liberal Party,1996-03-02,general_election,2016-05-09,retired,female
+506,Anthony,Street,Anthony Street,Corangamite,representatives,Liberal Party,1966-11-26,general_election,1984-01-18,resigned,male
+507,Jon,Sullivan,Jon Sullivan,Longman,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,unknown,male
+508,Kathy,Sullivan,Kathy Sullivan,Moncrieff,representatives,Liberal Party,1984-12-01,general_election,2001-10-08,retired,female
+509,Wayne,Swan,Wayne Swan,Lilley,representatives,Australian Labor Party,1993-03-13,general_election,1996-03-02,unknown,male
+510,Wayne,Swan,Wayne Swan,Lilley,representatives,Australian Labor Party,1998-10-03,general_election,9999-12-31,still_in_office,male
+511,Mike,Symon,Mike Symon,Deakin,representatives,Australian Labor Party,2007-11-24,general_election,2013-09-07,unknown,male
+512,Grant,Tambling,Grant Tambling,Northern Territory,representatives,National Party,1980-10-18,general_election,1983-03-05,unknown,male
+513,Lindsay,Tanner,Lindsay Tanner,Melbourne,representatives,Australian Labor Party,1993-03-13,general_election,2010-08-21,retired,male
+514,William,Taylor,William Taylor,Groom,representatives,Liberal Party,1988-04-09,by_election,1998-08-31,retired,male
+515,Andrew,Theophanous,Andrew Theophanous,Burke,representatives,Australian Labor Party,1980-10-18,general_election,1984-12-01,unknown,male
+516,Andrew,Theophanous,Andrew Theophanous,Calwell,representatives,Independent,1984-12-01,general_election,2001-11-10,unknown,male
+517,Cameron,Thompson,Cameron Thompson,Blair,representatives,Liberal Party,1998-10-03,general_election,2007-11-24,unknown,male
+518,Andrew,Thomson,Andrew Thomson,Wentworth,representatives,Liberal Party,1995-04-08,by_election,2001-10-08,retired,male
+519,Craig,Thomson,Craig Thomson,Dobell,representatives,Australian Labor Party,2007-11-24,general_election,2012-04-29,changed_party,male
+633,Craig,Thomson,Craig Thomson,Dobell,representatives,Independent,2012-04-29,general_election,2013-09-07,unknown,male
+520,David,Thomson,David Thomson,Leichhardt,representatives,National Party,1975-12-13,general_election,1983-03-05,unknown,male
+521,Kelvin,Thomson,Kelvin Thomson,Wills,representatives,Australian Labor Party,1996-03-02,general_election,2016-05-09,retired,male
+522,Ken,Ticehurst,Ken Ticehurst,Dobell,representatives,Liberal Party,2001-11-10,general_election,2007-11-24,unknown,male
+523,Robert,Tickner,Robert Tickner,Hughes,representatives,Australian Labor Party,1984-02-18,by_election,1996-03-02,unknown,male
+524,Dave,Tollner,Dave Tollner,Solomon,representatives,Country Liberal Party,2001-11-10,general_election,2007-11-24,unknown,male
+525,Chris,Trevor,Chris Trevor,Flynn,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,unknown,male
+526,Warren,Truss,Warren Truss,Wide Bay,representatives,National Party,1990-03-24,general_election,2016-05-09,retired,male
+527,Wilson,Tuckey,Wilson Tuckey,O'Connor,representatives,Liberal Party,1980-10-18,general_election,2010-08-21,unknown,male
+528,Malcolm,Turnbull,Malcolm Turnbull,Wentworth,representatives,Liberal Party,2004-10-09,general_election,2018-08-31,resigned,male
+529,Jim,Turnour,Jim Turnour,Leichhardt,representatives,Australian Labor Party,2007-11-24,general_election,2010-08-21,unknown,male
+530,Thomas,Uren,Thomas Uren,Reid,representatives,Australian Labor Party,1958-11-22,general_election,1990-02-19,retired,male
+531,Mark,Vaile,Mark Vaile,Lyne,representatives,National Party,1993-03-13,general_election,2008-07-30,resigned,male
+532,Danna,Vale,Danna Vale,Hughes,representatives,Liberal Party,1996-03-02,general_election,2010-08-21,retired,female
+533,Maria,Vamvakinou,Maria Vamvakinou,Calwell,representatives,Australian Labor Party,2001-11-10,general_election,9999-12-31,still_in_office,female
+534,Ross,Vasta,Ross Vasta,Bonner,representatives,Liberal Party,2004-10-09,general_election,2007-11-24,unknown,male
+626,Ross,Vasta,Ross Vasta,Bonner,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+535,Robert,Viner,Robert Viner,Stirling,representatives,Liberal Party,1972-12-02,general_election,1983-03-05,unknown,male
+536,Barry,Wakelin,Barry Wakelin,Grey,representatives,Liberal Party,1993-03-13,general_election,2007-10-17,retired,male
+537,Francis,Walker,Francis Walker,Robertson,representatives,Australian Labor Party,1990-03-24,general_election,1996-03-02,unknown,male
+538,Laurie,Wallis,Laurie Wallis,Grey,representatives,Australian Labor Party,1969-10-25,general_election,1983-02-04,retired,female
+539,Mal,Washer,Mal Washer,Moore,representatives,Liberal Party,1998-10-03,general_election,2013-08-05,retired,male
+540,David,Watson,David Watson,Forde,representatives,Liberal Party,1984-12-01,general_election,1987-07-11,unknown,male
+541,Alasdair,Webster,Alasdair Webster,Macquarie,representatives,Liberal Party,1984-12-01,general_election,1993-03-13,unknown,male
+542,Deane,Wells,Deane Wells,Petrie,representatives,Australian Labor Party,1983-03-05,general_election,1984-12-01,unknown,male
+543,Andrea,West,Andrea West,Bowman,representatives,Liberal Party,1996-03-02,general_election,1998-10-03,unknown,female
+544,Stewart,West,Stewart West,Cunningham,representatives,Australian Labor Party,1977-10-15,by_election,1993-02-08,retired,male
+545,Peter,White,Peter White,McPherson,representatives,Liberal Party,1981-02-21,by_election,1990-02-19,retired,male
+546,Kim,Wilkie,Kim Wilkie,Swan,representatives,Australian Labor Party,1998-10-03,general_election,2007-11-24,unknown,male
+547,Daryl,Williams,Daryl Williams,Tangney,representatives,Liberal Party,1993-03-13,general_election,2004-08-31,retired,male
+548,Ralph,Willis,Ralph Willis,Gellibrand,representatives,Australian Labor Party,1972-12-02,general_election,1998-08-31,retired,male
+550,Gregory,Wilton,Gregory Wilton,Isaacs,representatives,Australian Labor Party,1996-03-02,general_election,2000-06-14,died,male
+551,Tony,Windsor,Tony Windsor,New England,representatives,Independent,2001-11-10,general_election,2013-08-05,retired,male
+552,Jason,Wood,Jason Wood,La Trobe,representatives,Liberal Party,2004-10-09,general_election,2010-08-21,unknown,male
+657,Jason,Wood,Jason Wood,La Trobe,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+553,Harry,Woods,Harry Woods,Page,representatives,Australian Labor Party,1990-03-24,general_election,1996-03-02,unknown,male
+554,Bob,Woods,Bob Woods,Lowe,representatives,Liberal Party,1987-07-11,general_election,1993-03-13,unknown,male
+555,Michael,Wooldridge,Michael Wooldridge,Casey,representatives,Liberal Party,1998-10-03,general_election,2001-10-08,retired,male
+556,Michael,Wooldridge,Michael Wooldridge,Chisholm,representatives,Liberal Party,1987-07-11,general_election,1998-10-03,unknown,male
+557,Trish,Worth,Trish Worth,Adelaide,representatives,Liberal Party,1993-03-13,general_election,2004-10-09,unknown,female
+558,Keith,Wright,Keith Wright,Capricornia,representatives,Independent,1984-12-01,general_election,1993-03-13,unknown,male
+559,William,Yates,William Yates,Holt,representatives,Liberal Party,1975-12-13,general_election,1980-10-18,unknown,male
+560,Michael,Young,Michael Young,Port Adelaide,representatives,Australian Labor Party,1974-05-18,general_election,1988-02-08,resigned,male
+561,Christian,Zahra,Christian Zahra,McMillan,representatives,Australian Labor Party,1998-10-03,general_election,2004-10-09,unknown,male
+562,Paul,Zammit,Paul Zammit,Lowe,representatives,Independent,1996-03-02,general_election,1998-10-03,unknown,male
+563,Tony,Zappia,Tony Zappia,Makin,representatives,Australian Labor Party,2007-11-24,general_election,9999-12-31,still_in_office,male
+312,Leonard,Keogh,Leonard Keogh,Bowman,representatives,Australian Labor Party,1983-03-05,general_election,1987-06-05,retired,male
+314,John,Kerin,John Kerin,Werriwa,representatives,Australian Labor Party,1978-09-23,by_election,1993-12-22,resigned,male
+387,William,Morrison,William Morrison,St George,representatives,Australian Labor Party,1980-10-18,general_election,1984-10-26,retired,male
+549,Ian,Wilson,Ian Wilson,Sturt,representatives,Liberal Party,1972-12-02,general_election,1993-02-08,retired,male
+567,Darren,Chester,Darren Chester,Gippsland,representatives,National Party,2008-06-28,by_election,9999-12-31,still_in_office,male
+638,David,Feeney,David Feeney,Batman,representatives,Australian Labor Party,2013-09-07,general_election,2018-02-01,resigned,male
+585,Robert,Oakeshott,Robert Oakeshott,Lyne,representatives,Independent,2008-09-06,by_election,2013-08-05,retired,male
+586,Jamie,Briggs,Jamie Briggs,Mayo,representatives,Liberal Party,2008-09-06,by_election,2016-07-02,unknown,male
+587,Paul,Fletcher,Paul Fletcher,Bradfield,representatives,Liberal Party,2009-12-05,by_election,9999-12-31,still_in_office,male
+588,Kelly,O'Dwyer,Kelly O'Dwyer,Higgins,representatives,Liberal Party,2009-12-05,by_election,9999-12-31,still_in_office,female
+589,John,Alexander,John Alexander,Bennelong,representatives,Liberal Party,2010-08-21,general_election,2017-11-11,resigned,male
+728,John,Alexander,John Alexander,Bennelong,representatives,Liberal Party,2017-12-16,by_election,9999-12-31,still_in_office,male
+590,George,Christensen,George Christensen,Dawson,representatives,National Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+591,Andrew,Wilkie,Andrew Wilkie,Denison,representatives,Independent,2010-08-21,general_election,9999-12-31,still_in_office,male
+592,Ken,O'Dowd,Ken O'Dowd,Flynn,representatives,National Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+593,Bert,Van Manen,Bert Van Manen,Forde,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+594,Ken,Wyatt,Ken Wyatt,Hasluck,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+595,Laura,Smyth,Laura Smyth,La Trobe,representatives,Australian Labor Party,2010-08-21,general_election,2013-09-07,unknown,female
+597,Wyatt,Roy,Wyatt Roy,Longman,representatives,Liberal Party,2010-08-21,general_election,2016-07-02,unknown,male
+599,Rob,Mitchell,Rob Mitchell,McEwen,representatives,Australian Labor Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+600,Adam,Bandt,Adam Bandt,Melbourne,representatives,Australian Greens,2010-08-21,general_election,9999-12-31,still_in_office,male
+601,Tony,Crook,Tony Crook,O'Connor,representatives,National Party,2010-08-21,general_election,2013-08-05,retired,male
+602,Natasha,Griggs,Natasha Griggs,Solomon,representatives,Country Liberal Party,2010-08-21,general_election,2016-07-02,unknown,female
+603,Geoff,Lyons,Geoff Lyons,Bass,representatives,Australian Labor Party,2010-08-21,general_election,2013-09-07,unknown,male
+604,Gai,Brodtmann,Gai Brodtmann,Canberra,representatives,Australian Labor Party,2010-08-21,general_election,9999-12-31,still_in_office,female
+605,Russell,Matheson,Russell Matheson,Macarthur,representatives,Liberal Party,2010-08-21,general_election,2016-07-02,unknown,male
+606,Stephen,Jones,Stephen Jones,Throsby,representatives,Australian Labor Party,2010-08-21,general_election,2016-07-02,unknown,male
+724,Stephen,Jones,Stephen Jones,Whitlam,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+607,Josh,Frydenberg,Josh Frydenberg,Kooyong,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+608,Dan,Tehan,Dan Tehan,Wannon,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+609,Michael,McCormack,Michael McCormack,Riverina,representatives,National Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+611,Ewen,Jones,Ewen Jones,Herbert,representatives,Liberal Party,2010-08-21,general_election,2016-07-02,unknown,male
+612,Karen,Andrews,Karen Andrews,McPherson,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,female
+613,Andrew,Leigh,Andrew Leigh,Fraser,representatives,Australian Labor Party,2010-08-21,general_election,2016-07-02,unknown,male
+723,Andrew,Leigh,Andrew Leigh,Fenner,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+614,Deborah,O'Neill,Deborah O'Neill,Robertson,representatives,Australian Labor Party,2010-08-21,general_election,2013-09-07,unknown,female
+615,Alan,Tudge,Alan Tudge,Aston,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+616,Ed,Husic,Ed Husic,Chifley,representatives,Australian Labor Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+617,Craig,Kelly,Craig Kelly,Hughes,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+618,Michelle,Rowland,Michelle Rowland,Greenway,representatives,Australian Labor Party,2010-08-21,general_election,9999-12-31,still_in_office,female
+624,Scott,Buchholz,Scott Buchholz,Wright,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,male
+625,Jane,Prentice,Jane Prentice,Ryan,representatives,Liberal Party,2010-08-21,general_election,9999-12-31,still_in_office,female
+656,Matt,Thistlethwaite,Matt Thistlethwaite,Kingsford Smith,representatives,Australian Labor Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+634,David,Coleman,David Coleman,Banks,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+635,Tony,Pasin,Tony Pasin,Barker,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+636,Nickolas,Varvaris,Nickolas Varvaris,Barton,representatives,Liberal Party,2013-09-07,general_election,2016-07-02,unknown,male
+637,Andrew,Nikolic,Andrew Nikolic,Bass,representatives,Liberal Party,2013-09-07,general_election,2016-07-02,unknown,male
+639,Lisa,Chesters,Lisa Chesters,Bendigo,representatives,Australian Labor Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+640,Brett,Whiteley,Brett Whiteley,Braddon,representatives,Liberal Party,2013-09-07,general_election,2016-07-02,unknown,male
+641,Michelle,Landry,Michelle Landry,Capricornia,representatives,National Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+643,Sarah,Henderson,Sarah Henderson,Corangamite,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+644,Michael,Sukkar,Michael Sukkar,Deakin,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+645,Karen,McNamara,Karen McNamara,Dobell,representatives,Liberal Party,2013-09-07,general_election,2016-07-02,unknown,female
+647,Peter,Hendy,Peter Hendy,Eden-Monaro,representatives,Liberal Party,2013-09-07,general_election,2016-07-02,unknown,male
+649,Tim,Watts,Tim Watts,Gellibrand,representatives,Australian Labor Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+650,Ann,Sudmalis,Ann Sudmalis,Gilmore,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+651,Matt,Williams,Matt Williams,Hindmarsh,representatives,Liberal Party,2013-09-07,general_election,2016-07-02,unknown,male
+652,Keith,Pitt,Keith Pitt,Hinkler,representatives,National Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+655,Cathy,McGowan,Cathy McGowan,Indi,representatives,Independent,2013-09-07,general_election,9999-12-31,still_in_office,female
+658,Joanne,Ryan,Joanne Ryan,Lalor,representatives,Australian Labor Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+659,Fiona,Scott,Fiona Scott,Lindsay,representatives,Liberal Party,2013-09-07,general_election,2016-07-02,unknown,female
+660,David,Gillespie,David Gillespie,Lyne,representatives,National Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+661,Eric,Hutchinson,Eric Hutchinson,Lyons,representatives,Liberal Party,2013-09-07,general_election,2016-07-02,unknown,male
+662,Andrew,Broad,Andrew Broad,Mallee,representatives,National Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+663,Ian,Goodenough,Ian Goodenough,Moore,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+665,Sharon,Claydon,Sharon Claydon,Newcastle,representatives,Australian Labor Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+667,Kevin,Hogan,Kevin Hogan,Page,representatives,National Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+669,Alannah,Mactiernan,Alannah Mactiernan,Perth,representatives,Australian Labor Party,2013-09-07,general_election,2016-05-09,retired,female
+670,Luke,Howarth,Luke Howarth,Petrie,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+671,Jim,Chalmers,Jim Chalmers,Rankin,representatives,Australian Labor Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+672,Craig,Laundy,Craig Laundy,Reid,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+673,Lucy,Wicks,Lucy Wicks,Robertson,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+674,Andrew,Giles,Andrew Giles,Scullin,representatives,Australian Labor Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+642,Pat,Conroy,Pat Conroy,Charlton,representatives,Australian Labor Party,2013-09-07,general_election,2016-07-02,unknown,male
+711,Pat,Conroy,Pat Conroy,Shortland,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+653,Clare,O'Neil,Clare O'Neil,Hotham,representatives,Australian Labor Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+668,Christian,Porter,Christian Porter,Pearce,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+666,Rick,Wilson,Rick Wilson,O'Connor,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+654,Angus,Taylor,Angus Taylor,Hume,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,male
+646,Melissa,Price,Melissa Price,Durack,representatives,Liberal Party,2013-09-07,general_election,9999-12-31,still_in_office,female
+677,Clive,Palmer,Clive Palmer,Fairfax,representatives,Palmer United Party,2013-09-07,general_election,2016-05-09,retired,male
+678,Terri,Butler,Terri Butler,Griffith,representatives,Australian Labor Party,2014-02-08,by_election,9999-12-31,still_in_office,female
+681,Andrew,Hastie,Andrew Hastie,Canning,representatives,Liberal Party,2015-09-19,by_election,9999-12-31,still_in_office,male
+682,Trent,Zimmerman,Trent Zimmerman,North Sydney,representatives,Liberal Party,2015-12-05,by_election,9999-12-31,still_in_office,male
+683,Linda,Burney,Linda Burney,Barton,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+684,Ross,Hart,Ross Hart,Bass,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+685,Justine,Keay,Justine Keay,Braddon,representatives,Australian Labor Party,2016-07-02,general_election,2018-05-10,resigned,female
+732,Justine,Keay,Justine Keay,Braddon,representatives,Australian Labor Party,2018-07-28,general_election,9999-12-31,still_in_office,female
+686,Matt,Keogh,Matt Keogh,Burt,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+687,Julia,Banks,Julia Banks,Chisholm,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+688,Anne,Aly,Anne Aly,Cowan,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+689,Emma,McBride,Emma McBride,Dobell,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+691,Ted,O'Brien,Ted O'Brien,Fairfax,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+692,Cathy,O'Toole,Cathy O'Toole,Herbert,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+694,Emma,Husar,Emma Husar,Lindsay,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+695,Susan,Lamb,Susan Lamb,Longman,representatives,Australian Labor Party,2016-07-02,general_election,2018-05-10,resigned,female
+734,Susan,Lamb,Susan Lamb,Longman,representatives,Australian Labor Party,2018-07-28,general_election,9999-12-31,still_in_office,female
+696,Brian,Mitchell,Brian Mitchell,Lyons,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+697,Mike,Freelander,Mike Freelander,Macarthur,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+698,Susan,Templeman,Susan Templeman,Macquarie,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+699,Rebekha,Sharkie,Rebekha Sharkie,Mayo,representatives,Nick Xenophon Team,2016-07-02,general_election,2018-04-10,changed_party,female
+731,Rebekha,Sharkie,Rebekha Sharkie,Mayo,representatives,Centre Alliance,2018-04-10,changed_party,2018-05-11,resigned,female
+735,Rebekha,Sharkie,Rebekha Sharkie,Mayo,representatives,Centre Alliance,2018-07-28,general_election,9999-12-31,still_in_office,female
+700,Damian,Drum,Damian Drum,Murray,representatives,National Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+701,Meryl,Swanson,Meryl Swanson,Paterson,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+702,Luke,Gosling,Luke Gosling,Solomon,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+703,Jason,Falinski,Jason Falinski,Mackellar,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+704,Chris,Crewther,Chris Crewther,Dunkley,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+705,Milton,Dick,Milton Dick,Oxley,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+706,Trevor,Evans,Trevor Evans,Brisbane,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+707,Nicolle,Flint,Nicolle Flint,Boothby,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+708,Andrew,Gee,Andrew Gee,Calare,representatives,National Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+709,Madeleine,King,Madeleine King,Brand,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+710,Julian,Hill,Julian Hill,Bruce,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+712,Ben,Morton,Ben Morton,Tangney,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+713,Peter,Khalil,Peter Khalil,Wills,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+714,Julian,Leeser,Julian Leeser,Berowra,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+715,John,McVeigh,John McVeigh,Groom,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+716,David,Littleproud,David Littleproud,Maranoa,representatives,National Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+717,Tim,Hammond,Tim Hammond,Perth,representatives,Australian Labor Party,2016-07-02,general_election,2018-05-10,resigned,male
+718,Llew,O'Brien,Llew O'Brien,Wide Bay,representatives,National Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+719,Josh,Wilson,Josh Wilson,Fremantle,representatives,Australian Labor Party,2016-07-02,general_election,2018-05-10,resigned,male
+736,Josh,Wilson,Josh Wilson,Fremantle,representatives,Australian Labor Party,2018-07-28,general_election,9999-12-31,still_in_office,male
+720,Tim,Wilson,Tim Wilson,Goldstein,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+721,Anne,Stanley,Anne Stanley,Werriwa,representatives,Australian Labor Party,2016-07-02,general_election,9999-12-31,still_in_office,female
+722,Andrew,Wallace,Andrew Wallace,Fisher,representatives,Liberal Party,2016-07-02,general_election,9999-12-31,still_in_office,male
+729,Ged,Kearney,Ged Kearney,Batman,representatives,Australian Labor Party,2018-03-17,by_election,9999-12-31,still_in_office,female
+730,Patrick,Gorman,Patrick Gorman,Perth,representatives,Australian Labor Party,2018-07-28,by_election,9999-12-31,still_in_office,male
+737,Kerryn,Phelps,Kerryn Phelps,Wentworth,representatives,Independent,2018-11-05,by_election,9999-12-31,still_in_office,female

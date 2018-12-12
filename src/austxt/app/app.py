@@ -23,10 +23,8 @@ def run_on_start():
     REPRESENTATIVES_DF = pd.read_csv(config.REPRESENTATIVES_CSV_PATH)
 
 # TODO:
-# -- style the page
 # -- static page as a backup
-# -- gender column for people
-# -- pages/slides to show off data on the night
+# -- style the page
 # -- cleaned text column
 
     
