@@ -1,7 +1,7 @@
 import spacy
 
 
-nlp = spacy.load('en_core_web_sm', disable=['parser', 'tagger'])
+nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
 
 
 
@@ -12,4 +12,4 @@ def clean_speeches(speeches):
     for doc, speech in pipe:
         speech.cleaned_text = ' '.join(token.lemma_ for token in doc
                                 if not (token.is_stop or token.is_punct or
-                                        token.is_space))
+                                        token.pos_ == 'PRON' or token.is_space))

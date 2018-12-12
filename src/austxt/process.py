@@ -57,7 +57,7 @@ def speeches_from_xml(speech_type, xml_path, clean=False):
             # ignore entries without speaker names
             continue
         if element.get('speakerid') == 'unknown':
-            # skip over speeches from 'The Clerk' and 'Honorable Semators' etc 
+            # skip over speeches from 'The Clerk' and 'Honorable Senators' etc 
             continue
         
         paragraphs = []
@@ -82,6 +82,7 @@ def speeches_from_xml(speech_type, xml_path, clean=False):
             time=element.get('time'),
             day=datetime.strptime(date_str, '%Y-%m-%d').strftime('%A'),
             text=all_text,
+            num_tokens=len(all_text.split())
         )
         speeches.append(speech)
 
@@ -117,7 +118,8 @@ def process_speeches(path, speech_type, members_path, clean, limit, files,
         speeches_df = speeches_df.drop('cleaned_text', axis=1)
 
     if members_path is not None:
-        speeches_df = add_members_columns(speeches_df, members_path, ['division'])
+        speeches_df = add_members_columns(speeches_df, members_path,
+                                          ['gender', 'division'])
         
     return speeches_df    
 

@@ -23,9 +23,7 @@ def run_on_start():
     REPRESENTATIVES_DF = pd.read_csv(config.REPRESENTATIVES_CSV_PATH)
 
 # TODO:
-# -- static page as a backup
 # -- style the page
-# -- cleaned text column
 
     
 @app.route("/", methods=['GET', 'POST'])

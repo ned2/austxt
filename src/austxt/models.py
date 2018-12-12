@@ -27,6 +27,7 @@ class Speech(DataclassRecord):
     day: str
     duration: int
     text: str
+    num_tokens: int
     cleaned_text: str = None
 
 
@@ -43,4 +44,5 @@ class Member(DataclassRecord):
     from_why: str
     to_date: str
     to_why: str
+
     
