@@ -24,21 +24,28 @@
 {% endmacro %}
 
 
-
 <h1>austxt</h1>
-      <p>Submit up to 10 queries to the austxt dataset. You will then get a link
-      the austext dataset augmented with a column for each of your queries,
-      containing their results. Each query can be of the following types:</p>
-      <ol>
-          <li>exact: Matches exact text of query</li>
-          <li>and: All terms in query must be present</li>
-          <li>or: At least one query term must be present</li>
-      </ol>
 
-      <p>Each column will contain the number of matches for your query in each
-      speech, with the exception of queries of type 'and' and 'or' that have
-      multiple terms. These will return the count of term in each speech that
-      had the minimum frequency of all terms in the query.</p>
+<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/senate_speeches_full.csv.gz">senate_speeches_full.csv.gz</a><p>
+<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/senate_speeches_notext.csv.gz">senate_speeches_notext.csv.gz</a><p>
+<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/representatives_speeches_full.csv.gz">representatives_speeches_full.csv.gz</a><p>
+<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/representatives_speeches_notext.csv.gz">representatives_speeches_notext.csv.gz</a><p>
+<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/members.csv.gz">members.csv.gz</a><p>
+
+
+<p>Submit up to 10 queries to the austxt dataset. You will then get a link
+    the austext dataset augmented with a column for each of your queries,
+    containing their results. Each query can be of the following types:</p>
+<ol>
+    <li>exact: Matches exact text of query</li>
+    <li>and: All terms in query must be present</li>
+    <li>or: At least one query term must be present</li>
+</ol>
+
+<p>Each column will contain the number of matches for your query in each
+    speech, with the exception of queries of type 'and' and 'or' that have
+    multiple terms. These will return the count of term in each speech that
+    had the minimum frequency of all terms in the query.</p>
   
 <form method=post>
   <dl>
