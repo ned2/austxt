@@ -62,6 +62,10 @@ def index():
     reps_path = savepath / "representatives_speeches_query.csv.gz"
     sen_df.to_csv(sen_path, compression="gzip")
     reps_df.to_csv(reps_path, compression="gzip")
+
+    # convert to relative paths for the links
+    sen_path = '/' + str(sen_path.relative_to(config.DATA_PATH))
+    reps_path = '/' + str(reps_path.relative_to(config.DATA_PATH))
     return render_template('query.html', form=form,
                            sen_path=sen_path, reps_path=reps_path)
 
