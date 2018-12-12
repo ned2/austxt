@@ -12,6 +12,19 @@
   <dd>{{ query_type_field(**kwargs)|safe }}
 {% endmacro %}
 
+      <h1>austxt</h1>
+      <p>Submit up to 10 queries to the austxt dataset. You will then get a link
+      the austext dataset augmented with a column for each of your queries,
+      containing their results. Each query can be of the following types:</p>
+      <ol>
+          <li>exact: Matches exact text of query</li>
+          <li>and: All terms in query must be present</li>
+          <li>or: At least one query term must be present</li>
+      </ol>
+
+      <p>Note that queries of type 'and' and 'or' will not return counts of
+      terms for each speech, but will simply return a 1 if a speech matched the
+      query (and a zero otherwise)</p>
   
 <form method=post>
   <dl>
