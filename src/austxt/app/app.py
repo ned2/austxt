@@ -23,10 +23,7 @@ def run_on_start():
     REPRESENTATIVES_DF = pd.read_csv(config.REPRESENTATIVES_CSV_PATH)
 
 # TODO:
-# -- fix queries with spaces breaking; start by running make-dataset "climate change"
-# -- test that exact, and, or, works
 # -- style the page
-# -- get app running on an instance
 # -- static page as a backup
 # -- gender column for people
 # -- pages/slides to show off data on the night
