@@ -1,2 +1,5 @@
 .header {background-color: #0f6aff}
 .content {margin: 0.5em}
+.numeric {text-align: right}
+.query-result {width: 15em}
+.label {font-weight: 600}

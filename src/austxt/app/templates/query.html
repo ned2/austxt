@@ -1,25 +1,34 @@
 {% extends "base.html" %}
 
 {% macro render_query_fields(index, query_field, query_type_field) %}
-  <dt>{{ index }}</dt>
-  <dd>{{ query_field(**kwargs)|safe }}
-  {% if query_field.errors %}
-    <ul class=errors>
-    {% for error in query_field.errors %}
-      <li>{{ error }}</li>
-    {% endfor %}
-    </ul>
-  {% endif %}
-  </dd>
-  <dd>{{ query_type_field(**kwargs)|safe }}
+<div class="row">
+    <div class="col-1">{{ index }}</div>
+    <div class="col-4">
+        {{ query_field(class="w-100", **kwargs)|safe }}
+    </div>
+    <div class="col-2">
+        {{ query_type_field(**kwargs)|safe }}
+    </div>
+</div>
+{% if query_field.errors %}
+<div class="row">
+    <div class="col">
+        <ul class=errors>
+            {% for error in query_field.errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
 {% endmacro %}
 
 {% macro render_result_table(results) %}
 <table>
 {% for col, count in results.items() %}
     <tr>
-        <td>{{ col }}</td>
-        <td>{{ count }}</td>
+        <td class="query-result">{{ col }}</td>
+        <td class="numeric">{{ count }}</td>
     </tr>
 {% endfor %}
 </table>
@@ -36,9 +45,9 @@
     the austext dataset augmented with a column for each of your queries,
     containing their results. Each query can be of the following types:</p>
 <ol>
-    <li>exact: Matches exact text of query</li>
-    <li>and: All terms in query must be present</li>
-    <li>or: At least one query term must be present</li>
+    <li><span class="label">exact</span>: Matches exact text of query</li>
+    <li><span class="label">and</span>: All terms in query must be present</li>
+    <li><span class="label">or<span>: At least one query term must be present</li>
 </ol>
 
 <p>Each column will contain the number of matches for your query in each
@@ -47,12 +56,10 @@
     had the minimum frequency of all terms in the query.</p>
   
 <form method=post>
-  <dl>
       {% for i in range(form.num_queries) %}
           {% set query_field, query_type_field = form.get_query(loop.index) %}
           {{ render_query_fields(loop.index, query_field, query_type_field) }}
       {% endfor %}
-  </dl>
   <p><input type=submit value=Submit>
 </form>
 
@@ -74,13 +81,16 @@
             <div class="col">
                 {% if results %}
                 <h2>Results</h2>
+
+                <div class="mb-4">
+                    <p class="label">Senate</p>
+                    {{ render_result_table(sen_counts) }}
+                </div>
                 
-                <p>Senate</p>
-                {{ render_result_table(sen_counts) }}
-                
-                <p>Representatives</p>
-                {{ render_result_table(reps_counts) }}
-                
+                <div class="mb-4">
+                    <p class="label">Representatives</p>
+                    {{ render_result_table(reps_counts) }}
+                </div>
                 
                 <p><a href="{{ sen_path }}">Download Senates Dataset with queries</a></p>
                 <p><a href="{{ reps_path }}">Download Representatives Dataset with queries</a></p>

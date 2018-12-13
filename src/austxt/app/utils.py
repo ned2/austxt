@@ -20,7 +20,7 @@ def make_query_form(num_queries=10):
     
     FormClass.num_queries = num_queries
     FormClass.queries = []
-    query_type_choices = [("and", "and"), ("or", "or"), ("exact", "exact")]
+    query_type_choices = [("exact", "exact"), ("and", "and"), ("or", "or")]
     for i in range(1, num_queries +1):
         if i == 1:
             query_validators = [validators.required()]
