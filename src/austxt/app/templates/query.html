@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+
 {% macro render_query_fields(index, query_field, query_type_field) %}
   <dt>{{ index }}</dt>
   <dd>{{ query_field(**kwargs)|safe }}
@@ -23,16 +25,13 @@
 </table>
 {% endmacro %}
 
+{% block title %}austxt{% endblock %}
 
-<h1>austxt</h1>
-
-<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/senate_speeches_full.csv.gz">senate_speeches_full.csv.gz</a><p>
-<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/senate_speeches_notext.csv.gz">senate_speeches_notext.csv.gz</a><p>
-<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/representatives_speeches_full.csv.gz">representatives_speeches_full.csv.gz</a><p>
-<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/representatives_speeches_notext.csv.gz">representatives_speeches_notext.csv.gz</a><p>
-<p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/members.csv.gz">members.csv.gz</a><p>
-
-
+{% block body %}
+        
+<div class="row">
+    <div class="col">
+        <h2>Query austxt</h2>
 <p>Submit up to 10 queries to the austxt dataset. You will then get a link
     the austext dataset augmented with a column for each of your queries,
     containing their results. Each query can be of the following types:</p>
@@ -57,17 +56,37 @@
   <p><input type=submit value=Submit>
 </form>
 
-{% if results %}
-<h2>Results</h2>
+    </div>
+    <div class="col">
+        <div class="row">
+            <div class="col">
+                <h2>Links</h2>
+                <p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/senate_speeches_full.csv.gz">senate_speeches_full.csv.gz</a><p>
+                <p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/senate_speeches_notext.csv.gz">senate_speeches_notext.csv.gz</a><p>
+                <p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/representatives_speeches_full.csv.gz">representatives_speeches_full.csv.gz</a><p>
+                <p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/representatives_speeches_notext.csv.gz">representatives_speeches_notext.csv.gz</a><p>
+                <p><a href="https://s3-ap-southeast-2.amazonaws.com/austxt/members.csv.gz">members.csv.gz</a><p>
+                <p><a href="https://github.com/ned2/austxt">https://github.com/ned2/austxt</a><p>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col">
+                {% if results %}
+                <h2>Results</h2>
+                
+                <p>Senate</p>
+                {{ render_result_table(sen_counts) }}
+                
+                <p>Representatives</p>
+                {{ render_result_table(reps_counts) }}
+                
+                
+                <p><a href="{{ sen_path }}">Download Senates Dataset with queries</a></p>
+                <p><a href="{{ reps_path }}">Download Representatives Dataset with queries</a></p>
+                {% endif %}
+            </div>
+        </div>
+</div>
 
-<p>Senate</p>
-{{ render_result_table(sen_counts) }}
-
-<p>Representatives</p>
-{{ render_result_table(reps_counts) }}
-
-
-<p><a href="{{ sen_path }}">Download Augmented Senates Dataset</a></p>
-<p><a href="{{ reps_path }}">Download Augmented Representatives Dataset</a></p>
-{% endif %}
-
+{% endblock %}

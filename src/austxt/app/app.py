@@ -24,7 +24,7 @@ def run_on_start():
 
 # TODO:
 # -- style the page
-# -- upload the new reps datasets to s3 and instance
+
     
 @app.route("/", methods=['GET', 'POST'])
 def index():
