@@ -119,7 +119,7 @@ def process_speeches(path, speech_type, members_path, clean, limit, files,
 
     if members_path is not None:
         speeches_df = add_members_columns(speeches_df, members_path,
-                                          ['gender', 'division'])
+                                          ['gender', 'division', 'party'])
         
     return speeches_df    
 
